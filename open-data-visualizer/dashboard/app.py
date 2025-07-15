@@ -71,7 +71,15 @@ max_date = df.select("date").max()[0, 0]
 country_selector = pn.widgets.MultiChoice(name="Country", options=countries, value=countries)
 category_selector = pn.widgets.CheckBoxGroup(name="CPI Type", options=categories, value=categories)
 date_slider = pn.widgets.DateRangeSlider(name="Date Range", start=min_date, end=max_date, value=(min_date, max_date))
-percent_toggle = pn.widgets.Toggle(name="Show % change", value=False)
+# percent_toggle = pn.widgets.Toggle(name="Show % change", value=False)
+change_mode = pn.widgets.RadioButtonGroup(
+    name="Change Mode",
+    options=["Index", "MoM %", "YoY %"],
+    button_type="primary",
+    value="Index",
+    button_style='outline',
+    
+)
 export_btn = pn.widgets.FileDownload(
     label="Download Filtered CSV",
     filename="filtered_cpi.csv",
@@ -79,41 +87,6 @@ export_btn = pn.widgets.FileDownload(
     button_type="success"
 )
 
-# def compute_kpis(df: pl.DataFrame) -> pn.Row:
-#     if df.is_empty():
-#         return pn.Row(pn.pane.Markdown("⚠️ No data for KPI display."))
-
-#     latest_date = df.select("date").max()[0, 0]
-#     latest_df = df.filter(pl.col("date") == latest_date)
-
-#     cards = []
-#     for country in country_selector.value:
-#         values = {}
-#         for category in category_selector.value:
-#             subset = latest_df.filter(
-#                 (pl.col("country") == country) &
-#                 (pl.col("category") == category)
-#             )
-#             if not subset.is_empty():
-#                 val = subset.select("value")[0, 0]
-#                 values[category] = val
-#                 color = PLOT_COLORS.get((country, category), "#888")
-#                 cards.append(pn.indicators.Number(
-#                     name=f"{country} - {category}",
-#                     value=val,
-#                     format="{value:.1f}",
-#                     styles={"background": color, "padding": "8px", "borderRadius": "6px","alpha":"0.2"}
-#                 ))
-#         # Optional: compute Food vs Total gap
-#         if "Food" in values and "Total" in values:
-#             cards.append(pn.indicators.Number(
-#                 name=f"{country} – Food vs Total",
-#                 value=values["Food"] - values["Total"],
-#                 format="{value:+.2f}"
-#             ))
-
-#     cards.append(pn.pane.Markdown(f"📅 Latest: **{latest_date}**", width=150))
-#     return pn.FlexBox(*cards, sizing_mode="stretch_width", gap="10px")
 def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     if df.is_empty():
         return pn.FlexBox(pn.pane.Markdown("⚠️ No data"))
@@ -167,9 +140,10 @@ def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
 
     cards.append(pn.pane.Markdown(f"📅 Latest: **{latest_date}**", width=200))
     return pn.FlexBox(*cards, sizing_mode="stretch_width", gap="10px")
+
 # --- Callback Logic ---
-@pn.depends(country_selector, category_selector, date_slider, percent_toggle)
-def plot_cpi(countries, categories, date_range, pct):
+@pn.depends(country_selector, category_selector, date_slider, change_mode)
+def plot_cpi(countries, categories, date_range, mode):
     # Filter and sort
     raw_filtered = (
         df.filter(
@@ -185,20 +159,26 @@ def plot_cpi(countries, categories, date_range, pct):
         return pn.pane.Markdown("### ⚠️ No data for current filter.")
 
     # Apply window-based % change if needed
-    if pct:
+    if mode == "MoM %":
         display_df = raw_filtered.with_columns(
             pl.col("value").pct_change().over(["country", "category"]).alias("value")
         )
         ylabel = "% change (MoM)"
+    elif mode == "YoY %":
+        display_df = raw_filtered.with_columns(
+            (
+                pl.col("value") / pl.col("value").shift(12) - 1
+            ).over(["country", "category"]).alias("value")
+        )
+        ylabel = "% change (YoY)"
     else:
         display_df = raw_filtered
         ylabel = "Index (2015 = 100)"
-
     
     chart = display_df.hvplot.line(
         x="date", y="value", by=["country", "category"],
         title="CPI Trend Over Time", ylabel=ylabel,
-        legend="bottom", responsive=True, height=HEIGHT, grid=True,
+        responsive=True, height=HEIGHT, grid=True,
         hover_cols=[],  
         hover_tooltips=[
             ("Date", "@date{%F}"),
@@ -218,7 +198,7 @@ def plot_cpi(countries, categories, date_range, pct):
     )
     pn.state.cache['data'] = display_df.clone()
     
-    kpis = compute_kpis(display_df if pct else raw_filtered, percent_mode=pct)
+    kpis = compute_kpis(display_df, percent_mode=(mode != "Index"))
 
     return pn.Column(kpis, chart, "### 📋 Filtered Data", table)
 
@@ -231,7 +211,11 @@ def download_callback():
     # Create dynamic filename
     countries = "_".join(country_selector.value)
     date_range = f"{date_slider.value[0]}_to_{date_slider.value[1]}"
-    suffix = "pct" if percent_toggle.value else "idx"
+    suffix = {
+        "Index": "idx",
+        "MoM %": "mom",
+        "YoY %": "yoy"
+    }[change_mode.value]
     export_btn.filename = f"cpi_{countries}_{suffix}_{date_range}.csv"
     csv_bytes = df_cached.write_csv().encode("utf-8")
     buf = BytesIO(csv_bytes)
@@ -243,7 +227,18 @@ export_btn.callback = download_callback
 # --- Dashboard Layout ---
 dashboard = pn.template.FastListTemplate(
     title="CPI Explorer Dashboard",
-    sidebar=[country_selector, category_selector, date_slider, percent_toggle, export_btn],
+    # sidebar=[country_selector, category_selector, date_slider, change_mode, export_btn],
+    sidebar = pn.Column(
+        pn.pane.Markdown("### Filters"),
+        pn.Spacer(height=10),
+        country_selector,
+        category_selector,
+        date_slider,
+        pn.Spacer(height=10),
+        change_mode,
+        pn.Spacer(height=10),
+        export_btn
+    ),
     main=[plot_cpi]
 )
 

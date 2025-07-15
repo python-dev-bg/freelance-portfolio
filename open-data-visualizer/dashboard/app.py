@@ -3,6 +3,7 @@ from io import BytesIO
 import polars as pl
 from pathlib import Path
 import panel as pn
+import holoviews as hv
 import logging
 import hvplot.polars
 
@@ -19,12 +20,14 @@ pn.config.throttled = True
 logging.getLogger('root').setLevel(logging.ERROR)
 
 DATA_FOLDER = 'data'
+BASE_YEAR = 2015
 HEIGHT = 700
 PLOT_COLORS = {
-    ("Denmark", "Total"): "#8fbbda",       
-    ("Denmark", "Food"): "#ffbf87",        
-    ("Netherlands", "Total"): "#95c895",   
-    ("Netherlands", "Food"): "#eb9394",    
+    ("Denmark", "Total"): "#78a3c5",        
+    ("Denmark", "Food"): "#e6a96e",         
+    ("Netherlands", "Total"): "#7fb27d",    
+    ("Netherlands", "Food"): "#d1797a",     
+    ("Global (Oil)", "Brent-Oil"): "#9b7b74"  
 }
 
 # Get current working directory
@@ -37,35 +40,51 @@ parent_dir = cwd.parent
 data_dir = Path(parent_dir).joinpath(DATA_FOLDER)
 
 # --- Load & Normalize Data ---
-def load_series(file, country, category):    
+def load_series(file: str, country: str, category: str, need_adj: bool = False):    
     try:
         df = pl.read_csv(data_dir.joinpath(file))
         date_col = df.columns[0] if df.columns[0].lower() in {"date", "observation_date"} else "DATE"
     except FileNotFoundError as er:
         logging.error(er)
         sys.exit('Abort')
-    return (
+    df = (
         df.rename({df.columns[1]: "value"})
-          .with_columns([
-              pl.col(date_col).str.strptime(pl.Date, "%Y-%m-%d").alias("date"),
-              pl.lit(country).alias("country"),
-              pl.lit(category).alias("category")
-          ])
-          .select(["date", "country", "category", "value"])
+        .with_columns(
+            pl.col(date_col).str.strptime(pl.Date, "%Y-%m-%d").alias("date"),
+            pl.lit(country).alias("country"),
+            pl.lit(category).alias("category")
+        )
+        .select(["date", "country", "category", "value"])
     )
+    if need_adj:
+        base_median = (
+            df
+            .filter(pl.col("date").dt.year() == BASE_YEAR)
+            .get_column("value").median()
+        )
+        df = (
+            df
+            .with_columns(
+                (pl.col("value") / base_median * 100).round(1).alias("value")        
+            )
+        )
+    return df
+
 
 df = pl.concat([
     load_series("CP0000DKM086NEST.csv", "Denmark", "Total"),
     load_series("CP0110DKM086NEST.csv", "Denmark", "Food"),
     load_series("CP0000NLM086NEST.csv", "Netherlands", "Total"),
-    load_series("CP0110NLM086NEST.csv", "Netherlands", "Food"),
+    load_series("CP0110NLM086NEST.csv", "Netherlands", "Food"), 
+    load_series("MCOILBRENTEU.csv", "Global (Oil)", "Brent-Oil", need_adj=True)  
 ])
 
 # --- Prepare UI values ---
 countries = df.select("country").unique().to_series().to_list()
 categories = df.select("category").unique().to_series().to_list()
-min_date = df.select("date").min()[0, 0]
-max_date = df.select("date").max()[0, 0]
+min_date = df.filter(pl.col("country")=="Denmark").get_column("date").min()
+max_date = df.filter(pl.col("country")=="Denmark").get_column("date").max()
+
 
 # --- Widgets ---
 country_selector = pn.widgets.MultiChoice(name="Country", options=countries, value=countries)
@@ -96,7 +115,7 @@ def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
 
     cards = []
 
-    for country in country_selector.value:
+    for country in sorted(country_selector.value):
         values = {}
         for category in category_selector.value:
             subset = latest_df.filter(
@@ -174,22 +193,48 @@ def plot_cpi(countries, categories, date_range, mode):
     else:
         display_df = raw_filtered
         ylabel = "Index (2015 = 100)"
-    
-    chart = display_df.hvplot.line(
-        x="date", y="value", by=["country", "category"],
-        title="CPI Trend Over Time", ylabel=ylabel,
-        responsive=True, height=HEIGHT, grid=True,
-        hover_cols=[],  
-        hover_tooltips=[
-            ("Date", "@date{%F}"),
-            ("Value", "@value{0.2f}"),
-            ("Country", "@country"),
-            ("Category", "@category")
-        ]
-    ).opts(
-        tools=["hover"],
-        hover_formatters={"@date": "datetime"},  
-        legend_position="bottom"
+
+    display_df = (
+        display_df
+        .with_columns(
+            (pl.col("country") + " – " + pl.col("category")).alias("group_key")
+        )        
+    )
+    color_map = {
+        f"{country} – {category}": color
+        for (country, category), color in PLOT_COLORS.items()
+    }
+    # chart = display_df.hvplot.line(
+    #     x="date", y="value", by=["country", "category"],
+    #     title="CPI Trend Over Time", ylabel=ylabel,
+    #     responsive=True, height=HEIGHT, grid=True,
+    #     hover_cols=[],  
+    #     hover_tooltips=[
+    #         ("Date", "@date{%F}"),
+    #         ("Value", "@value{0.2f}"),
+    #         ("Country", "@country"),
+    #         ("Category", "@category")
+    #     ]
+    # ).opts(
+    #     tools=["hover"],
+    #     hover_formatters={"@date": "datetime"},  
+    #     legend_position="bottom"
+    # )
+    curves = []
+    for key, group in display_df.to_pandas().groupby("group_key"):
+        curve = hv.Curve(group, kdims=["date"], vdims=["value"], label=key).opts(
+            color=color_map.get(key, "gray"),
+            tools=["hover"]
+        )
+        curves.append(curve)
+
+    chart = hv.Overlay(curves).opts(
+        height=HEIGHT,
+        legend_position="bottom",
+        ylabel=ylabel,
+        title="CPI Trend Over Time",
+        responsive=True,
+        show_grid=True
     )
     # Convert just for Tabulator (Panel doesn't support Polars in tables yet)
     table = pn.widgets.Tabulator(

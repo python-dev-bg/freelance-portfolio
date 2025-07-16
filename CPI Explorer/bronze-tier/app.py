@@ -378,27 +378,35 @@ export_btn.callback = download_callback
 dashboard = pn.template.FastListTemplate(
     title="CPI Explorer Dashboard",    
     sidebar = pn.Column(
-        pn.pane.Markdown("### Options"),
+        pn.pane.Markdown("### Options", styles={"font-weight": "bold"}),
         pn.layout.Divider(),
-        pn.pane.Markdown("#### Countries "),  
+
+        pn.pane.Markdown("#### Countries"),
         country_selector,
-        pn.pane.Markdown("#### Food CPI "),        
-        food_selector,        
+
+        pn.pane.Markdown("#### Food CPI"),
+        food_selector,
+
         pn.layout.Divider(),
-        pn.pane.Markdown("#### Benchmark indices "),
+
+        pn.pane.Markdown("#### Benchmark indices"),
         benchmark_selector,
+
         pn.layout.Divider(),
+
+        pn.pane.Markdown("#### Date Range"),
         date_slider,
-        pn.Spacer(height=10),
+
         pn.layout.Divider(),
-        pn.pane.Markdown("""            
-            - **Index**: Raw values normalized to 2015 = 100  
-            - **MoM %**: Month-over-Month % change  
-            - **YoY %**: Year-over-Year % change
-            """, styles={"font-size": "13px", "color": "#555"}
-        ),
+
+        pn.pane.Markdown("#### Change Mode"),
+        pn.pane.Markdown("""\
+    - **Index**: Raw values normalized to 2015 = 100  
+    - **MoM %**: Month-over-Month % change  
+    - **YoY %**: Year-over-Year % change
+    """, styles={"font-size": "13px", "color": "#555"}),
         change_mode,
-        pn.Spacer(height=10),
+
         pn.layout.Divider(),
         export_btn
     ),

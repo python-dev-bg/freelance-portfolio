@@ -81,6 +81,9 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # 3. Install dependencies
 pip install -r requirements.txt
 
+# Optional for conda users:
+conda env create -f environment.yml
+
 # 4. Run the dashboard (must be inside the bronze-tier folder)
 panel serve app.py --show
 ```

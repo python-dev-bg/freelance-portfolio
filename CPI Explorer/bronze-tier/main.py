@@ -101,7 +101,6 @@ def load_fao_series(file: str, country: str, category: str, need_adj: bool = Fal
     return df
 
 def load_ecb_food_commodity_index(file: str, country: str = "EU (ECB)", category: str = "ECB Food Commodity Index", need_adj: bool = False) -> pl.DataFrame:
-    import pandas as pd
 
     # ECB CSVs typically have metadata at the top; autodetect real header
     try:

@@ -1,6 +1,7 @@
 import sys
 from io import BytesIO
 import polars as pl
+import pandas as pd
 from pathlib import Path
 import panel as pn
 import holoviews as hv
@@ -21,13 +22,20 @@ logging.getLogger('root').setLevel(logging.ERROR)
 
 DATA_FOLDER = 'data'
 BASE_YEAR = 2015
+FOOD_CATEGORIES = ["Food", "Total"]
+BENCHMARK_CATEGORIES = ["Brent-Oil", "10-Year TY", "USD/EUR Spot", "Food Price Index", "ECB Food Commodity Index"]
 HEIGHT = 700
+CARD_WIDTH = 270
 PLOT_COLORS = {
     ("Denmark", "Total"): "#78a3c5",        
     ("Denmark", "Food"): "#e6a96e",         
     ("Netherlands", "Total"): "#7fb27d",    
     ("Netherlands", "Food"): "#d1797a",     
-    ("Global (Oil)", "Brent-Oil"): "#9b7b74"  
+    ("Global (Oil)", "Brent-Oil"): "#9b7b74",
+    ("USA", "10-Year TY"):"#bee706" , 
+    ("Global (USD/EUR)", "USD/EUR Spot"):"#f1bb1b",
+    ("Global (FAO)", "Food Price Index"):"#30f11b",
+    ("EU (ECB)", "ECB Food Commodity Index"): "#da489f",
 }
 
 # Get current working directory
@@ -57,40 +65,123 @@ def load_series(file: str, country: str, category: str, need_adj: bool = False):
         .select(["date", "country", "category", "value"])
     )
     if need_adj:
-        base_median = (
-            df
-            .filter(pl.col("date").dt.year() == BASE_YEAR)
-            .get_column("value").median()
+        scale_factor = (
+            100 / df.filter(pl.col("date").dt.year() == BASE_YEAR)
+                    .get_column("value")
+                    .median()
         )
-        df = (
-            df
-            .with_columns(
-                (pl.col("value") / base_median * 100).round(1).alias("value")        
-            )
+
+        # 2. Apply scaling to all values
+        df = df.with_columns(
+            (pl.col("value") * scale_factor).round(1).alias("value")
         )
     return df
 
+def load_fao_series(file: str, country: str, category: str, need_adj: bool = False) -> pl.DataFrame:
+    try:
+        pdf = pd.read_csv(data_dir.joinpath(file), header=2, usecols=range(7))
+        df = pl.from_pandas(pdf).filter(pl.col("Date").is_not_null())
+    except Exception as e:
+        logging.error(f"Failed to load FAO data: {e}")
+        sys.exit("Abort")
+    a=10
+    df = (
+        df
+        .rename({"Date": "date", "Food Price Index": "value"})
+        .with_columns([
+            pl.col("date").str.strptime(pl.Date, "%Y-%m"),
+            pl.lit(country).alias("country"),
+            pl.lit(category).alias("category")
+        ])
+        .select(["date", "country", "category", "value"])
+    )
+    if need_adj:
+        scale = 100 / df.filter(pl.col("date").dt.year() == BASE_YEAR).get_column("value").median()
+        df = df.with_columns((pl.col("value") * scale).round(1).alias("value"))
+    return df
+
+def load_ecb_food_commodity_index(file: str, country: str = "EU (ECB)", category: str = "ECB Food Commodity Index", need_adj: bool = False) -> pl.DataFrame:
+    import pandas as pd
+
+    # ECB CSVs typically have metadata at the top; autodetect real header
+    try:
+        pdf = pd.read_csv(
+            data_dir.joinpath(file),
+            skiprows=0  # Adjust manually if metadata lines exist
+        )
+    except Exception as e:
+        logging.error(f"Failed to load ECB data: {e}")
+        sys.exit("Abort")
+
+    # Rename & clean
+    if 'TIME_PERIOD' not in pdf.columns or 'OBS_VALUE' not in pdf.columns:
+        raise ValueError("Unexpected ECB format — expected 'TIME_PERIOD' and 'OBS_VALUE' columns")
+
+    df = (
+        pl.from_pandas(pdf[["TIME_PERIOD", "OBS_VALUE"]])
+          .rename({"TIME_PERIOD": "date", "OBS_VALUE": "value"})
+          .with_columns([
+              pl.col("date").str.strptime(pl.Date, "%Y-%m"),
+              pl.lit(country).alias("country"),
+              pl.lit(category).alias("category"),
+              pl.col("value").cast(pl.Float64)
+          ])
+          .select(["date", "country", "category", "value"])
+          .filter(pl.col("value").is_not_null())
+    )
+
+    # Normalize to 2015 = 100
+    if need_adj:
+        base_median = (
+            df.filter(pl.col("date").dt.year() == BASE_YEAR)
+              .get_column("value").median()
+        )
+        df = df.with_columns(
+            (pl.col("value") * (100 / base_median)).round(1).alias("value")
+        )
+
+    return df
 
 df = pl.concat([
     load_series("CP0000DKM086NEST.csv", "Denmark", "Total"),
     load_series("CP0110DKM086NEST.csv", "Denmark", "Food"),
     load_series("CP0000NLM086NEST.csv", "Netherlands", "Total"),
     load_series("CP0110NLM086NEST.csv", "Netherlands", "Food"), 
-    load_series("MCOILBRENTEU.csv", "Global (Oil)", "Brent-Oil", need_adj=True)  
+    load_series("MCOILBRENTEU.csv", "Global (Oil)", "Brent-Oil", need_adj=True),  
+    load_series("GS10.csv", "USA", "10-Year TY", need_adj=True),  
+    load_series("EXUSEU.csv", "Global (USD/EUR)", "USD/EUR Spot", need_adj=True),  
+    load_fao_series("food_price_indices_data_jul25.csv", "Global (FAO)", "Food Price Index", need_adj=True),
+    load_ecb_food_commodity_index("STS_M_I9_N_ECPE_CFOOD0_3_000.csv")
 ])
 
 # --- Prepare UI values ---
-countries = df.select("country").unique().to_series().to_list()
+
 categories = df.select("category").unique().to_series().to_list()
 min_date = df.filter(pl.col("country")=="Denmark").get_column("date").min()
 max_date = df.filter(pl.col("country")=="Denmark").get_column("date").max()
 
 
 # --- Widgets ---
-country_selector = pn.widgets.MultiChoice(name="Country", options=countries, value=countries)
-category_selector = pn.widgets.CheckBoxGroup(name="CPI Type", options=categories, value=categories)
+country_selector = pn.widgets.MultiChoice(
+    name="Country",
+    options=["Denmark", "Netherlands"],
+    value=["Denmark", "Netherlands"]
+)
+
+food_selector = pn.widgets.CheckBoxGroup(
+    name="Food CPI Types",
+    options=FOOD_CATEGORIES,
+    value=FOOD_CATEGORIES
+)
+
+benchmark_selector = pn.widgets.CheckBoxGroup(
+    name="Benchmarks",
+    options=BENCHMARK_CATEGORIES,
+    value=[]
+)
+
 date_slider = pn.widgets.DateRangeSlider(name="Date Range", start=min_date, end=max_date, value=(min_date, max_date))
-# percent_toggle = pn.widgets.Toggle(name="Show % change", value=False)
+
 change_mode = pn.widgets.RadioButtonGroup(
     name="Change Mode",
     options=["Index", "MoM %", "YoY %"],
@@ -99,6 +190,7 @@ change_mode = pn.widgets.RadioButtonGroup(
     button_style='outline',
     
 )
+
 export_btn = pn.widgets.FileDownload(
     label="Download Filtered CSV",
     filename="filtered_cpi.csv",
@@ -110,14 +202,19 @@ def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     if df.is_empty():
         return pn.FlexBox(pn.pane.Markdown("⚠️ No data"))
 
-    latest_date = df.select("date").max()[0, 0]
-    latest_df = df.filter(pl.col("date") == latest_date)
-
+    df = (
+        df
+        .with_columns(
+            pl.col("date").max().over("category").alias('max_date')
+        )        
+    )
+    common_latest_date = df.get_column("max_date").min()
+    latest_df = df.filter(pl.col("date") == common_latest_date)
     cards = []
-
-    for country in sorted(country_selector.value):
+    available_categories = latest_df.select("category").unique().to_series()
+    for country in sorted(latest_df.select("country").unique().to_series()):
         values = {}
-        for category in category_selector.value:
+        for category in available_categories:
             subset = latest_df.filter(
                 (pl.col("country") == country) & (pl.col("category") == category)
             )
@@ -139,7 +236,7 @@ def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
                         <div style="font-size: 24px; font-weight: bold;">{display}</div>
                     </div>
                     """,
-                    width=200, height=80
+                    width=CARD_WIDTH, height=80
                 ))
 
         # Add gap card if Food and Total both exist
@@ -154,26 +251,35 @@ def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
                     <div style="font-size: 24px; font-weight: bold;">{gap_display}</div>
                 </div>
                 """,
-                width=200, height=80
+                width=CARD_WIDTH, height=80
             ))
 
-    cards.append(pn.pane.Markdown(f"📅 Latest: **{latest_date}**", width=200))
+    cards.append(pn.pane.Markdown(f"📅 Latest: **{common_latest_date}**", width=200))
     return pn.FlexBox(*cards, sizing_mode="stretch_width", gap="10px")
 
 # --- Callback Logic ---
-@pn.depends(country_selector, category_selector, date_slider, change_mode)
-def plot_cpi(countries, categories, date_range, mode):
-    # Filter and sort
+@pn.depends(country_selector, food_selector, benchmark_selector, date_slider, change_mode)
+def plot_cpi(country, food_cats, benchmark_cats, date_range, mode):
+    # Build valid country-category combinations
+    selected_pairs = [(c, cat) for c in country for cat in food_cats] + [
+        (c, cat) for (c, cat) in PLOT_COLORS if cat in benchmark_cats
+    ]
+
+    # Now filter using tuple column logic
     raw_filtered = (
-        df.filter(
-            (pl.col("country").is_in(countries)) &
-            (pl.col("category").is_in(categories)) &
+        df.with_columns(
+            (pl.col("country") + "||" + pl.col("category")).alias("pair_key")
+        )
+        .filter(
+            pl.col("pair_key").is_in([
+                f"{c}||{cat}" for (c, cat) in selected_pairs
+            ]) &
             (pl.col("date") >= date_range[0]) &
             (pl.col("date") <= date_range[1])
         )
+        .drop("pair_key")
         .sort("date")
     )
-
     if raw_filtered.is_empty():
         return pn.pane.Markdown("### ⚠️ No data for current filter.")
 
@@ -204,33 +310,32 @@ def plot_cpi(countries, categories, date_range, mode):
         f"{country} – {category}": color
         for (country, category), color in PLOT_COLORS.items()
     }
-    # chart = display_df.hvplot.line(
-    #     x="date", y="value", by=["country", "category"],
-    #     title="CPI Trend Over Time", ylabel=ylabel,
-    #     responsive=True, height=HEIGHT, grid=True,
-    #     hover_cols=[],  
-    #     hover_tooltips=[
-    #         ("Date", "@date{%F}"),
-    #         ("Value", "@value{0.2f}"),
-    #         ("Country", "@country"),
-    #         ("Category", "@category")
-    #     ]
-    # ).opts(
-    #     tools=["hover"],
-    #     hover_formatters={"@date": "datetime"},  
-    #     legend_position="bottom"
-    # )
+   
     curves = []
     for key, group in display_df.to_pandas().groupby("group_key"):
-        curve = hv.Curve(group, kdims=["date"], vdims=["value"], label=key).opts(
+        
+        curve = hv.Curve(
+            group,
+            kdims=["date"],
+            vdims=["value"],
+            label=key
+        ).opts(
             color=color_map.get(key, "gray"),
-            tools=["hover"]
+            tools=["hover"],
+            line_width=2,            
+            hover_tooltips=[
+                ("Date", "@date{%F}"),
+                ("Value", "@value{0.2f}"),
+                ("Series", key)
+            ],
+            hover_formatters={"@date": "datetime"}
         )
         curves.append(curve)
 
     chart = hv.Overlay(curves).opts(
         height=HEIGHT,
         legend_position="bottom",
+        show_legend=True,
         ylabel=ylabel,
         title="CPI Trend Over Time",
         responsive=True,
@@ -271,17 +376,30 @@ export_btn.callback = download_callback
 
 # --- Dashboard Layout ---
 dashboard = pn.template.FastListTemplate(
-    title="CPI Explorer Dashboard",
-    # sidebar=[country_selector, category_selector, date_slider, change_mode, export_btn],
+    title="CPI Explorer Dashboard",    
     sidebar = pn.Column(
-        pn.pane.Markdown("### Filters"),
-        pn.Spacer(height=10),
+        pn.pane.Markdown("### Options"),
+        pn.layout.Divider(),
+        pn.pane.Markdown("#### Countries "),  
         country_selector,
-        category_selector,
+        pn.pane.Markdown("#### Food CPI "),        
+        food_selector,        
+        pn.layout.Divider(),
+        pn.pane.Markdown("#### Benchmark indices "),
+        benchmark_selector,
+        pn.layout.Divider(),
         date_slider,
         pn.Spacer(height=10),
+        pn.layout.Divider(),
+        pn.pane.Markdown("""            
+            - **Index**: Raw values normalized to 2015 = 100  
+            - **MoM %**: Month-over-Month % change  
+            - **YoY %**: Year-over-Year % change
+            """, styles={"font-size": "13px", "color": "#555"}
+        ),
         change_mode,
         pn.Spacer(height=10),
+        pn.layout.Divider(),
         export_btn
     ),
     main=[plot_cpi]

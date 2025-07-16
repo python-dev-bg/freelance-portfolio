@@ -65,12 +65,12 @@ Follow these steps to get the **CPI Explorer Dashboard** running locally.
 ```bash
 # 1. Clone the repository
 git clone https://github.com/python-dev-bg/freelance-portfolio.git
-cd freelance-portfolio/CPI Explorer/bronze-tier
+cd freelance-portfolio/CPI\ Explorer/bronze-tier
 
-# 2. Create and activate a virtual environment
+# 2. Create and activate a virtual environment in root level (outside 'CPI Explorer' folder)
 
 # On Linux/macOS:
-python -m venv venv
+python -m venv venv # or python3 -m venv venv
 source venv/bin/activate
 
 # On Windows (CMD):
@@ -87,7 +87,10 @@ pip install -r requirements.txt
 conda env create -f environment.yml
 
 # 4. Run the dashboard (must be inside the bronze-tier folder)
-panel serve app.py --show
+panel serve main.py --show
+
+# 5. Stop with:
+Ctrl+C
 ```
 The app should automatically open in your browser.  
 If not, visit: http://localhost:5006/app

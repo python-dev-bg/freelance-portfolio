@@ -375,7 +375,7 @@ export_btn.callback = download_callback
 
 # --- Dashboard Layout ---
 dashboard = pn.template.FastListTemplate(
-    title="CPI Explorer Dashboard",    
+    title="CPI Explorer Dashboard Bronze Tier",    
     sidebar = pn.Column(
         pn.pane.Markdown("### Options", styles={"font-weight": "bold"}),
         pn.layout.Divider(),

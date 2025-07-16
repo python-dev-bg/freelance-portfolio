@@ -28,7 +28,7 @@ Built using:
 - 🌗 Panel theme support (light/dark toggle)
 
 ---
-
+![Dashboard Screenshot](../assets/cpi-bronze.png)
 ## 📁 Data Sources
 
 | Dataset                       | Source                         | Note                         |

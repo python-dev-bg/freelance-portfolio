@@ -1,6 +1,6 @@
 
 
-# 📈 CPI Explorer Dashboard
+# 📈 CPI Explorer Dashboard (Bronze Tier)
 
 An interactive and extensible dashboard for exploring **Consumer Price Index (CPI)** trends in **Denmark** and **Netherlands**, alongside selected **global economic benchmarks**.
 
@@ -63,7 +63,7 @@ Follow these steps to get the **CPI Explorer Dashboard** running locally.
 ```bash
 # 1. Clone the repository
 git clone https://github.com/python-dev-bg/freelance-portfolio.git
-cd freelance-portfolio/open-data-visualizer/dashboard
+cd freelance-portfolio/CPI Explorer/bronze-tier
 
 # 2. Create and activate a virtual environment
 
@@ -81,7 +81,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the dashboard (must be inside the dashboard folder)
+# 4. Run the dashboard (must be inside the bronze-tier folder)
 panel serve app.py --show
 ```
 The app should automatically open in your browser.  

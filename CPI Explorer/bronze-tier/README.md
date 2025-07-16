@@ -25,10 +25,12 @@ Built using:
 - 📊 **Dynamic KPI Cards** for latest values per series
 - 📥 **Export filtered data** to CSV
 - 🎨 **Color-coded legend**, responsive layout, hover tooltips
-- 🌗 Panel theme support (light/dark toggle)
+- 🌗 **Panel theme support** (light/dark toggle)
+- 💡 **Features section** no internet needed — uses local CSVs
+
 
 ---
-![Dashboard Screenshot](../assets/cpi-bronze.png)
+![Screenshot of CPI Explorer Bronze dashboard](../assets/bronze-tier/cpi-bronze.png)
 ## 📁 Data Sources
 
 | Dataset                       | Source                         | Note                         |

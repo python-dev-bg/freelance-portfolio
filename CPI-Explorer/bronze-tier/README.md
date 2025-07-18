@@ -65,7 +65,7 @@ Follow these steps to get the **CPI Explorer Dashboard** running locally.
 ```bash
 # 1. Clone the repository
 git clone https://github.com/python-dev-bg/freelance-portfolio.git
-cd freelance-portfolio/CPI\ Explorer/bronze-tier
+cd freelance-portfolio/CPI-Explorer/bronze-tier
 
 # 2. Create and activate a virtual environment in root level (outside 'CPI Explorer' folder)
 

@@ -22,7 +22,7 @@ logging.getLogger('root').setLevel(logging.ERROR)
 
 DATA_FOLDER = 'data'
 BASE_YEAR = 2015
-FOOD_CATEGORIES = ["Food", "Total"]
+CPI_CATEGORIES = ["Food", "Total"]
 BENCHMARK_CATEGORIES = ["Brent-Oil", "10-Year TY", "USD/EUR Spot", "Food Price Index", "ECB Food Commodity Index"]
 HEIGHT = 700
 CARD_WIDTH = 270
@@ -84,7 +84,6 @@ def load_fao_series(file: str, country: str, category: str, need_adj: bool = Fal
     except Exception as e:
         logging.error(f"Failed to load FAO data: {e}")
         sys.exit("Abort")
-    a=10
     df = (
         df
         .rename({"Date": "date", "Food Price Index": "value"})
@@ -167,10 +166,10 @@ country_selector = pn.widgets.MultiChoice(
     value=["Denmark", "Netherlands"]
 )
 
-food_selector = pn.widgets.CheckBoxGroup(
+cpi_selector = pn.widgets.CheckBoxGroup(
     name="Food CPI Types",
-    options=FOOD_CATEGORIES,
-    value=FOOD_CATEGORIES
+    options=CPI_CATEGORIES,
+    value=CPI_CATEGORIES
 )
 
 benchmark_selector = pn.widgets.CheckBoxGroup(
@@ -257,7 +256,7 @@ def compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     return pn.FlexBox(*cards, sizing_mode="stretch_width", gap="10px")
 
 # --- Callback Logic ---
-@pn.depends(country_selector, food_selector, benchmark_selector, date_slider, change_mode)
+@pn.depends(country_selector, cpi_selector, benchmark_selector, date_slider, change_mode)
 def plot_cpi(country, food_cats, benchmark_cats, date_range, mode):
     # Build valid country-category combinations
     selected_pairs = [(c, cat) for c in country for cat in food_cats] + [
@@ -384,7 +383,7 @@ dashboard = pn.template.FastListTemplate(
         country_selector,
 
         pn.pane.Markdown("#### Food CPI"),
-        food_selector,
+        cpi_selector,
 
         pn.layout.Divider(),
 

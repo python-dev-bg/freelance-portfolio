@@ -3,9 +3,24 @@ from .widgets import *
 from .plotter import *
 from .utils import *
 
-cpi_hndl= pn.bind(plot_cpi, country_selector, cpi_selector, benchmark_selector, date_slider, change_mode,watch=True)
-coor_hndl= pn.bind(plot_correlation_matrix, country_selector, cpi_selector, benchmark_selector, date_slider, watch=True)
+# Bind the CPI plot handler
+cpi_hndl = pn.bind(
+    plot_cpi,
+    country=country_selector,
+    cpi=cpi_selector,
+    benchmarks=benchmark_selector,
+    date_range=date_slider,
+    mode=change_mode,
+    watch=True
+)
 
-
-
-
+# Bind the correlation matrix plot handler
+coor_hndl = pn.bind(
+    plot_correlation_matrix,
+    country=country_selector,
+    cpi=cpi_selector,
+    benchmarks=benchmark_selector,
+    date_range=date_slider,
+    mode=change_mode,
+    watch=True
+)

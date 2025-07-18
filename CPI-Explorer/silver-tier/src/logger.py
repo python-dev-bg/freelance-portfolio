@@ -19,6 +19,25 @@ def _setup_logger(env = "dev"):
     handler.setFormatter(formatter)
 
     logger.addHandler(handler)
+    # Suppress 'Dropping a patch' warnings at the handler level
+    class BokehPatchFilter(logging.Filter):
+        def filter(self, record):
+            return "Dropping a patch because it contains a previously known reference" not in record.getMessage()
+    handler.addFilter(BokehPatchFilter())
+    # Suppress 'Dropping a patch' warnings globally at the root logger
+    class GlobalBokehPatchFilter(logging.Filter):
+        def filter(self, record):
+            return "Dropping a patch because it contains a previously known reference" not in record.getMessage()
+    logging.getLogger().addFilter(GlobalBokehPatchFilter())
+    # Suppress noisy Bokeh logs
+    for name in [
+        "bokeh", 
+        "bokeh.document", 
+        "bokeh.core", 
+        "bokeh.server",
+        "tornado.application"
+    ]:
+        logging.getLogger(name).setLevel(logging.ERROR)
     
 
 _setup_logger(env=Settings.ENV)

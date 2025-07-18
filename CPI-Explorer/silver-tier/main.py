@@ -18,17 +18,35 @@ logger = logging.getLogger("app_logger")
 
 def main(port):      
     
+    tab1 = plot_cpi(
+        country_selector.value,
+        cpi_selector.value, 
+        benchmark_selector.value, 
+        date_slider.value, 
+        change_mode.value,
+    )
+    tab2 = plot_correlation_matrix(
+        country_selector.value, 
+        cpi_selector.value, 
+        benchmark_selector.value, 
+        date_slider.value,
+        change_mode.value
+    )
+
+    tabs = pn.Tabs(
+        ("CPI", tab1),
+        ("Correlations", tab2)
+    )
+
     dashboard = create_dashboard(
         sidebar_layout=create_sidebar_1(),
         main_layout=[],
         title='Silver'
     )
-    plot_cpi(country_selector.value, cpi_selector.value, benchmark_selector.value, date_slider.value, change_mode.value)
-    plot_correlation_matrix(country_selector.value, cpi_selector.value, benchmark_selector.value, date_slider.value)
+
     pn.serve(        
         panels={
-            
-            '1.Evaluation':dashboard,            
+            '1.Evaluation': dashboard,            
         },
         port=port,
         autoreload=False,

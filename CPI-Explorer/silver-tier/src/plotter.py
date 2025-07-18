@@ -10,14 +10,14 @@ from .data_processor import *
 __all__ = ["plot_correlation_matrix","plot_cpi"]
 
 
-def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_range: tuple):
+def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_range: tuple, mode: str):
     correlation_order = [
         "Pearson", "Spearman",
         "Pearson (EMA3)", "Spearman (EMA3)",
         "Pearson (EMA6)", "Spearman (EMA6)"
     ]
     benchmarks = benchmarks or pn.state.cache["categories"]
-    correlation_df = calc_correlations(date_range)
+    correlation_df = calc_correlations(date_range).filter(pl.col("mode") == mode)
     df_long = (
         correlation_df
         .filter(
@@ -26,7 +26,7 @@ def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_rang
             (pl.col("benchmark").is_in(benchmarks))        
         )
         .unpivot(
-            index=["country", "CPI", "benchmark"],            
+            index=["country", "CPI", "benchmark","mode"],            
             variable_name="correlation_type",
             value_name="correlation"
         )
@@ -57,66 +57,9 @@ def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_rang
         legend="top_right",
         color="color"
     )
-    add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country}")
+    add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
     
-def plot_correlation_matrix_(country: str, cpi: list, benchmarks: list):
-    benchmarks = benchmarks or pn.state.cache["categories"]
-    correlation_df = calc_correlations()
 
-    df_long = (
-        correlation_df
-        .filter(
-            (pl.col("country") == country) &
-            (pl.col("CPI").is_in(cpi)) &
-            (pl.col("benchmark").is_in(benchmarks))
-        )
-        .unpivot(
-            index=["country", "CPI", "benchmark"],
-            variable_name="correlation_type",
-            value_name="correlation"
-        )
-        .with_columns([
-            (pl.col("benchmark") + " — " + pl.col("country") + ", " + pl.col("CPI")).alias("label")
-        ])
-    )
-
-    # color map
-    color_map = {
-        "Pearson": "#1f77b4",
-        "Pearson (EMA3)": "#2ca02c",
-        "Pearson (EMA6)": "#17becf",
-        "Spearman": "#ff7f0e",
-        "Spearman (EMA3)": "#d62728",
-        "Spearman (EMA6)": "#9467bd",
-    }
-
-    overlays = []
-    for corr_type in df_long["correlation_type"].unique().to_list():
-        if corr_type not in color_map:
-            continue
-
-        df_sub = df_long.filter(pl.col("correlation_type") == corr_type)
-
-        plot = df_sub.hvplot.bar(
-            x="label",
-            y="correlation",
-            color=color_map[corr_type],
-            legend_label=corr_type,
-            height=Settings.HEIGHT
-        )
-        overlays.append(plot)
-
-    final_plot = hv.Overlay(overlays).opts(
-        title=f"correlation of CPI with Benchmarks (Pearson vs Spearman)",
-        xlabel="benchmark, country, CPI",
-        ylabel="correlation",
-        show_grid=True,
-        xrotation=45,
-        legend_position="top_right",
-        responsive=True
-    )
-
-    add_card(final_plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country}")
 
 def _compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     if df.is_empty():
@@ -178,11 +121,11 @@ def _compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     return pn.FlexBox(*cards, sizing_mode="stretch_width", gap="10px")
 
 
-def plot_cpi(country, food_cats, benchmark_cats, date_range, mode):
+def plot_cpi(country, cpi, benchmarks, date_range, mode):
     # Build valid country-category combinations
     
-    selected_pairs = [(country, cat)  for cat in food_cats] + [
-        (country, cat) for (country, cat) in Settings.PLOT_COLORS if cat in benchmark_cats
+    selected_pairs = [(country, cat)  for cat in cpi] + [
+        (country, cat) for (country, cat) in Settings.PLOT_COLORS if cat in benchmarks
     ]
     df = pn.state.cache["merged_df"]
     # Now filter using tuple column logic
@@ -262,4 +205,4 @@ def plot_cpi(country, food_cats, benchmark_cats, date_range, mode):
         show_grid=True
     )       
     kpis = _compute_kpis(display_df, percent_mode=(mode != "Index"))
-    add_card(pn.Column(kpis, chart),slot=0, need_update=True, need_clear=False, title=f"CPI Data")
+    add_card(pn.Column(kpis, chart), slot=0, need_update=True, need_clear=False, title=f"CPI Data")

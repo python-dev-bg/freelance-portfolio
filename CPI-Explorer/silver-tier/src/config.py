@@ -9,6 +9,7 @@ class Settings:
     CPI_CATEGORIES = ["Food", "Total"]
     BENCHMARK_CATEGORIES = ["Brent-Oil", "10-Year TY", "USD/EUR Spot", "Food Price Index", "ECB Food Commodity Index"]
     COUNTRIES = ["Denmark", "Netherlands"]
+    MODES = ["Index", "MoM %", "YoY %"]
     HEIGHT = 500
     CARD_WIDTH = 270
     PLOT_COLORS = {

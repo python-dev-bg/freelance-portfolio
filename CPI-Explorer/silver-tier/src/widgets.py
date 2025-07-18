@@ -38,7 +38,7 @@ date_slider = pn.widgets.DateRangeSlider(
 
 change_mode = pn.widgets.RadioButtonGroup(
     name="Change Mode",
-    options=["Index", "MoM %", "YoY %"],
+    options=Settings.MODES,
     button_type="primary",
     value="Index",
     button_style='outline',

@@ -5,7 +5,7 @@ from .utils import *
 
 # Bind the CPI plot handler
 cpi_hndl = pn.bind(
-    plot_cpi,
+    first_tab_plotter,
     country=country_selector,
     cpi=cpi_selector,
     benchmarks=benchmark_selector,
@@ -16,7 +16,7 @@ cpi_hndl = pn.bind(
 
 # Bind the correlation matrix plot handler
 coor_hndl = pn.bind(
-    plot_correlation_matrix,
+    first_tab_plotter,
     country=country_selector,
     cpi=cpi_selector,
     benchmarks=benchmark_selector,

@@ -18,19 +18,32 @@ logger = logging.getLogger("app_logger")
 
 def main(port):      
     
-    tab1 = plot_cpi(
+    tab1 = first_tab_plotter(
         country_selector.value,
         cpi_selector.value, 
         benchmark_selector.value, 
         date_slider.value, 
         change_mode.value,
     )
-    tab2 = plot_correlation_matrix(
-        country_selector.value, 
+    # tab2 = plot_correlation_matrix(
+    #     country_selector.value, 
+    #     cpi_selector.value, 
+    #     benchmark_selector.value, 
+    #     date_slider.value,
+    #     change_mode.value
+    # )
+    # tab2 = plot_correlation_heatmaps(
+    #     country_selector.value, 
+        
+    #     date_slider.value,
+    #     change_mode.value
+    # )
+    tab2 = first_tab_plotter(
+        country_selector.value,
         cpi_selector.value, 
         benchmark_selector.value, 
-        date_slider.value,
-        change_mode.value
+        date_slider.value, 
+        change_mode.value,
     )
 
     tabs = pn.Tabs(

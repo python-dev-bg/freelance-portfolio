@@ -14,7 +14,7 @@ country_selector = pn.widgets.Select(
 )
 
 cpi_selector = pn.widgets.CheckButtonGroup(
-    name="Food CPI Types",
+    name="CPI Types",
     options=Settings.CPI_CATEGORIES,
     value=[Settings.CPI_CATEGORIES[0]],
     button_style='outline',

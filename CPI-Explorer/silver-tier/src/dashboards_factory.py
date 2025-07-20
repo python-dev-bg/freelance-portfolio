@@ -13,8 +13,8 @@ def create_sidebar_1():
         pn.pane.Markdown("#### Countries"),
         country_selector,
 
-        pn.pane.Markdown("#### Food CPI"),
-        cpi_selector,
+        pn.pane.Markdown(" #### CPI"),
+        cpi_selector, 
 
         pn.layout.Divider(),
 

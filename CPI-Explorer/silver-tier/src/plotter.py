@@ -7,58 +7,23 @@ from .config import Settings
 from .card_manager import *
 from .data_processor import *
 
-__all__ = ["plot_correlation_matrix","plot_cpi"]
+__all__ = ["first_tab_plotter"]
 
-
-def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_range: tuple, mode: str):
-    correlation_order = [
-        "Pearson", "Spearman",
-        "Pearson (EMA3)", "Spearman (EMA3)",
-        "Pearson (EMA6)", "Spearman (EMA6)"
-    ]
-    benchmarks = benchmarks or pn.state.cache["categories"]
-    correlation_df = calc_correlations(date_range).filter(pl.col("mode") == mode)
-    df_long = (
-        correlation_df
-        .filter(
-            (pl.col("country")==country) &
-            (pl.col("CPI").is_in(cpi)) &
-            (pl.col("benchmark").is_in(benchmarks))        
-        )
-        .unpivot(
-            index=["country", "CPI", "benchmark","mode"],            
-            variable_name="correlation_type",
-            value_name="correlation"
-        )
-        .with_columns([
-            (pl.col("benchmark") + " — " + pl.col("country") + ", " + pl.col("CPI")).alias("label"),
-            pl.when(pl.col("correlation_type").is_in(correlation_order))
-            .then(pl.col("correlation_type").cast(pl.Enum(correlation_order)))
-            .alias("correlation_type"),
-            pl.col("correlation_type").map_elements(
-                lambda x: Settings.PEARSON_COL if str(x).startswith("Pearson") else Settings.SPEARMAN_COL,
-                return_dtype=pl.String
-            ).alias("color")
-        ])
-        .sort(["correlation_type","benchmark"],descending=True)
-    )
-
-    plot = df_long.hvplot.bar(
-        x="label",
-        y="correlation",
-        by="correlation_type",
-        title="correlation of CPI with Benchmarks (Pearson vs Spearman)",
-        ylabel="correlation",
-        xlabel="benchmark, country, CPI",
-        height=Settings.HEIGHT,
-        responsive=True,
-        rot=45,
-        grid=True,
-        legend="top_right",
-        color="color"
-    )
-    add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
+def first_tab_plotter(
+        country,
+        cpi,
+        benchmarks,
+        date_range,
+        mode,
+    ):
     
+    correlation_df = calc_correlations(date_range) 
+    # slot 0
+    cpi_plot = plot_cpi(country, cpi, benchmarks, date_range, mode)
+    add_card(content=cpi_plot, tab=0, slot=0, title=f"CPI Data {country}")
+    # slot 1
+    heat_plots = plot_correlation_heatmaps(correlation_df, country, cpi, mode)
+    add_card(heat_plots, tab=0, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
 
 
 def _compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
@@ -119,7 +84,6 @@ def _compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
 
     cards.append(pn.pane.Markdown(f"📅 Latest: **{common_latest_date}**", width=200))
     return pn.FlexBox(*cards, sizing_mode="stretch_width", gap="10px")
-
 
 def plot_cpi(country, cpi, benchmarks, date_range, mode):
     # Build valid country-category combinations
@@ -205,4 +169,137 @@ def plot_cpi(country, cpi, benchmarks, date_range, mode):
         show_grid=True
     )       
     kpis = _compute_kpis(display_df, percent_mode=(mode != "Index"))
-    add_card(pn.Column(kpis, chart), slot=0, need_update=True, need_clear=False, title=f"CPI Data")
+    # add_card(pn.Column(kpis, chart), slot=0, need_update=True, need_clear=False, title=f"CPI Data")
+    return pn.Column(kpis, chart)
+
+def plot_correlation_heatmaps(correlation_df, country, cpi, mode):   
+    
+    df = (
+        correlation_df
+        .filter((pl.col("country") == country) & (pl.col("CPI").is_in(cpi)) & (pl.col("mode") == mode))
+        .unpivot(
+            index=["CPI", "benchmark"],    
+            on = ["Pearson", "Spearman"],     
+            variable_name="correlation_type",
+            value_name="correlation"
+        )        
+    )
+    
+    kpi_df = (
+        df.with_columns([
+            pl.col("correlation").abs().alias("abs_corr"),
+            (pl.col("correlation").abs() - 0).abs().alias("dist_to_zero")
+        ])
+    )  
+    print(kpi_df)  
+    strongest = (
+        kpi_df.sort("abs_corr", descending=True)
+            .group_by("correlation_type")
+            .first()
+            .select(["CPI", "correlation_type", "benchmark", "correlation"])
+            .rename({"benchmark": "strongest_benchmark", "correlation": "strongest_value"})
+    )
+
+    weakest = (
+        kpi_df.sort("dist_to_zero")
+            .group_by("correlation_type")
+            .first()
+            .select(["CPI", "correlation_type", "benchmark", "correlation"])
+            .rename({"benchmark": "weakest_benchmark", "correlation": "weakest_value"})
+    )
+
+    summary = (
+        kpi_df
+        .with_columns(
+            (pl.col("abs_corr") > 0.7).cast(pl.Int64).alias("strong_corr_flag")
+        )
+        .group_by("correlation_type")
+        .agg([
+            pl.mean("abs_corr").alias("avg_abs_corr"),
+            pl.sum("strong_corr_flag").alias("strong_corr_count")
+        ])
+    )
+
+    final_kpi = strongest.join(weakest, on="correlation_type").join(summary, on="correlation_type")
+    plots = []
+    for corr_type in ["Pearson", "Spearman"]:
+        plot_df = (
+            df
+            .filter(pl.col("correlation_type") == corr_type)           
+        ) 
+        heatmap = plot_df.hvplot.heatmap(
+            x="benchmark",
+            y="CPI",
+            C="correlation",
+            cmap="seismic",
+            clim=(-1, 1),
+            colorbar=True,
+            title=f"{corr_type} Correlations ({mode})",
+            height=Settings.HEIGHT,
+            responsive=True,
+            rot=45
+
+        )
+        plots.append(heatmap)
+
+    if "CPI_right" in final_kpi.columns:
+        final_kpi = (
+            final_kpi
+            .rename({"CPI":"CPI_strongest", "CPI_right":"CPI_weakest"})
+        )
+    return pn.Column(
+        pn.pane.DataFrame(final_kpi.to_pandas(), height=140),
+        pn.Row(*plots)
+    )  
+
+def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_range: tuple, mode: str):
+    correlation_order = [
+        "Pearson", "Spearman",
+        "Pearson (EMA3)", "Spearman (EMA3)",
+        "Pearson (EMA6)", "Spearman (EMA6)"
+    ]
+    benchmarks = benchmarks or pn.state.cache["categories"]
+    correlation_df = calc_correlations(date_range)       #.filter(pl.col("mode") == mode)
+    pn.state.cache["full_correlation_df"] = correlation_df
+    df_long = (
+        correlation_df
+        .filter(
+            (pl.col("country")==country) &
+            (pl.col("CPI").is_in(cpi)) &
+            (pl.col("benchmark").is_in(benchmarks)) &
+            (pl.col("mode") == mode  )      
+        )
+        .unpivot(
+            index=["country", "CPI", "benchmark","mode"],            
+            variable_name="correlation_type",
+            value_name="correlation"
+        )
+        .with_columns([
+            (pl.col("benchmark") + " — " + pl.col("country") + ", " + pl.col("CPI")).alias("label"),
+            pl.when(pl.col("correlation_type").is_in(correlation_order))
+            .then(pl.col("correlation_type").cast(pl.Enum(correlation_order)))
+            .alias("correlation_type"),
+            pl.col("correlation_type").map_elements(
+                lambda x: Settings.PEARSON_COL if str(x).startswith("Pearson") else Settings.SPEARMAN_COL,
+                return_dtype=pl.String
+            ).alias("color")
+        ])
+        .sort(["correlation_type","benchmark"],descending=True)
+    )
+    
+    plot = df_long.hvplot.bar(
+        x="label",
+        y="correlation",
+        by="correlation_type",
+        title="correlation of CPI with Benchmarks (Pearson vs Spearman)",
+        ylabel="correlation",
+        xlabel="benchmark, country, CPI",
+        height=Settings.HEIGHT,
+        responsive=True,
+        rot=45,
+        grid=True,
+        legend="top_right",
+        color="color"
+    )
+    # add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
+    return plot

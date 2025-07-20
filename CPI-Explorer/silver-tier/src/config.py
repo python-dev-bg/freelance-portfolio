@@ -37,3 +37,10 @@ class Settings:
     ECB_FODD_INDEX_FILE = "STS_M_I9_N_ECPE_CFOOD0_3_000.csv"
     PEARSON_COL="#ff7f0e"
     SPEARMAN_COL="#1f77b4"
+    TAB_NAMES = {
+        0: "CPI Trends & KPIs",
+        1: "Correlations",
+        2: "Benchmarks Analysis",
+        3: "Forecasts",
+        # fallback/default for unknown tabs
+    }

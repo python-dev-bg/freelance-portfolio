@@ -1,7 +1,6 @@
 import polars as pl
 import panel as pn
 import holoviews as hv
-import pandas as pd
 
 import hvplot.polars
 
@@ -190,7 +189,7 @@ def plot_cpi(country, cpi, benchmarks, date_range, mode):
         show_grid=True
     )       
     kpis = _compute_kpis(display_df, percent_mode=(mode != "Index"))
-    # add_card(pn.Column(kpis, chart), slot=0, need_update=True, need_clear=False, title=f"CPI Data")
+   
     return pn.Column(kpis, chart)
 
 def plot_correlation_heatmaps(correlation_df, country, cpi, mode):   
@@ -301,5 +300,4 @@ def plot_correlation_matrix(correlation_df, country: str, cpi: list, benchmarks:
         legend="top_right",
         color="color"
     )
-    # add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
     return plot

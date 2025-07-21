@@ -1,6 +1,5 @@
 import polars as pl
 import panel as pn
-import numpy as np
 
 from .config import Settings
 from .widgets import *

@@ -41,6 +41,5 @@ class Settings:
         0: "CPI Trends & KPIs",
         1: "Correlations",
         2: "Benchmarks Analysis",
-        3: "Forecasts",
         # fallback/default for unknown tabs
     }

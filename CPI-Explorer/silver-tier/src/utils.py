@@ -1,5 +1,3 @@
-import pandas as pd
-
 import datetime as dt
 import polars as pl
 import panel as pn
@@ -26,7 +24,7 @@ def error_msg_handler(*args):
 
 
 def correlations_calculations(event):
-    print(f"correlations_calculations {event}")
+
     correlation_df = calc_correlations(event.new)
     pn.state.cache["correlation_df"]=correlation_df
     min_max_corr_df, filtered_corr_df = calc_min_max_correlations(

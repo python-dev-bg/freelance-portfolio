@@ -24,7 +24,6 @@ def _data_preprocessor(df: pl.DataFrame, country: str, category: str):
     )
     return df
 
-
 def _load_series(file: str, country: str, category: str, need_adj: bool = False):    
     try:
         df = pl.read_csv(Settings.DATA_FOLDER.joinpath(file))        
@@ -59,7 +58,6 @@ def _downloader(files_meta_dict):
         df = _data_preprocessor(df, country, category)
         pn.state.cache[series_name] = df
         
-
 def _load_fao_series(file: str, country: str, category: str, need_adj: bool = False) -> pl.DataFrame:
     try:
         pdf = pd.read_csv(Settings.DATA_FOLDER.joinpath(file), header=2, usecols=range(7))
@@ -122,7 +120,7 @@ def _load_ecb_food_commodity_index(file: str, country: str = "EU (ECB)", categor
         pn.state.cache[category] = df
 
 def _data_merger():
-    # data = [v for k,v in pn.state.cache.items() if k != "error_msg" and isinstance(v, pl.DataFrame)]
+    
     data = []
     cats = []
     for cat, df in pn.state.cache.items():
@@ -160,7 +158,6 @@ def _data_merger():
         pn.state.cache["min_date"] = dates["max_min_date"][0]
         pn.state.cache["max_date"] = dates["min_max_date"][0]
             
-
 def load_initial_data():
     try:
         pn.state.cache.clear()
@@ -173,9 +170,6 @@ def load_initial_data():
     _load_series(Settings.USDEUR_SPOT_FILE, "Global (USD/EUR)", "USD/EUR Spot", need_adj=True)
     _load_fao_series(Settings.FAO_FOOD_FILE, "Global (FAO)", "Food Price Index", need_adj=True)
     _load_ecb_food_commodity_index(Settings.ECB_FODD_INDEX_FILE)
-    _data_merger()
-        
-
+    _data_merger()        
     
-
 load_initial_data()

@@ -36,13 +36,8 @@ def create_layout(*args):
 
     tab_0_cards = tab_cards[0]
     tab_1_cards = tab_cards[1]
-    tab_2_cards = tab_cards[2]
+    
 
-    # Create new Tabs layout
-    # new_tabs = pn.Tabs(
-    #     ("CPI Data", pn.Column(*tab_0_cards)),
-    #     ("Correlations", pn.Column(*tab_1_cards)),
-    # )
     tab_list = []
     for tab_index in sorted(tab_cards.keys()):
         title = Settings.TAB_NAMES.get(tab_index, f"Tab {tab_index}")
@@ -62,6 +57,3 @@ def create_layout(*args):
 
     return new_tabs
 
-
-
-# 41VI5A7R

@@ -1,6 +1,8 @@
 import polars as pl
 import panel as pn
 import holoviews as hv
+import pandas as pd
+
 import hvplot.polars
 
 from .config import Settings
@@ -20,7 +22,7 @@ def first_tab_plotter(
     ):
     if not benchmarks and not pn.state.cache["cards"]:       
         return
-    print('in plotter 1')
+    
     correlation_df = pn.state.cache["correlation_df"]
     # slot 0
     cpi_plot = plot_cpi(country, cpi, benchmarks, date_range, mode)
@@ -38,9 +40,12 @@ def second_tab_plotter(
     ):
     if not benchmarks and not pn.state.cache["cards"]:        
         return
-    print('in plotter 2')
+    correlation_df = pn.state.cache["correlation_df"]
+    ema_corr_plots = plot_correlation_matrix(correlation_df, country, cpi, benchmarks, date_range, mode)
+    add_card(content=ema_corr_plots, tab=1, slot=0, need_update=False, need_clear=False, title=f"EMA correlation matrix for {country}")
     rolling_corr_plt = plot_rolling_correlation(country, cpi, mode, date_range, benchmarks, window = 12)
-    add_card(content=rolling_corr_plt, tab=1, slot=0, need_update=True, need_clear=False, title=f"Rolling correlatiobs Data {country}")
+    add_card(content=rolling_corr_plt, tab=1, slot=1, need_update=True, need_clear=False, title=f"Rolling correlations Data {country}")
+    
 
 def _compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     if df.is_empty():
@@ -225,14 +230,14 @@ def plot_correlation_heatmaps(correlation_df, country, cpi, mode):
     )  
 
 
-
-
-
 def plot_rolling_correlation(country: str, cpi: str, mode: str, date_range: tuple, benchmarks: list, window: int = 12):
     df = pn.state.cache["merged_df"]
-    # # benchmarks = benchmarks or Settings.BENCHMARK_CATEGORIES[:1]
+    
     if not benchmarks:
         return pn.pane.Markdown("### ⚠️ No data for current filter.")
+    benchmark_colors = {
+        bench: color for (country, bench), color in Settings.PLOT_COLORS.items()
+    }
     df = df.filter((pl.col("date") >= date_range[0]) & (pl.col("date") <= date_range[1]))
     r_df = compute_rolling_correlation(df, cpi, country, mode, benchmarks, window)
 
@@ -241,21 +246,21 @@ def plot_rolling_correlation(country: str, cpi: str, mode: str, date_range: tupl
 
     return r_df.hvplot.line(
         x="date", y="rolling_corr", by="benchmark",
+        color=benchmark_colors.get(benchmarks[0], "gray"),
         title=f"Rolling Pearson Correlation ({cpi}({mode}) of {country} with {benchmarks})",
         xlabel="Date", ylabel="Correlation",
         grid=True, responsive=True, height=Settings.HEIGHT
     )
 
 
-def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_range: tuple, mode: str):
+def plot_correlation_matrix(correlation_df, country: str, cpi: list, benchmarks: list, date_range: tuple, mode: str):
     correlation_order = [
         "Pearson", "Spearman",
         "Pearson (EMA3)", "Spearman (EMA3)",
         "Pearson (EMA6)", "Spearman (EMA6)"
     ]
-    benchmarks = benchmarks or pn.state.cache["categories"]
-    correlation_df = calc_correlations(date_range)       #.filter(pl.col("mode") == mode)
-    pn.state.cache["full_correlation_df"] = correlation_df
+    benchmarks =  pn.state.cache["categories"]
+
     df_long = (
         correlation_df
         .filter(
@@ -279,7 +284,7 @@ def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_rang
                 return_dtype=pl.String
             ).alias("color")
         ])
-        .sort(["correlation_type","benchmark"],descending=True)
+        .sort(["correlation_type","benchmark","correlation"],descending=True)
     )
     
     plot = df_long.hvplot.bar(
@@ -298,5 +303,3 @@ def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_rang
     )
     # add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
     return plot
-
-

@@ -5,7 +5,7 @@ from .utils import *
 
 
 date_slider.param.watch(correlations_calculations,'value')
-min_max_switch.param.watch(min_max_corr_handler, 'value')
+corr_strength.param.watch(min_max_corr_handler, 'value')
 corr_type_selector.param.watch(type_corr_handler, 'value')
 
 # Bind the CPI plot handler

@@ -20,7 +20,7 @@ def create_sidebar_1():
         pn.layout.Divider(),
         pn.pane.Markdown(" ### Benchmark Auto Selection"),        
         pn.pane.Markdown(" #### Strongest Correlation"),        
-        min_max_switch,
+        corr_strength,
 
         
         pn.pane.Markdown(" #### Correlation Type"),        
@@ -45,8 +45,7 @@ def create_sidebar_1():
         
 
         pn.layout.Divider(),
-        export_btn
-    
+        export_btn    
     )
     return sidebar
 

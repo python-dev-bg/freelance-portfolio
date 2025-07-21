@@ -4,8 +4,8 @@ from .config import Settings
 
 
 
-__all__ = ['country_selector','cpi_selector','benchmark_selector','corr_type_selector',
-           'date_slider','change_mode','export_btn','min_max_switch']
+__all__ = ["country_selector","cpi_selector","benchmark_selector","corr_type_selector",
+           "date_slider","change_mode","export_btn","corr_strength"]
 
 country_selector = pn.widgets.Select(
     name="Country",
@@ -17,7 +17,7 @@ cpi_selector = pn.widgets.CheckButtonGroup(
     name="CPI Types",
     options=Settings.CPI_CATEGORIES,
     value=[Settings.CPI_CATEGORIES[0]],
-    button_style='outline',
+    button_style="outline",
     button_type="primary",
 )
 
@@ -41,7 +41,7 @@ change_mode = pn.widgets.RadioButtonGroup(
     options=Settings.MODES,
     button_type="primary",
     value="Index",
-    button_style='outline',
+    button_style="outline",
     
 )
 
@@ -52,12 +52,19 @@ export_btn = pn.widgets.FileDownload(
     button_type="success"
 )
 
-min_max_switch = pn.widgets.Switch(name="Strongest / Weakest Correlation", value=True)
-
-corr_type_selector = pn.widgets.Select(
+corr_type_selector = pn.widgets.RadioButtonGroup(
     name="Corelation Types",
     options=["Pearson","Spearman"],
-    # value=["Spearman"],
-    # button_style='outline',
-    # button_type="primary",
+    button_type="primary",
+    value="Spearman",
+    button_style="outline",
+)
+
+corr_strength = pn.widgets.RadioButtonGroup(
+    name="Strength Mode",
+    options=["Weakest","Strongest"],
+    button_type="primary",
+    value="Strongest",
+    button_style="outline",
+    
 )

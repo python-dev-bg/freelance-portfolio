@@ -154,13 +154,7 @@ def calc_min_max_correlations(correlation_df, country, cpi, mode):
     return final_kpi, df
 
 def compute_rolling_correlation(df: pl.DataFrame, cpi: str, country: str, mode: str, benchmarks: list, window: int = 12):
-    """
-    Computes rolling Pearson correlation between one CPI category and all benchmarks.
-    Returns Polars DataFrame ready for plotting.
-    """
     
-
-    # Step 1: Filter CPI series
     cpi_df = (
         df.filter(
             (pl.col("category").is_in(cpi)) & 

@@ -7,6 +7,8 @@ from .utils import *
 date_slider.param.watch(correlations_calculations,'value')
 corr_strength.param.watch(min_max_corr_handler, 'value')
 corr_type_selector.param.watch(type_corr_handler, 'value')
+file_download.callback = download_callback
+
 
 # Bind the CPI plot handler
 cpi_hndl = pn.bind(

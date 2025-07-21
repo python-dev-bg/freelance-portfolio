@@ -1,3 +1,4 @@
+from io import BytesIO
 import datetime as dt
 import polars as pl
 import panel as pn
@@ -6,7 +7,7 @@ from .widgets import *
 
 __all__ = [
     "error_msg_handler","correlations_calculations","on_load_trigger","min_max_corr_handler",
-    "type_corr_handler"
+    "type_corr_handler","download_callback"
     ]
 
 def on_load_trigger():     
@@ -22,13 +23,26 @@ def error_msg_handler(*args):
             pn.state.notifications.error(msg)
         pn.state.cache["error_msg"] = []
 
+def download_callback():
+
+    file_ = download_selector.value    
+    df_cached = pn.state.cache.get(file_)
+    if df_cached is None or df_cached.is_empty():
+        file_download.filename = "empty.csv"
+        return BytesIO(b"No data")
+    now = dt.datetime.now().replace(second=0, microsecond=0).strftime("%Y-%m-%d_%H-%M")
+    csv_bytes = df_cached.write_csv().encode("utf-8")
+    file_download.filename = file_download.filename = f'{file_}_{now}.csv'
+    return BytesIO(csv_bytes) 
 
 def correlations_calculations(event):
 
     correlation_df = calc_correlations(event.new)
-    pn.state.cache["correlation_df"]=correlation_df
+    pn.state.cache["full_correlations_data"]=correlation_df
     min_max_corr_df, filtered_corr_df = calc_min_max_correlations(
         correlation_df, country_selector.value, cpi_selector.value, change_mode.value)
+    pn.state.cache["filtered_correlations_data"]=filtered_corr_df
+    pn.state.cache["strongest_weakest_correlations"]=min_max_corr_df
     pn.state.cache[country_selector.value, ",".join(cpi_selector.value), change_mode.value, event.new] = min_max_corr_df, filtered_corr_df
     pn.state.cache["max_corr_bench_pearson"]=min_max_corr_df.filter(pl.col("correlation_type")=="Pearson").get_column("strongest_benchmark")[0]
     pn.state.cache["max_corr_bench_spearman"]=min_max_corr_df.filter(pl.col("correlation_type")=="Spearman").get_column("strongest_benchmark")[0]

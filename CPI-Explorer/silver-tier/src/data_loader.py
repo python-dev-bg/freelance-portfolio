@@ -139,7 +139,7 @@ def _data_merger():
         error_msg = pn.state.cache["error_msg"]
         pn.state.cache.clear()
         pn.state.cache["error_msg"] = error_msg
-        pn.state.cache["merged_df"] = merged_df
+        pn.state.cache["full_raw_data"] = merged_df
         pn.state.cache["categories"] = sorted(set(Settings.BENCHMARK_CATEGORIES).intersection(set(cats)))
         dates = (
             merged_df

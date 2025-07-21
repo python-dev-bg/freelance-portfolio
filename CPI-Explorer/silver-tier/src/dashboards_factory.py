@@ -3,49 +3,53 @@ import panel as pn
 from .widgets import *
 from .card_manager import *
 
-__all__ = ['create_dashboard','create_sidebar_1']
+__all__ = ['create_dashboard','create_sidebar']
 
-def create_sidebar_1():
+def create_sidebar():
     sidebar = pn.Column(
         pn.pane.Markdown("## Options", styles={"font-weight": "bold"}),
-
+        pn.Spacer(height=20),
         pn.layout.Divider(),
         pn.pane.Markdown("#### Countries"),
         country_selector,
-
+        pn.Spacer(height=20),
         pn.layout.Divider(),
         pn.pane.Markdown(" #### CPI"),
         cpi_selector, 
-
+        pn.Spacer(height=20),
         pn.layout.Divider(),
         pn.pane.Markdown(" ### Benchmark Auto Selection"),        
         pn.pane.Markdown(" #### Strongest Correlation"),        
         corr_strength,
-
+        pn.Spacer(height=20),
         
         pn.pane.Markdown(" #### Correlation Type"),        
         corr_type_selector,
-
+        pn.Spacer(height=20),
         pn.layout.Divider(),
         pn.pane.Markdown("#### Benchmark indices"),
         benchmark_selector,
-
+        pn.Spacer(height=20),
         pn.layout.Divider(),
         pn.pane.Markdown("#### Date Range"),
         date_slider,
-
+        pn.Spacer(height=20),
         pn.layout.Divider(),
+        pn.Spacer(height=20),
         pn.pane.Markdown("#### Change Mode"),
         pn.pane.Markdown("""\
     - **Index**: Raw values normalized to 2015 = 100  
     - **MoM %**: Month-over-Month % change  
     - **YoY %**: Year-over-Year % change
     """, styles={"font-size": "13px", "color": "#555"}),
-        change_mode,
-        
-
+        pn.Spacer(height=20),
+        change_mode,        
+        pn.Spacer(height=20),
         pn.layout.Divider(),
-        export_btn    
+        pn.Spacer(height=20),
+        download_selector,
+        pn.Spacer(height=20),
+        file_download    
     )
     return sidebar
 

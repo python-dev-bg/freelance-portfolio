@@ -1,0 +1,3838 @@
+date,country,category,value
+1996-01-01,Denmark,Total,70.4
+1996-02-01,Denmark,Total,70.8
+1996-03-01,Denmark,Total,71.3
+1996-04-01,Denmark,Total,71.5
+1996-05-01,Denmark,Total,71.7
+1996-06-01,Denmark,Total,71.6
+1996-07-01,Denmark,Total,71.5
+1996-08-01,Denmark,Total,71.6
+1996-09-01,Denmark,Total,72.0
+1996-10-01,Denmark,Total,72.1
+1996-11-01,Denmark,Total,72.2
+1996-12-01,Denmark,Total,72.1
+1997-01-01,Denmark,Total,72.1
+1997-02-01,Denmark,Total,72.3
+1997-03-01,Denmark,Total,72.6
+1997-04-01,Denmark,Total,72.7
+1997-05-01,Denmark,Total,73.2
+1997-06-01,Denmark,Total,73.3
+1997-07-01,Denmark,Total,72.9
+1997-08-01,Denmark,Total,73.1
+1997-09-01,Denmark,Total,73.3
+1997-10-01,Denmark,Total,73.3
+1997-11-01,Denmark,Total,73.4
+1997-12-01,Denmark,Total,73.2
+1998-01-01,Denmark,Total,73.3
+1998-02-01,Denmark,Total,73.5
+1998-03-01,Denmark,Total,73.7
+1998-04-01,Denmark,Total,73.9
+1998-05-01,Denmark,Total,74.2
+1998-06-01,Denmark,Total,74.2
+1998-07-01,Denmark,Total,73.9
+1998-08-01,Denmark,Total,73.8
+1998-09-01,Denmark,Total,74.1
+1998-10-01,Denmark,Total,74.1
+1998-11-01,Denmark,Total,74.2
+1998-12-01,Denmark,Total,74.0
+1999-01-01,Denmark,Total,74.1
+1999-02-01,Denmark,Total,74.5
+1999-03-01,Denmark,Total,74.9
+1999-04-01,Denmark,Total,75.1
+1999-05-01,Denmark,Total,75.4
+1999-06-01,Denmark,Total,75.6
+1999-07-01,Denmark,Total,75.4
+1999-08-01,Denmark,Total,75.7
+1999-09-01,Denmark,Total,75.9
+1999-10-01,Denmark,Total,76.0
+1999-11-01,Denmark,Total,76.1
+1999-12-01,Denmark,Total,76.3
+2000-01-01,Denmark,Total,76.2
+2000-02-01,Denmark,Total,76.6
+2000-03-01,Denmark,Total,77.1
+2000-04-01,Denmark,Total,77.3
+2000-05-01,Denmark,Total,77.6
+2000-06-01,Denmark,Total,77.8
+2000-07-01,Denmark,Total,77.5
+2000-08-01,Denmark,Total,77.3
+2000-09-01,Denmark,Total,78.0
+2000-10-01,Denmark,Total,78.2
+2000-11-01,Denmark,Total,78.2
+2000-12-01,Denmark,Total,78.1
+2001-01-01,Denmark,Total,78.0
+2001-02-01,Denmark,Total,78.4
+2001-03-01,Denmark,Total,78.8
+2001-04-01,Denmark,Total,79.3
+2001-05-01,Denmark,Total,79.7
+2001-06-01,Denmark,Total,79.6
+2001-07-01,Denmark,Total,79.3
+2001-08-01,Denmark,Total,79.2
+2001-09-01,Denmark,Total,79.7
+2001-10-01,Denmark,Total,79.7
+2001-11-01,Denmark,Total,79.6
+2001-12-01,Denmark,Total,79.7
+2002-01-01,Denmark,Total,79.8
+2002-02-01,Denmark,Total,80.3
+2002-03-01,Denmark,Total,80.8
+2002-04-01,Denmark,Total,81.2
+2002-05-01,Denmark,Total,81.3
+2002-06-01,Denmark,Total,81.3
+2002-07-01,Denmark,Total,81.0
+2002-08-01,Denmark,Total,81.1
+2002-09-01,Denmark,Total,81.6
+2002-10-01,Denmark,Total,81.8
+2002-11-01,Denmark,Total,81.8
+2002-12-01,Denmark,Total,81.8
+2003-01-01,Denmark,Total,81.9
+2003-02-01,Denmark,Total,82.5
+2003-03-01,Denmark,Total,83.2
+2003-04-01,Denmark,Total,83.1
+2003-05-01,Denmark,Total,83.0
+2003-06-01,Denmark,Total,82.9
+2003-07-01,Denmark,Total,82.4
+2003-08-01,Denmark,Total,82.4
+2003-09-01,Denmark,Total,83.0
+2003-10-01,Denmark,Total,82.8
+2003-11-01,Denmark,Total,82.9
+2003-12-01,Denmark,Total,82.8
+2004-01-01,Denmark,Total,82.7
+2004-02-01,Denmark,Total,83.1
+2004-03-01,Denmark,Total,83.5
+2004-04-01,Denmark,Total,83.6
+2004-05-01,Denmark,Total,83.9
+2004-06-01,Denmark,Total,83.7
+2004-07-01,Denmark,Total,83.4
+2004-08-01,Denmark,Total,83.1
+2004-09-01,Denmark,Total,83.7
+2004-10-01,Denmark,Total,84.1
+2004-11-01,Denmark,Total,83.8
+2004-12-01,Denmark,Total,83.6
+2005-01-01,Denmark,Total,83.4
+2005-02-01,Denmark,Total,84.0
+2005-03-01,Denmark,Total,84.6
+2005-04-01,Denmark,Total,85.0
+2005-05-01,Denmark,Total,85.0
+2005-06-01,Denmark,Total,85.1
+2005-07-01,Denmark,Total,85.0
+2005-08-01,Denmark,Total,85.0
+2005-09-01,Denmark,Total,85.8
+2005-10-01,Denmark,Total,85.7
+2005-11-01,Denmark,Total,85.4
+2005-12-01,Denmark,Total,85.5
+2006-01-01,Denmark,Total,85.1
+2006-02-01,Denmark,Total,85.8
+2006-03-01,Denmark,Total,86.1
+2006-04-01,Denmark,Total,86.6
+2006-05-01,Denmark,Total,86.7
+2006-06-01,Denmark,Total,86.9
+2006-07-01,Denmark,Total,86.7
+2006-08-01,Denmark,Total,86.7
+2006-09-01,Denmark,Total,87.0
+2006-10-01,Denmark,Total,86.9
+2006-11-01,Denmark,Total,86.9
+2006-12-01,Denmark,Total,86.9
+2007-01-01,Denmark,Total,86.6
+2007-02-01,Denmark,Total,87.4
+2007-03-01,Denmark,Total,87.8
+2007-04-01,Denmark,Total,88.0
+2007-05-01,Denmark,Total,88.2
+2007-06-01,Denmark,Total,88.0
+2007-07-01,Denmark,Total,87.6
+2007-08-01,Denmark,Total,87.4
+2007-09-01,Denmark,Total,88.0
+2007-10-01,Denmark,Total,88.4
+2007-11-01,Denmark,Total,89.1
+2007-12-01,Denmark,Total,89.0
+2008-01-01,Denmark,Total,89.3
+2008-02-01,Denmark,Total,90.2
+2008-03-01,Denmark,Total,90.7
+2008-04-01,Denmark,Total,91.0
+2008-05-01,Denmark,Total,91.4
+2008-06-01,Denmark,Total,91.7
+2008-07-01,Denmark,Total,91.4
+2008-08-01,Denmark,Total,91.6
+2008-09-01,Denmark,Total,92.0
+2008-10-01,Denmark,Total,91.8
+2008-11-01,Denmark,Total,91.6
+2008-12-01,Denmark,Total,91.2
+2009-01-01,Denmark,Total,90.8
+2009-02-01,Denmark,Total,91.7
+2009-03-01,Denmark,Total,92.1
+2009-04-01,Denmark,Total,92.0
+2009-05-01,Denmark,Total,92.3
+2009-06-01,Denmark,Total,92.5
+2009-07-01,Denmark,Total,92.0
+2009-08-01,Denmark,Total,92.3
+2009-09-01,Denmark,Total,92.4
+2009-10-01,Denmark,Total,92.5
+2009-11-01,Denmark,Total,92.5
+2009-12-01,Denmark,Total,92.2
+2010-01-01,Denmark,Total,92.5
+2010-02-01,Denmark,Total,93.4
+2010-03-01,Denmark,Total,94.0
+2010-04-01,Denmark,Total,94.2
+2010-05-01,Denmark,Total,94.2
+2010-06-01,Denmark,Total,94.0
+2010-07-01,Denmark,Total,94.0
+2010-08-01,Denmark,Total,94.4
+2010-09-01,Denmark,Total,94.8
+2010-10-01,Denmark,Total,94.6
+2010-11-01,Denmark,Total,94.7
+2010-12-01,Denmark,Total,94.8
+2011-01-01,Denmark,Total,94.9
+2011-02-01,Denmark,Total,95.8
+2011-03-01,Denmark,Total,96.4
+2011-04-01,Denmark,Total,96.9
+2011-05-01,Denmark,Total,97.0
+2011-06-01,Denmark,Total,96.8
+2011-07-01,Denmark,Total,96.7
+2011-08-01,Denmark,Total,96.7
+2011-09-01,Denmark,Total,97.0
+2011-10-01,Denmark,Total,97.2
+2011-11-01,Denmark,Total,97.1
+2011-12-01,Denmark,Total,97.1
+2012-01-01,Denmark,Total,97.5
+2012-02-01,Denmark,Total,98.4
+2012-03-01,Denmark,Total,99.0
+2012-04-01,Denmark,Total,99.0
+2012-05-01,Denmark,Total,99.0
+2012-06-01,Denmark,Total,98.9
+2012-07-01,Denmark,Total,98.8
+2012-08-01,Denmark,Total,99.2
+2012-09-01,Denmark,Total,99.5
+2012-10-01,Denmark,Total,99.4
+2012-11-01,Denmark,Total,99.3
+2012-12-01,Denmark,Total,98.9
+2013-01-01,Denmark,Total,98.4
+2013-02-01,Denmark,Total,99.5
+2013-03-01,Denmark,Total,99.7
+2013-04-01,Denmark,Total,99.5
+2013-05-01,Denmark,Total,99.7
+2013-06-01,Denmark,Total,99.5
+2013-07-01,Denmark,Total,99.2
+2013-08-01,Denmark,Total,99.3
+2013-09-01,Denmark,Total,99.6
+2013-10-01,Denmark,Total,99.8
+2013-11-01,Denmark,Total,99.5
+2013-12-01,Denmark,Total,99.4
+2014-01-01,Denmark,Total,99.2
+2014-02-01,Denmark,Total,99.8
+2014-03-01,Denmark,Total,99.9
+2014-04-01,Denmark,Total,100.0
+2014-05-01,Denmark,Total,100.0
+2014-06-01,Denmark,Total,99.9
+2014-07-01,Denmark,Total,99.7
+2014-08-01,Denmark,Total,99.6
+2014-09-01,Denmark,Total,99.9
+2014-10-01,Denmark,Total,100.0
+2014-11-01,Denmark,Total,99.8
+2014-12-01,Denmark,Total,99.5
+2015-01-01,Denmark,Total,98.9
+2015-02-01,Denmark,Total,99.7
+2015-03-01,Denmark,Total,100.2
+2015-04-01,Denmark,Total,100.4
+2015-05-01,Denmark,Total,100.4
+2015-06-01,Denmark,Total,100.3
+2015-07-01,Denmark,Total,100.2
+2015-08-01,Denmark,Total,99.9
+2015-09-01,Denmark,Total,100.2
+2015-10-01,Denmark,Total,100.1
+2015-11-01,Denmark,Total,99.9
+2015-12-01,Denmark,Total,99.8
+2016-01-01,Denmark,Total,99.3
+2016-02-01,Denmark,Total,99.8
+2016-03-01,Denmark,Total,99.9
+2016-04-01,Denmark,Total,100.1
+2016-05-01,Denmark,Total,100.3
+2016-06-01,Denmark,Total,100.4
+2016-07-01,Denmark,Total,100.3
+2016-08-01,Denmark,Total,99.9
+2016-09-01,Denmark,Total,99.9
+2016-10-01,Denmark,Total,100.2
+2016-11-01,Denmark,Total,100.0
+2016-12-01,Denmark,Total,100.1
+2017-01-01,Denmark,Total,100.0
+2017-02-01,Denmark,Total,100.7
+2017-03-01,Denmark,Total,100.8
+2017-04-01,Denmark,Total,101.1
+2017-05-01,Denmark,Total,101.0
+2017-06-01,Denmark,Total,100.8
+2017-07-01,Denmark,Total,101.8
+2017-08-01,Denmark,Total,101.4
+2017-09-01,Denmark,Total,101.5
+2017-10-01,Denmark,Total,101.6
+2017-11-01,Denmark,Total,101.3
+2017-12-01,Denmark,Total,100.9
+2018-01-01,Denmark,Total,100.6
+2018-02-01,Denmark,Total,101.2
+2018-03-01,Denmark,Total,101.2
+2018-04-01,Denmark,Total,101.8
+2018-05-01,Denmark,Total,102.0
+2018-06-01,Denmark,Total,101.9
+2018-07-01,Denmark,Total,102.7
+2018-08-01,Denmark,Total,102.2
+2018-09-01,Denmark,Total,102.0
+2018-10-01,Denmark,Total,102.3
+2018-11-01,Denmark,Total,102.0
+2018-12-01,Denmark,Total,101.6
+2019-01-01,Denmark,Total,101.8
+2019-02-01,Denmark,Total,102.3
+2019-03-01,Denmark,Total,102.4
+2019-04-01,Denmark,Total,102.7
+2019-05-01,Denmark,Total,102.7
+2019-06-01,Denmark,Total,102.4
+2019-07-01,Denmark,Total,103.1
+2019-08-01,Denmark,Total,102.7
+2019-09-01,Denmark,Total,102.4
+2019-10-01,Denmark,Total,102.9
+2019-11-01,Denmark,Total,102.6
+2019-12-01,Denmark,Total,102.4
+2020-01-01,Denmark,Total,102.6
+2020-02-01,Denmark,Total,103.0
+2020-03-01,Denmark,Total,102.7
+2020-04-01,Denmark,Total,102.6
+2020-05-01,Denmark,Total,102.5
+2020-06-01,Denmark,Total,102.6
+2020-07-01,Denmark,Total,103.5
+2020-08-01,Denmark,Total,103.1
+2020-09-01,Denmark,Total,102.9
+2020-10-01,Denmark,Total,103.2
+2020-11-01,Denmark,Total,103.0
+2020-12-01,Denmark,Total,102.8
+2021-01-01,Denmark,Total,103.0
+2021-02-01,Denmark,Total,103.5
+2021-03-01,Denmark,Total,103.6
+2021-04-01,Denmark,Total,104.1
+2021-05-01,Denmark,Total,104.4
+2021-06-01,Denmark,Total,104.5
+2021-07-01,Denmark,Total,105.3
+2021-08-01,Denmark,Total,105.0
+2021-09-01,Denmark,Total,105.4
+2021-10-01,Denmark,Total,106.5
+2021-11-01,Denmark,Total,106.9
+2021-12-01,Denmark,Total,106.3
+2022-01-01,Denmark,Total,108.0
+2022-02-01,Denmark,Total,109.0
+2022-03-01,Denmark,Total,109.8
+2022-04-01,Denmark,Total,111.8
+2022-05-01,Denmark,Total,113.0
+2022-06-01,Denmark,Total,114.0
+2022-07-01,Denmark,Total,115.4
+2022-08-01,Denmark,Total,115.4
+2022-09-01,Denmark,Total,117.1
+2022-10-01,Denmark,Total,118.6
+2022-11-01,Denmark,Total,117.3
+2022-12-01,Denmark,Total,116.5
+2023-01-01,Denmark,Total,117.1
+2023-02-01,Denmark,Total,118.0
+2023-03-01,Denmark,Total,117.8
+2023-04-01,Denmark,Total,118.1
+2023-05-01,Denmark,Total,116.3
+2023-06-01,Denmark,Total,116.7
+2023-07-01,Denmark,Total,119.1
+2023-08-01,Denmark,Total,118.1
+2023-09-01,Denmark,Total,117.8
+2023-10-01,Denmark,Total,118.1
+2023-11-01,Denmark,Total,117.6
+2023-12-01,Denmark,Total,117.0
+2024-01-01,Denmark,Total,118.2
+2024-02-01,Denmark,Total,118.7
+2024-03-01,Denmark,Total,118.7
+2024-04-01,Denmark,Total,118.7
+2024-05-01,Denmark,Total,118.7
+2024-06-01,Denmark,Total,118.8
+2024-07-01,Denmark,Total,120.3
+2024-08-01,Denmark,Total,119.7
+2024-09-01,Denmark,Total,119.2
+2024-10-01,Denmark,Total,120.0
+2024-11-01,Denmark,Total,119.5
+2024-12-01,Denmark,Total,119.1
+2025-01-01,Denmark,Total,119.9
+2025-02-01,Denmark,Total,121.1
+2025-03-01,Denmark,Total,120.4
+2025-04-01,Denmark,Total,120.5
+2025-05-01,Denmark,Total,120.5
+2025-06-01,Denmark,Total,120.9
+1996-01-01,Netherlands,Total,67.94
+1996-02-01,Netherlands,Total,68.29
+1996-03-01,Netherlands,Total,69.11
+1996-04-01,Netherlands,Total,69.32
+1996-05-01,Netherlands,Total,69.04
+1996-06-01,Netherlands,Total,68.7
+1996-07-01,Netherlands,Total,68.49
+1996-08-01,Netherlands,Total,68.36
+1996-09-01,Netherlands,Total,69.11
+1996-10-01,Netherlands,Total,69.32
+1996-11-01,Netherlands,Total,69.18
+1996-12-01,Netherlands,Total,69.11
+1997-01-01,Netherlands,Total,69.11
+1997-02-01,Netherlands,Total,69.25
+1997-03-01,Netherlands,Total,69.94
+1997-04-01,Netherlands,Total,70.01
+1997-05-01,Netherlands,Total,70.15
+1997-06-01,Netherlands,Total,69.73
+1997-07-01,Netherlands,Total,69.8
+1997-08-01,Netherlands,Total,70.08
+1997-09-01,Netherlands,Total,70.83
+1997-10-01,Netherlands,Total,70.9
+1997-11-01,Netherlands,Total,70.9
+1997-12-01,Netherlands,Total,70.63
+1998-01-01,Netherlands,Total,70.21
+1998-02-01,Netherlands,Total,70.7
+1998-03-01,Netherlands,Total,71.45
+1998-04-01,Netherlands,Total,71.73
+1998-05-01,Netherlands,Total,71.59
+1998-06-01,Netherlands,Total,71.25
+1998-07-01,Netherlands,Total,71.04
+1998-08-01,Netherlands,Total,71.04
+1998-09-01,Netherlands,Total,71.73
+1998-10-01,Netherlands,Total,71.94
+1998-11-01,Netherlands,Total,71.94
+1998-12-01,Netherlands,Total,71.66
+1999-01-01,Netherlands,Total,71.66
+1999-02-01,Netherlands,Total,72.14
+1999-03-01,Netherlands,Total,72.9
+1999-04-01,Netherlands,Total,73.11
+1999-05-01,Netherlands,Total,73.11
+1999-06-01,Netherlands,Total,72.76
+1999-07-01,Netherlands,Total,72.35
+1999-08-01,Netherlands,Total,72.83
+1999-09-01,Netherlands,Total,73.17
+1999-10-01,Netherlands,Total,73.24
+1999-11-01,Netherlands,Total,73.38
+1999-12-01,Netherlands,Total,73.04
+2000-01-01,Netherlands,Total,72.83
+2000-02-01,Netherlands,Total,73.24
+2000-03-01,Netherlands,Total,74.07
+2000-04-01,Netherlands,Total,74.34
+2000-05-01,Netherlands,Total,74.55
+2000-06-01,Netherlands,Total,74.55
+2000-07-01,Netherlands,Total,74.34
+2000-08-01,Netherlands,Total,74.62
+2000-09-01,Netherlands,Total,75.31
+2000-10-01,Netherlands,Total,75.58
+2000-11-01,Netherlands,Total,75.51
+2000-12-01,Netherlands,Total,75.17
+2001-01-01,Netherlands,Total,76.21
+2001-02-01,Netherlands,Total,76.89
+2001-03-01,Netherlands,Total,77.77
+2001-04-01,Netherlands,Total,78.37
+2001-05-01,Netherlands,Total,78.63
+2001-06-01,Netherlands,Total,78.34
+2001-07-01,Netherlands,Total,78.29
+2001-08-01,Netherlands,Total,78.51
+2001-09-01,Netherlands,Total,79.33
+2001-10-01,Netherlands,Total,79.36
+2001-11-01,Netherlands,Total,79.14
+2001-12-01,Netherlands,Total,79.04
+2002-01-01,Netherlands,Total,79.91
+2002-02-01,Netherlands,Total,80.32
+2002-03-01,Netherlands,Total,81.17
+2002-04-01,Netherlands,Total,81.68
+2002-05-01,Netherlands,Total,81.6
+2002-06-01,Netherlands,Total,81.31
+2002-07-01,Netherlands,Total,81.22
+2002-08-01,Netherlands,Total,81.38
+2002-09-01,Netherlands,Total,82.17
+2002-10-01,Netherlands,Total,82.09
+2002-11-01,Netherlands,Total,81.72
+2002-12-01,Netherlands,Total,81.58
+2003-01-01,Netherlands,Total,82.07
+2003-02-01,Netherlands,Total,82.65
+2003-03-01,Netherlands,Total,83.4
+2003-04-01,Netherlands,Total,83.48
+2003-05-01,Netherlands,Total,83.43
+2003-06-01,Netherlands,Total,83.04
+2003-07-01,Netherlands,Total,82.95
+2003-08-01,Netherlands,Total,83.16
+2003-09-01,Netherlands,Total,83.85
+2003-10-01,Netherlands,Total,83.67
+2003-11-01,Netherlands,Total,83.39
+2003-12-01,Netherlands,Total,82.87
+2004-01-01,Netherlands,Total,83.29
+2004-02-01,Netherlands,Total,83.77
+2004-03-01,Netherlands,Total,84.45
+2004-04-01,Netherlands,Total,84.74
+2004-05-01,Netherlands,Total,84.88
+2004-06-01,Netherlands,Total,84.27
+2004-07-01,Netherlands,Total,83.97
+2004-08-01,Netherlands,Total,84.12
+2004-09-01,Netherlands,Total,84.83
+2004-10-01,Netherlands,Total,84.93
+2004-11-01,Netherlands,Total,84.62
+2004-12-01,Netherlands,Total,83.92
+2005-01-01,Netherlands,Total,84.34
+2005-02-01,Netherlands,Total,84.99
+2005-03-01,Netherlands,Total,85.73
+2005-04-01,Netherlands,Total,85.83
+2005-05-01,Netherlands,Total,85.76
+2005-06-01,Netherlands,Total,85.48
+2005-07-01,Netherlands,Total,85.2
+2005-08-01,Netherlands,Total,85.52
+2005-09-01,Netherlands,Total,86.23
+2005-10-01,Netherlands,Total,86.22
+2005-11-01,Netherlands,Total,85.99
+2005-12-01,Netherlands,Total,85.6
+2006-01-01,Netherlands,Total,85.81
+2006-02-01,Netherlands,Total,86.24
+2006-03-01,Netherlands,Total,86.93
+2006-04-01,Netherlands,Total,87.34
+2006-05-01,Netherlands,Total,87.3
+2006-06-01,Netherlands,Total,87.01
+2006-07-01,Netherlands,Total,86.71
+2006-08-01,Netherlands,Total,87.12
+2006-09-01,Netherlands,Total,87.54
+2006-10-01,Netherlands,Total,87.39
+2006-11-01,Netherlands,Total,87.37
+2006-12-01,Netherlands,Total,87.07
+2007-01-01,Netherlands,Total,86.86
+2007-02-01,Netherlands,Total,87.42
+2007-03-01,Netherlands,Total,88.55
+2007-04-01,Netherlands,Total,89.04
+2007-05-01,Netherlands,Total,89.07
+2007-06-01,Netherlands,Total,88.61
+2007-07-01,Netherlands,Total,87.94
+2007-08-01,Netherlands,Total,88.05
+2007-09-01,Netherlands,Total,88.66
+2007-10-01,Netherlands,Total,88.79
+2007-11-01,Netherlands,Total,88.93
+2007-12-01,Netherlands,Total,88.45
+2008-01-01,Netherlands,Total,88.42
+2008-02-01,Netherlands,Total,89.17
+2008-03-01,Netherlands,Total,90.23
+2008-04-01,Netherlands,Total,90.55
+2008-05-01,Netherlands,Total,90.92
+2008-06-01,Netherlands,Total,90.66
+2008-07-01,Netherlands,Total,90.55
+2008-08-01,Netherlands,Total,90.67
+2008-09-01,Netherlands,Total,91.13
+2008-10-01,Netherlands,Total,90.98
+2008-11-01,Netherlands,Total,90.61
+2008-12-01,Netherlands,Total,89.91
+2009-01-01,Netherlands,Total,89.95
+2009-02-01,Netherlands,Total,90.83
+2009-03-01,Netherlands,Total,91.89
+2009-04-01,Netherlands,Total,92.21
+2009-05-01,Netherlands,Total,92.31
+2009-06-01,Netherlands,Total,91.9
+2009-07-01,Netherlands,Total,90.43
+2009-08-01,Netherlands,Total,90.61
+2009-09-01,Netherlands,Total,91.11
+2009-10-01,Netherlands,Total,91.35
+2009-11-01,Netherlands,Total,91.21
+2009-12-01,Netherlands,Total,90.56
+2010-01-01,Netherlands,Total,90.3
+2010-02-01,Netherlands,Total,91.15
+2010-03-01,Netherlands,Total,92.49
+2010-04-01,Netherlands,Total,92.81
+2010-05-01,Netherlands,Total,92.72
+2010-06-01,Netherlands,Total,92.11
+2010-07-01,Netherlands,Total,91.57
+2010-08-01,Netherlands,Total,91.7
+2010-09-01,Netherlands,Total,92.39
+2010-10-01,Netherlands,Total,92.61
+2010-11-01,Netherlands,Total,92.47
+2010-12-01,Netherlands,Total,92.23
+2011-01-01,Netherlands,Total,92.01
+2011-02-01,Netherlands,Total,92.93
+2011-03-01,Netherlands,Total,94.2
+2011-04-01,Netherlands,Total,94.77
+2011-05-01,Netherlands,Total,94.84
+2011-06-01,Netherlands,Total,94.23
+2011-07-01,Netherlands,Total,94.54
+2011-08-01,Netherlands,Total,94.65
+2011-09-01,Netherlands,Total,95.12
+2011-10-01,Netherlands,Total,95.22
+2011-11-01,Netherlands,Total,94.84
+2011-12-01,Netherlands,Total,94.54
+2012-01-01,Netherlands,Total,94.66
+2012-02-01,Netherlands,Total,95.6
+2012-03-01,Netherlands,Total,96.93
+2012-04-01,Netherlands,Total,97.39
+2012-05-01,Netherlands,Total,97.17
+2012-06-01,Netherlands,Total,96.59
+2012-07-01,Netherlands,Total,97.0
+2012-08-01,Netherlands,Total,97.07
+2012-09-01,Netherlands,Total,97.54
+2012-10-01,Netherlands,Total,98.33
+2012-11-01,Netherlands,Total,97.85
+2012-12-01,Netherlands,Total,97.73
+2013-01-01,Netherlands,Total,97.7
+2013-02-01,Netherlands,Total,98.7
+2013-03-01,Netherlands,Total,100.02
+2013-04-01,Netherlands,Total,100.1
+2013-05-01,Netherlands,Total,100.14
+2013-06-01,Netherlands,Total,99.65
+2013-07-01,Netherlands,Total,100.0
+2013-08-01,Netherlands,Total,99.78
+2013-09-01,Netherlands,Total,99.86
+2013-10-01,Netherlands,Total,99.61
+2013-11-01,Netherlands,Total,99.02
+2013-12-01,Netherlands,Total,99.1
+2014-01-01,Netherlands,Total,98.48
+2014-02-01,Netherlands,Total,99.07
+2014-03-01,Netherlands,Total,100.16
+2014-04-01,Netherlands,Total,100.74
+2014-05-01,Netherlands,Total,100.28
+2014-06-01,Netherlands,Total,99.92
+2014-07-01,Netherlands,Total,100.26
+2014-08-01,Netherlands,Total,100.14
+2014-09-01,Netherlands,Total,100.12
+2014-10-01,Netherlands,Total,100.0
+2014-11-01,Netherlands,Total,99.27
+2014-12-01,Netherlands,Total,99.04
+2015-01-01,Netherlands,Total,97.82
+2015-02-01,Netherlands,Total,98.62
+2015-03-01,Netherlands,Total,99.88
+2015-04-01,Netherlands,Total,100.71
+2015-05-01,Netherlands,Total,100.97
+2015-06-01,Netherlands,Total,100.4
+2015-07-01,Netherlands,Total,101.07
+2015-08-01,Netherlands,Total,100.58
+2015-09-01,Netherlands,Total,100.4
+2015-10-01,Netherlands,Total,100.4
+2015-11-01,Netherlands,Total,99.64
+2015-12-01,Netherlands,Total,99.53
+2016-01-01,Netherlands,Total,98.03
+2016-02-01,Netherlands,Total,98.94
+2016-03-01,Netherlands,Total,100.4
+2016-04-01,Netherlands,Total,100.51
+2016-05-01,Netherlands,Total,100.75
+2016-06-01,Netherlands,Total,100.2
+2016-07-01,Netherlands,Total,100.5
+2016-08-01,Netherlands,Total,100.67
+2016-09-01,Netherlands,Total,100.31
+2016-10-01,Netherlands,Total,100.67
+2016-11-01,Netherlands,Total,100.02
+2016-12-01,Netherlands,Total,100.27
+2017-01-01,Netherlands,Total,99.64
+2017-02-01,Netherlands,Total,100.58
+2017-03-01,Netherlands,Total,101.03
+2017-04-01,Netherlands,Total,101.94
+2017-05-01,Netherlands,Total,101.49
+2017-06-01,Netherlands,Total,101.17
+2017-07-01,Netherlands,Total,102.0
+2017-08-01,Netherlands,Total,102.18
+2017-09-01,Netherlands,Total,101.75
+2017-10-01,Netherlands,Total,101.97
+2017-11-01,Netherlands,Total,101.57
+2017-12-01,Netherlands,Total,101.49
+2018-01-01,Netherlands,Total,101.12
+2018-02-01,Netherlands,Total,101.84
+2018-03-01,Netherlands,Total,102.06
+2018-04-01,Netherlands,Total,102.99
+2018-05-01,Netherlands,Total,103.41
+2018-06-01,Netherlands,Total,102.85
+2018-07-01,Netherlands,Total,103.96
+2018-08-01,Netherlands,Total,104.09
+2018-09-01,Netherlands,Total,103.36
+2018-10-01,Netherlands,Total,103.89
+2018-11-01,Netherlands,Total,103.37
+2018-12-01,Netherlands,Total,103.35
+2019-01-01,Netherlands,Total,103.13
+2019-02-01,Netherlands,Total,104.44
+2019-03-01,Netherlands,Total,104.98
+2019-04-01,Netherlands,Total,106.11
+2019-05-01,Netherlands,Total,105.82
+2019-06-01,Netherlands,Total,105.67
+2019-07-01,Netherlands,Total,106.67
+2019-08-01,Netherlands,Total,107.32
+2019-09-01,Netherlands,Total,106.16
+2019-10-01,Netherlands,Total,106.82
+2019-11-01,Netherlands,Total,106.01
+2019-12-01,Netherlands,Total,106.24
+2020-01-01,Netherlands,Total,104.85
+2020-02-01,Netherlands,Total,105.77
+2020-03-01,Netherlands,Total,106.09
+2020-04-01,Netherlands,Total,107.14
+2020-05-01,Netherlands,Total,106.94
+2020-06-01,Netherlands,Total,107.45
+2020-07-01,Netherlands,Total,108.42
+2020-08-01,Netherlands,Total,107.65
+2020-09-01,Netherlands,Total,107.19
+2020-10-01,Netherlands,Total,108.05
+2020-11-01,Netherlands,Total,106.72
+2020-12-01,Netherlands,Total,107.22
+2021-01-01,Netherlands,Total,106.51
+2021-02-01,Netherlands,Total,107.76
+2021-03-01,Netherlands,Total,108.09
+2021-04-01,Netherlands,Total,108.95
+2021-05-01,Netherlands,Total,109.11
+2021-06-01,Netherlands,Total,109.27
+2021-07-01,Netherlands,Total,109.96
+2021-08-01,Netherlands,Total,110.54
+2021-09-01,Netherlands,Total,110.37
+2021-10-01,Netherlands,Total,112.1
+2021-11-01,Netherlands,Total,113.02
+2021-12-01,Netherlands,Total,114.09
+2022-01-01,Netherlands,Total,114.61
+2022-02-01,Netherlands,Total,115.58
+2022-03-01,Netherlands,Total,120.7
+2022-04-01,Netherlands,Total,121.16
+2022-05-01,Netherlands,Total,120.21
+2022-06-01,Netherlands,Total,120.13
+2022-07-01,Netherlands,Total,122.74
+2022-08-01,Netherlands,Total,125.63
+2022-09-01,Netherlands,Total,129.2
+2022-10-01,Netherlands,Total,130.92
+2022-11-01,Netherlands,Total,125.81
+2022-12-01,Netherlands,Total,126.64
+2023-01-01,Netherlands,Total,124.23
+2023-02-01,Netherlands,Total,125.9
+2023-03-01,Netherlands,Total,126.16
+2023-04-01,Netherlands,Total,128.17
+2023-05-01,Netherlands,Total,128.41
+2023-06-01,Netherlands,Total,127.78
+2023-07-01,Netherlands,Total,129.25
+2023-08-01,Netherlands,Total,129.9
+2023-09-01,Netherlands,Total,128.81
+2023-10-01,Netherlands,Total,129.56
+2023-11-01,Netherlands,Total,127.63
+2023-12-01,Netherlands,Total,127.88
+2024-01-01,Netherlands,Total,128.08
+2024-02-01,Netherlands,Total,129.29
+2024-03-01,Netherlands,Total,130.09
+2024-04-01,Netherlands,Total,131.47
+2024-05-01,Netherlands,Total,131.85
+2024-06-01,Netherlands,Total,132.07
+2024-07-01,Netherlands,Total,133.73
+2024-08-01,Netherlands,Total,134.22
+2024-09-01,Netherlands,Total,133.01
+2024-10-01,Netherlands,Total,133.85
+2024-11-01,Netherlands,Total,132.47
+2024-12-01,Netherlands,Total,132.93
+2025-01-01,Netherlands,Total,131.94
+2025-02-01,Netherlands,Total,133.82
+2025-03-01,Netherlands,Total,134.5
+2025-04-01,Netherlands,Total,136.91
+2025-05-01,Netherlands,Total,135.73
+2025-06-01,Netherlands,Total,135.72
+1996-01-01,Denmark,Food,68.6
+1996-02-01,Denmark,Food,68.8
+1996-03-01,Denmark,Food,69.1
+1996-04-01,Denmark,Food,69.3
+1996-05-01,Denmark,Food,69.7
+1996-06-01,Denmark,Food,69.8
+1996-07-01,Denmark,Food,70.4
+1996-08-01,Denmark,Food,70.4
+1996-09-01,Denmark,Food,70.4
+1996-10-01,Denmark,Food,70.6
+1996-11-01,Denmark,Food,70.8
+1996-12-01,Denmark,Food,70.1
+1997-01-01,Denmark,Food,71.1
+1997-02-01,Denmark,Food,71.2
+1997-03-01,Denmark,Food,70.9
+1997-04-01,Denmark,Food,71.5
+1997-05-01,Denmark,Food,72.6
+1997-06-01,Denmark,Food,73.1
+1997-07-01,Denmark,Food,72.5
+1997-08-01,Denmark,Food,71.9
+1997-09-01,Denmark,Food,72.0
+1997-10-01,Denmark,Food,71.8
+1997-11-01,Denmark,Food,71.9
+1997-12-01,Denmark,Food,71.4
+1998-01-01,Denmark,Food,72.6
+1998-02-01,Denmark,Food,72.5
+1998-03-01,Denmark,Food,72.4
+1998-04-01,Denmark,Food,72.8
+1998-05-01,Denmark,Food,73.4
+1998-06-01,Denmark,Food,73.3
+1998-07-01,Denmark,Food,73.1
+1998-08-01,Denmark,Food,72.3
+1998-09-01,Denmark,Food,72.1
+1998-10-01,Denmark,Food,71.8
+1998-11-01,Denmark,Food,71.8
+1998-12-01,Denmark,Food,71.1
+1999-01-01,Denmark,Food,72.5
+1999-02-01,Denmark,Food,72.4
+1999-03-01,Denmark,Food,72.5
+1999-04-01,Denmark,Food,72.7
+1999-05-01,Denmark,Food,72.9
+1999-06-01,Denmark,Food,73.3
+1999-07-01,Denmark,Food,73.1
+1999-08-01,Denmark,Food,73.2
+1999-09-01,Denmark,Food,72.4
+1999-10-01,Denmark,Food,72.5
+1999-11-01,Denmark,Food,72.6
+1999-12-01,Denmark,Food,72.8
+2000-01-01,Denmark,Food,73.1
+2000-02-01,Denmark,Food,73.5
+2000-03-01,Denmark,Food,73.4
+2000-04-01,Denmark,Food,73.7
+2000-05-01,Denmark,Food,74.1
+2000-06-01,Denmark,Food,74.4
+2000-07-01,Denmark,Food,74.2
+2000-08-01,Denmark,Food,73.8
+2000-09-01,Denmark,Food,73.6
+2000-10-01,Denmark,Food,74.0
+2000-11-01,Denmark,Food,73.9
+2000-12-01,Denmark,Food,74.1
+2001-01-01,Denmark,Food,74.7
+2001-02-01,Denmark,Food,75.0
+2001-03-01,Denmark,Food,75.6
+2001-04-01,Denmark,Food,76.6
+2001-05-01,Denmark,Food,77.1
+2001-06-01,Denmark,Food,77.4
+2001-07-01,Denmark,Food,76.9
+2001-08-01,Denmark,Food,77.0
+2001-09-01,Denmark,Food,76.1
+2001-10-01,Denmark,Food,76.6
+2001-11-01,Denmark,Food,76.3
+2001-12-01,Denmark,Food,76.4
+2002-01-01,Denmark,Food,77.5
+2002-02-01,Denmark,Food,78.0
+2002-03-01,Denmark,Food,78.2
+2002-04-01,Denmark,Food,78.1
+2002-05-01,Denmark,Food,78.4
+2002-06-01,Denmark,Food,78.7
+2002-07-01,Denmark,Food,78.3
+2002-08-01,Denmark,Food,77.9
+2002-09-01,Denmark,Food,77.7
+2002-10-01,Denmark,Food,77.8
+2002-11-01,Denmark,Food,77.9
+2002-12-01,Denmark,Food,77.8
+2003-01-01,Denmark,Food,78.4
+2003-02-01,Denmark,Food,79.4
+2003-03-01,Denmark,Food,80.0
+2003-04-01,Denmark,Food,79.9
+2003-05-01,Denmark,Food,79.7
+2003-06-01,Denmark,Food,80.0
+2003-07-01,Denmark,Food,79.6
+2003-08-01,Denmark,Food,79.3
+2003-09-01,Denmark,Food,79.6
+2003-10-01,Denmark,Food,79.4
+2003-11-01,Denmark,Food,79.8
+2003-12-01,Denmark,Food,79.5
+2004-01-01,Denmark,Food,79.6
+2004-02-01,Denmark,Food,79.1
+2004-03-01,Denmark,Food,79.7
+2004-04-01,Denmark,Food,79.5
+2004-05-01,Denmark,Food,79.7
+2004-06-01,Denmark,Food,79.5
+2004-07-01,Denmark,Food,79.1
+2004-08-01,Denmark,Food,78.8
+2004-09-01,Denmark,Food,78.7
+2004-10-01,Denmark,Food,78.3
+2004-11-01,Denmark,Food,78.1
+2004-12-01,Denmark,Food,78.3
+2005-01-01,Denmark,Food,78.4
+2005-02-01,Denmark,Food,79.1
+2005-03-01,Denmark,Food,80.1
+2005-04-01,Denmark,Food,79.1
+2005-05-01,Denmark,Food,79.3
+2005-06-01,Denmark,Food,79.8
+2005-07-01,Denmark,Food,79.8
+2005-08-01,Denmark,Food,80.0
+2005-09-01,Denmark,Food,79.4
+2005-10-01,Denmark,Food,79.0
+2005-11-01,Denmark,Food,78.7
+2005-12-01,Denmark,Food,79.2
+2006-01-01,Denmark,Food,79.2
+2006-02-01,Denmark,Food,79.8
+2006-03-01,Denmark,Food,80.1
+2006-04-01,Denmark,Food,80.1
+2006-05-01,Denmark,Food,80.9
+2006-06-01,Denmark,Food,81.7
+2006-07-01,Denmark,Food,81.7
+2006-08-01,Denmark,Food,82.1
+2006-09-01,Denmark,Food,82.2
+2006-10-01,Denmark,Food,81.5
+2006-11-01,Denmark,Food,82.3
+2006-12-01,Denmark,Food,82.8
+2007-01-01,Denmark,Food,83.4
+2007-02-01,Denmark,Food,83.9
+2007-03-01,Denmark,Food,83.4
+2007-04-01,Denmark,Food,84.4
+2007-05-01,Denmark,Food,84.4
+2007-06-01,Denmark,Food,83.7
+2007-07-01,Denmark,Food,83.6
+2007-08-01,Denmark,Food,83.2
+2007-09-01,Denmark,Food,84.4
+2007-10-01,Denmark,Food,85.9
+2007-11-01,Denmark,Food,88.0
+2007-12-01,Denmark,Food,88.5
+2008-01-01,Denmark,Food,89.3
+2008-02-01,Denmark,Food,89.5
+2008-03-01,Denmark,Food,89.8
+2008-04-01,Denmark,Food,90.7
+2008-05-01,Denmark,Food,91.4
+2008-06-01,Denmark,Food,91.8
+2008-07-01,Denmark,Food,92.1
+2008-08-01,Denmark,Food,92.1
+2008-09-01,Denmark,Food,91.6
+2008-10-01,Denmark,Food,91.5
+2008-11-01,Denmark,Food,91.8
+2008-12-01,Denmark,Food,92.0
+2009-01-01,Denmark,Food,92.4
+2009-02-01,Denmark,Food,92.3
+2009-03-01,Denmark,Food,91.6
+2009-04-01,Denmark,Food,91.5
+2009-05-01,Denmark,Food,91.2
+2009-06-01,Denmark,Food,91.6
+2009-07-01,Denmark,Food,91.5
+2009-08-01,Denmark,Food,91.0
+2009-09-01,Denmark,Food,90.2
+2009-10-01,Denmark,Food,89.9
+2009-11-01,Denmark,Food,89.7
+2009-12-01,Denmark,Food,89.2
+2010-01-01,Denmark,Food,90.0
+2010-02-01,Denmark,Food,90.1
+2010-03-01,Denmark,Food,90.9
+2010-04-01,Denmark,Food,90.8
+2010-05-01,Denmark,Food,90.5
+2010-06-01,Denmark,Food,90.3
+2010-07-01,Denmark,Food,91.5
+2010-08-01,Denmark,Food,92.0
+2010-09-01,Denmark,Food,91.4
+2010-10-01,Denmark,Food,91.3
+2010-11-01,Denmark,Food,91.7
+2010-12-01,Denmark,Food,92.1
+2011-01-01,Denmark,Food,92.0
+2011-02-01,Denmark,Food,92.3
+2011-03-01,Denmark,Food,92.7
+2011-04-01,Denmark,Food,93.2
+2011-05-01,Denmark,Food,93.7
+2011-06-01,Denmark,Food,94.4
+2011-07-01,Denmark,Food,94.3
+2011-08-01,Denmark,Food,94.1
+2011-09-01,Denmark,Food,93.4
+2011-10-01,Denmark,Food,94.8
+2011-11-01,Denmark,Food,95.5
+2011-12-01,Denmark,Food,96.0
+2012-01-01,Denmark,Food,96.4
+2012-02-01,Denmark,Food,97.1
+2012-03-01,Denmark,Food,97.5
+2012-04-01,Denmark,Food,97.2
+2012-05-01,Denmark,Food,97.7
+2012-06-01,Denmark,Food,98.6
+2012-07-01,Denmark,Food,98.4
+2012-08-01,Denmark,Food,99.0
+2012-09-01,Denmark,Food,98.2
+2012-10-01,Denmark,Food,98.3
+2012-11-01,Denmark,Food,99.3
+2012-12-01,Denmark,Food,99.5
+2013-01-01,Denmark,Food,99.1
+2013-02-01,Denmark,Food,98.7
+2013-03-01,Denmark,Food,99.4
+2013-04-01,Denmark,Food,98.9
+2013-05-01,Denmark,Food,98.6
+2013-06-01,Denmark,Food,99.0
+2013-07-01,Denmark,Food,99.3
+2013-08-01,Denmark,Food,99.2
+2013-09-01,Denmark,Food,99.5
+2013-10-01,Denmark,Food,98.6
+2013-11-01,Denmark,Food,98.6
+2013-12-01,Denmark,Food,98.8
+2014-01-01,Denmark,Food,98.8
+2014-02-01,Denmark,Food,98.6
+2014-03-01,Denmark,Food,98.4
+2014-04-01,Denmark,Food,98.2
+2014-05-01,Denmark,Food,98.5
+2014-06-01,Denmark,Food,99.1
+2014-07-01,Denmark,Food,99.6
+2014-08-01,Denmark,Food,98.8
+2014-09-01,Denmark,Food,98.8
+2014-10-01,Denmark,Food,99.1
+2014-11-01,Denmark,Food,98.7
+2014-12-01,Denmark,Food,98.5
+2015-01-01,Denmark,Food,99.5
+2015-02-01,Denmark,Food,98.8
+2015-03-01,Denmark,Food,99.6
+2015-04-01,Denmark,Food,99.5
+2015-05-01,Denmark,Food,100.0
+2015-06-01,Denmark,Food,101.0
+2015-07-01,Denmark,Food,100.8
+2015-08-01,Denmark,Food,100.0
+2015-09-01,Denmark,Food,100.4
+2015-10-01,Denmark,Food,100.4
+2015-11-01,Denmark,Food,99.8
+2015-12-01,Denmark,Food,100.3
+2016-01-01,Denmark,Food,99.7
+2016-02-01,Denmark,Food,100.3
+2016-03-01,Denmark,Food,99.4
+2016-04-01,Denmark,Food,99.9
+2016-05-01,Denmark,Food,100.8
+2016-06-01,Denmark,Food,101.1
+2016-07-01,Denmark,Food,101.2
+2016-08-01,Denmark,Food,101.0
+2016-09-01,Denmark,Food,100.6
+2016-10-01,Denmark,Food,100.3
+2016-11-01,Denmark,Food,101.3
+2016-12-01,Denmark,Food,101.6
+2017-01-01,Denmark,Food,101.6
+2017-02-01,Denmark,Food,102.9
+2017-03-01,Denmark,Food,102.0
+2017-04-01,Denmark,Food,102.1
+2017-05-01,Denmark,Food,102.6
+2017-06-01,Denmark,Food,103.2
+2017-07-01,Denmark,Food,105.0
+2017-08-01,Denmark,Food,104.4
+2017-09-01,Denmark,Food,104.4
+2017-10-01,Denmark,Food,104.2
+2017-11-01,Denmark,Food,104.7
+2017-12-01,Denmark,Food,103.5
+2018-01-01,Denmark,Food,103.0
+2018-02-01,Denmark,Food,103.7
+2018-03-01,Denmark,Food,102.7
+2018-04-01,Denmark,Food,103.1
+2018-05-01,Denmark,Food,103.3
+2018-06-01,Denmark,Food,103.2
+2018-07-01,Denmark,Food,104.0
+2018-08-01,Denmark,Food,102.9
+2018-09-01,Denmark,Food,103.7
+2018-10-01,Denmark,Food,103.4
+2018-11-01,Denmark,Food,103.6
+2018-12-01,Denmark,Food,103.5
+2019-01-01,Denmark,Food,104.6
+2019-02-01,Denmark,Food,104.7
+2019-03-01,Denmark,Food,104.5
+2019-04-01,Denmark,Food,103.9
+2019-05-01,Denmark,Food,104.7
+2019-06-01,Denmark,Food,105.6
+2019-07-01,Denmark,Food,106.6
+2019-08-01,Denmark,Food,105.6
+2019-09-01,Denmark,Food,105.4
+2019-10-01,Denmark,Food,105.1
+2019-11-01,Denmark,Food,105.5
+2019-12-01,Denmark,Food,104.8
+2020-01-01,Denmark,Food,105.1
+2020-02-01,Denmark,Food,106.0
+2020-03-01,Denmark,Food,106.5
+2020-04-01,Denmark,Food,106.2
+2020-05-01,Denmark,Food,106.7
+2020-06-01,Denmark,Food,106.9
+2020-07-01,Denmark,Food,107.7
+2020-08-01,Denmark,Food,106.6
+2020-09-01,Denmark,Food,105.7
+2020-10-01,Denmark,Food,105.9
+2020-11-01,Denmark,Food,106.1
+2020-12-01,Denmark,Food,105.1
+2021-01-01,Denmark,Food,105.3
+2021-02-01,Denmark,Food,106.1
+2021-03-01,Denmark,Food,105.1
+2021-04-01,Denmark,Food,106.5
+2021-05-01,Denmark,Food,106.5
+2021-06-01,Denmark,Food,106.6
+2021-07-01,Denmark,Food,108.3
+2021-08-01,Denmark,Food,107.3
+2021-09-01,Denmark,Food,107.3
+2021-10-01,Denmark,Food,107.3
+2021-11-01,Denmark,Food,108.3
+2021-12-01,Denmark,Food,107.1
+2022-01-01,Denmark,Food,109.8
+2022-02-01,Denmark,Food,112.1
+2022-03-01,Denmark,Food,112.2
+2022-04-01,Denmark,Food,114.7
+2022-05-01,Denmark,Food,117.7
+2022-06-01,Denmark,Food,121.1
+2022-07-01,Denmark,Food,125.2
+2022-08-01,Denmark,Food,125.2
+2022-09-01,Denmark,Food,124.4
+2022-10-01,Denmark,Food,125.0
+2022-11-01,Denmark,Food,125.6
+2022-12-01,Denmark,Food,123.8
+2023-01-01,Denmark,Food,126.2
+2023-02-01,Denmark,Food,129.3
+2023-03-01,Denmark,Food,130.3
+2023-04-01,Denmark,Food,129.6
+2023-05-01,Denmark,Food,130.3
+2023-06-01,Denmark,Food,131.6
+2023-07-01,Denmark,Food,132.9
+2023-08-01,Denmark,Food,130.9
+2023-09-01,Denmark,Food,130.3
+2023-10-01,Denmark,Food,129.4
+2023-11-01,Denmark,Food,129.3
+2023-12-01,Denmark,Food,126.1
+2024-01-01,Denmark,Food,128.5
+2024-02-01,Denmark,Food,128.1
+2024-03-01,Denmark,Food,129.2
+2024-04-01,Denmark,Food,130.3
+2024-05-01,Denmark,Food,130.9
+2024-06-01,Denmark,Food,132.2
+2024-07-01,Denmark,Food,133.7
+2024-08-01,Denmark,Food,133.1
+2024-09-01,Denmark,Food,133.7
+2024-10-01,Denmark,Food,134.1
+2024-11-01,Denmark,Food,134.3
+2024-12-01,Denmark,Food,131.7
+2025-01-01,Denmark,Food,133.9
+2025-02-01,Denmark,Food,134.9
+2025-03-01,Denmark,Food,135.1
+2025-04-01,Denmark,Food,135.4
+2025-05-01,Denmark,Food,136.8
+2025-06-01,Denmark,Food,138.5
+1996-01-01,Netherlands,Food,74.34
+1996-02-01,Netherlands,Food,74.64
+1996-03-01,Netherlands,Food,76.12
+1996-04-01,Netherlands,Food,75.98
+1996-05-01,Netherlands,Food,74.71
+1996-06-01,Netherlands,Food,74.12
+1996-07-01,Netherlands,Food,74.05
+1996-08-01,Netherlands,Food,72.64
+1996-09-01,Netherlands,Food,73.01
+1996-10-01,Netherlands,Food,73.31
+1996-11-01,Netherlands,Food,73.38
+1996-12-01,Netherlands,Food,74.12
+1997-01-01,Netherlands,Food,76.05
+1997-02-01,Netherlands,Food,75.01
+1997-03-01,Netherlands,Food,74.49
+1997-04-01,Netherlands,Food,74.27
+1997-05-01,Netherlands,Food,75.16
+1997-06-01,Netherlands,Food,74.86
+1997-07-01,Netherlands,Food,74.79
+1997-08-01,Netherlands,Food,74.64
+1997-09-01,Netherlands,Food,74.86
+1997-10-01,Netherlands,Food,74.94
+1997-11-01,Netherlands,Food,75.83
+1997-12-01,Netherlands,Food,75.38
+1998-01-01,Netherlands,Food,75.75
+1998-02-01,Netherlands,Food,75.83
+1998-03-01,Netherlands,Food,76.42
+1998-04-01,Netherlands,Food,76.94
+1998-05-01,Netherlands,Food,77.09
+1998-06-01,Netherlands,Food,76.57
+1998-07-01,Netherlands,Food,76.94
+1998-08-01,Netherlands,Food,76.27
+1998-09-01,Netherlands,Food,76.64
+1998-10-01,Netherlands,Food,76.57
+1998-11-01,Netherlands,Food,77.31
+1998-12-01,Netherlands,Food,77.98
+1999-01-01,Netherlands,Food,78.5
+1999-02-01,Netherlands,Food,78.72
+1999-03-01,Netherlands,Food,79.17
+1999-04-01,Netherlands,Food,78.72
+1999-05-01,Netherlands,Food,78.8
+1999-06-01,Netherlands,Food,78.2
+1999-07-01,Netherlands,Food,77.09
+1999-08-01,Netherlands,Food,77.24
+1999-09-01,Netherlands,Food,77.16
+1999-10-01,Netherlands,Food,77.16
+1999-11-01,Netherlands,Food,77.68
+1999-12-01,Netherlands,Food,77.68
+2000-01-01,Netherlands,Food,77.91
+2000-02-01,Netherlands,Food,77.39
+2000-03-01,Netherlands,Food,77.76
+2000-04-01,Netherlands,Food,78.28
+2000-05-01,Netherlands,Food,78.65
+2000-06-01,Netherlands,Food,78.57
+2000-07-01,Netherlands,Food,78.28
+2000-08-01,Netherlands,Food,78.72
+2000-09-01,Netherlands,Food,78.65
+2000-10-01,Netherlands,Food,79.24
+2000-11-01,Netherlands,Food,79.83
+2000-12-01,Netherlands,Food,79.98
+2001-01-01,Netherlands,Food,81.08
+2001-02-01,Netherlands,Food,81.63
+2001-03-01,Netherlands,Food,83.49
+2001-04-01,Netherlands,Food,85.03
+2001-05-01,Netherlands,Food,85.78
+2001-06-01,Netherlands,Food,85.23
+2001-07-01,Netherlands,Food,85.0
+2001-08-01,Netherlands,Food,84.97
+2001-09-01,Netherlands,Food,85.61
+2001-10-01,Netherlands,Food,85.9
+2001-11-01,Netherlands,Food,85.34
+2001-12-01,Netherlands,Food,85.82
+2002-01-01,Netherlands,Food,88.11
+2002-02-01,Netherlands,Food,87.98
+2002-03-01,Netherlands,Food,88.37
+2002-04-01,Netherlands,Food,88.4
+2002-05-01,Netherlands,Food,88.52
+2002-06-01,Netherlands,Food,87.69
+2002-07-01,Netherlands,Food,87.96
+2002-08-01,Netherlands,Food,87.35
+2002-09-01,Netherlands,Food,88.52
+2002-10-01,Netherlands,Food,87.27
+2002-11-01,Netherlands,Food,86.46
+2002-12-01,Netherlands,Food,87.07
+2003-01-01,Netherlands,Food,87.65
+2003-02-01,Netherlands,Food,88.12
+2003-03-01,Netherlands,Food,89.09
+2003-04-01,Netherlands,Food,89.56
+2003-05-01,Netherlands,Food,89.33
+2003-06-01,Netherlands,Food,89.64
+2003-07-01,Netherlands,Food,89.38
+2003-08-01,Netherlands,Food,89.81
+2003-09-01,Netherlands,Food,90.6
+2003-10-01,Netherlands,Food,89.26
+2003-11-01,Netherlands,Food,88.31
+2003-12-01,Netherlands,Food,87.41
+2004-01-01,Netherlands,Food,87.77
+2004-02-01,Netherlands,Food,87.5
+2004-03-01,Netherlands,Food,87.2
+2004-04-01,Netherlands,Food,86.96
+2004-05-01,Netherlands,Food,87.03
+2004-06-01,Netherlands,Food,86.8
+2004-07-01,Netherlands,Food,86.44
+2004-08-01,Netherlands,Food,85.56
+2004-09-01,Netherlands,Food,85.68
+2004-10-01,Netherlands,Food,85.21
+2004-11-01,Netherlands,Food,84.52
+2004-12-01,Netherlands,Food,85.04
+2005-01-01,Netherlands,Food,85.08
+2005-02-01,Netherlands,Food,85.83
+2005-03-01,Netherlands,Food,86.4
+2005-04-01,Netherlands,Food,85.34
+2005-05-01,Netherlands,Food,85.77
+2005-06-01,Netherlands,Food,85.54
+2005-07-01,Netherlands,Food,85.0
+2005-08-01,Netherlands,Food,85.38
+2005-09-01,Netherlands,Food,84.2
+2005-10-01,Netherlands,Food,84.64
+2005-11-01,Netherlands,Food,85.02
+2005-12-01,Netherlands,Food,85.22
+2006-01-01,Netherlands,Food,86.11
+2006-02-01,Netherlands,Food,86.27
+2006-03-01,Netherlands,Food,86.42
+2006-04-01,Netherlands,Food,86.46
+2006-05-01,Netherlands,Food,86.16
+2006-06-01,Netherlands,Food,86.44
+2006-07-01,Netherlands,Food,86.13
+2006-08-01,Netherlands,Food,87.17
+2006-09-01,Netherlands,Food,87.33
+2006-10-01,Netherlands,Food,86.09
+2006-11-01,Netherlands,Food,86.66
+2006-12-01,Netherlands,Food,86.82
+2007-01-01,Netherlands,Food,87.16
+2007-02-01,Netherlands,Food,87.3
+2007-03-01,Netherlands,Food,87.15
+2007-04-01,Netherlands,Food,87.57
+2007-05-01,Netherlands,Food,87.18
+2007-06-01,Netherlands,Food,87.3
+2007-07-01,Netherlands,Food,87.19
+2007-08-01,Netherlands,Food,87.04
+2007-09-01,Netherlands,Food,87.3
+2007-10-01,Netherlands,Food,88.01
+2007-11-01,Netherlands,Food,89.2
+2007-12-01,Netherlands,Food,89.8
+2008-01-01,Netherlands,Food,90.64
+2008-02-01,Netherlands,Food,91.03
+2008-03-01,Netherlands,Food,91.84
+2008-04-01,Netherlands,Food,92.3
+2008-05-01,Netherlands,Food,92.7
+2008-06-01,Netherlands,Food,93.14
+2008-07-01,Netherlands,Food,93.39
+2008-08-01,Netherlands,Food,93.15
+2008-09-01,Netherlands,Food,93.3
+2008-10-01,Netherlands,Food,93.56
+2008-11-01,Netherlands,Food,93.64
+2008-12-01,Netherlands,Food,94.05
+2009-01-01,Netherlands,Food,94.44
+2009-02-01,Netherlands,Food,95.04
+2009-03-01,Netherlands,Food,95.2
+2009-04-01,Netherlands,Food,95.14
+2009-05-01,Netherlands,Food,94.6
+2009-06-01,Netherlands,Food,94.41
+2009-07-01,Netherlands,Food,93.46
+2009-08-01,Netherlands,Food,92.82
+2009-09-01,Netherlands,Food,92.19
+2009-10-01,Netherlands,Food,92.51
+2009-11-01,Netherlands,Food,92.46
+2009-12-01,Netherlands,Food,93.05
+2010-01-01,Netherlands,Food,92.59
+2010-02-01,Netherlands,Food,93.7
+2010-03-01,Netherlands,Food,93.9
+2010-04-01,Netherlands,Food,94.27
+2010-05-01,Netherlands,Food,93.77
+2010-06-01,Netherlands,Food,93.87
+2010-07-01,Netherlands,Food,94.25
+2010-08-01,Netherlands,Food,94.12
+2010-09-01,Netherlands,Food,93.58
+2010-10-01,Netherlands,Food,93.6
+2010-11-01,Netherlands,Food,93.63
+2010-12-01,Netherlands,Food,93.98
+2011-01-01,Netherlands,Food,93.32
+2011-02-01,Netherlands,Food,94.85
+2011-03-01,Netherlands,Food,95.28
+2011-04-01,Netherlands,Food,95.94
+2011-05-01,Netherlands,Food,95.82
+2011-06-01,Netherlands,Food,96.03
+2011-07-01,Netherlands,Food,95.86
+2011-08-01,Netherlands,Food,95.47
+2011-09-01,Netherlands,Food,95.08
+2011-10-01,Netherlands,Food,95.39
+2011-11-01,Netherlands,Food,95.42
+2011-12-01,Netherlands,Food,95.83
+2012-01-01,Netherlands,Food,94.9
+2012-02-01,Netherlands,Food,97.14
+2012-03-01,Netherlands,Food,96.96
+2012-04-01,Netherlands,Food,97.07
+2012-05-01,Netherlands,Food,96.97
+2012-06-01,Netherlands,Food,97.45
+2012-07-01,Netherlands,Food,97.09
+2012-08-01,Netherlands,Food,96.74
+2012-09-01,Netherlands,Food,96.72
+2012-10-01,Netherlands,Food,97.73
+2012-11-01,Netherlands,Food,97.86
+2012-12-01,Netherlands,Food,99.33
+2013-01-01,Netherlands,Food,98.47
+2013-02-01,Netherlands,Food,99.81
+2013-03-01,Netherlands,Food,100.24
+2013-04-01,Netherlands,Food,99.85
+2013-05-01,Netherlands,Food,100.37
+2013-06-01,Netherlands,Food,100.4
+2013-07-01,Netherlands,Food,100.32
+2013-08-01,Netherlands,Food,99.78
+2013-09-01,Netherlands,Food,98.94
+2013-10-01,Netherlands,Food,98.77
+2013-11-01,Netherlands,Food,98.44
+2013-12-01,Netherlands,Food,99.66
+2014-01-01,Netherlands,Food,99.27
+2014-02-01,Netherlands,Food,99.91
+2014-03-01,Netherlands,Food,100.05
+2014-04-01,Netherlands,Food,100.14
+2014-05-01,Netherlands,Food,99.69
+2014-06-01,Netherlands,Food,99.57
+2014-07-01,Netherlands,Food,99.69
+2014-08-01,Netherlands,Food,99.25
+2014-09-01,Netherlands,Food,98.86
+2014-10-01,Netherlands,Food,99.02
+2014-11-01,Netherlands,Food,99.13
+2014-12-01,Netherlands,Food,99.38
+2015-01-01,Netherlands,Food,98.42
+2015-02-01,Netherlands,Food,99.48
+2015-03-01,Netherlands,Food,99.39
+2015-04-01,Netherlands,Food,99.93
+2015-05-01,Netherlands,Food,100.02
+2015-06-01,Netherlands,Food,100.0
+2015-07-01,Netherlands,Food,100.4
+2015-08-01,Netherlands,Food,100.86
+2015-09-01,Netherlands,Food,100.41
+2015-10-01,Netherlands,Food,100.35
+2015-11-01,Netherlands,Food,100.24
+2015-12-01,Netherlands,Food,100.49
+2016-01-01,Netherlands,Food,99.54
+2016-02-01,Netherlands,Food,100.54
+2016-03-01,Netherlands,Food,100.87
+2016-04-01,Netherlands,Food,101.12
+2016-05-01,Netherlands,Food,101.14
+2016-06-01,Netherlands,Food,101.38
+2016-07-01,Netherlands,Food,100.91
+2016-08-01,Netherlands,Food,100.81
+2016-09-01,Netherlands,Food,100.24
+2016-10-01,Netherlands,Food,100.49
+2016-11-01,Netherlands,Food,100.87
+2016-12-01,Netherlands,Food,101.61
+2017-01-01,Netherlands,Food,101.05
+2017-02-01,Netherlands,Food,102.68
+2017-03-01,Netherlands,Food,102.83
+2017-04-01,Netherlands,Food,102.92
+2017-05-01,Netherlands,Food,103.67
+2017-06-01,Netherlands,Food,104.18
+2017-07-01,Netherlands,Food,104.28
+2017-08-01,Netherlands,Food,104.5
+2017-09-01,Netherlands,Food,104.05
+2017-10-01,Netherlands,Food,104.04
+2017-11-01,Netherlands,Food,104.08
+2017-12-01,Netherlands,Food,104.24
+2018-01-01,Netherlands,Food,103.32
+2018-02-01,Netherlands,Food,104.54
+2018-03-01,Netherlands,Food,103.58
+2018-04-01,Netherlands,Food,103.91
+2018-05-01,Netherlands,Food,104.33
+2018-06-01,Netherlands,Food,104.18
+2018-07-01,Netherlands,Food,104.45
+2018-08-01,Netherlands,Food,105.07
+2018-09-01,Netherlands,Food,104.7
+2018-10-01,Netherlands,Food,104.52
+2018-11-01,Netherlands,Food,105.17
+2018-12-01,Netherlands,Food,105.44
+2019-01-01,Netherlands,Food,106.66
+2019-02-01,Netherlands,Food,107.82
+2019-03-01,Netherlands,Food,107.51
+2019-04-01,Netherlands,Food,107.9
+2019-05-01,Netherlands,Food,108.27
+2019-06-01,Netherlands,Food,109.13
+2019-07-01,Netherlands,Food,109.73
+2019-08-01,Netherlands,Food,110.32
+2019-09-01,Netherlands,Food,109.86
+2019-10-01,Netherlands,Food,109.83
+2019-11-01,Netherlands,Food,109.77
+2019-12-01,Netherlands,Food,109.43
+2020-01-01,Netherlands,Food,108.7
+2020-02-01,Netherlands,Food,110.04
+2020-03-01,Netherlands,Food,110.96
+2020-04-01,Netherlands,Food,111.77
+2020-05-01,Netherlands,Food,111.79
+2020-06-01,Netherlands,Food,112.09
+2020-07-01,Netherlands,Food,111.87
+2020-08-01,Netherlands,Food,111.39
+2020-09-01,Netherlands,Food,111.25
+2020-10-01,Netherlands,Food,111.14
+2020-11-01,Netherlands,Food,110.69
+2020-12-01,Netherlands,Food,110.15
+2021-01-01,Netherlands,Food,109.38
+2021-02-01,Netherlands,Food,110.48
+2021-03-01,Netherlands,Food,109.56
+2021-04-01,Netherlands,Food,109.34
+2021-05-01,Netherlands,Food,110.17
+2021-06-01,Netherlands,Food,110.36
+2021-07-01,Netherlands,Food,110.89
+2021-08-01,Netherlands,Food,111.63
+2021-09-01,Netherlands,Food,111.25
+2021-10-01,Netherlands,Food,111.4
+2021-11-01,Netherlands,Food,111.86
+2021-12-01,Netherlands,Food,112.99
+2022-01-01,Netherlands,Food,114.09
+2022-02-01,Netherlands,Food,115.85
+2022-03-01,Netherlands,Food,116.35
+2022-04-01,Netherlands,Food,118.58
+2022-05-01,Netherlands,Food,120.23
+2022-06-01,Netherlands,Food,122.74
+2022-07-01,Netherlands,Food,124.58
+2022-08-01,Netherlands,Food,126.21
+2022-09-01,Netherlands,Food,125.45
+2022-10-01,Netherlands,Food,126.99
+2022-11-01,Netherlands,Food,129.46
+2022-12-01,Netherlands,Food,132.24
+2023-01-01,Netherlands,Food,134.23
+2023-02-01,Netherlands,Food,137.16
+2023-03-01,Netherlands,Food,137.75
+2023-04-01,Netherlands,Food,137.5
+2023-05-01,Netherlands,Food,138.54
+2023-06-01,Netherlands,Food,138.89
+2023-07-01,Netherlands,Food,139.12
+2023-08-01,Netherlands,Food,138.48
+2023-09-01,Netherlands,Food,137.26
+2023-10-01,Netherlands,Food,137.04
+2023-11-01,Netherlands,Food,137.62
+2023-12-01,Netherlands,Food,137.61
+2024-01-01,Netherlands,Food,137.02
+2024-02-01,Netherlands,Food,137.61
+2024-03-01,Netherlands,Food,138.13
+2024-04-01,Netherlands,Food,138.15
+2024-05-01,Netherlands,Food,139.04
+2024-06-01,Netherlands,Food,139.45
+2024-07-01,Netherlands,Food,140.02
+2024-08-01,Netherlands,Food,139.95
+2024-09-01,Netherlands,Food,139.45
+2024-10-01,Netherlands,Food,139.12
+2024-11-01,Netherlands,Food,140.08
+2024-12-01,Netherlands,Food,140.69
+2025-01-01,Netherlands,Food,141.27
+2025-02-01,Netherlands,Food,142.89
+2025-03-01,Netherlands,Food,142.95
+2025-04-01,Netherlands,Food,143.15
+2025-05-01,Netherlands,Food,144.22
+2025-06-01,Netherlands,Food,144.67
+1987-05-01,Global (Oil),Brent-Oil,35.6
+1987-06-01,Global (Oil),Brent-Oil,36.2
+1987-07-01,Global (Oil),Brent-Oil,38.1
+1987-08-01,Global (Oil),Brent-Oil,36.4
+1987-09-01,Global (Oil),Brent-Oil,35.1
+1987-10-01,Global (Oil),Brent-Oil,36.0
+1987-11-01,Global (Oil),Brent-Oil,34.1
+1987-12-01,Global (Oil),Brent-Oil,32.7
+1988-01-01,Global (Oil),Brent-Oil,32.1
+1988-02-01,Global (Oil),Brent-Oil,30.2
+1988-03-01,Global (Oil),Brent-Oil,28.2
+1988-04-01,Global (Oil),Brent-Oil,31.8
+1988-05-01,Global (Oil),Brent-Oil,31.3
+1988-06-01,Global (Oil),Brent-Oil,29.8
+1988-07-01,Global (Oil),Brent-Oil,28.6
+1988-08-01,Global (Oil),Brent-Oil,28.5
+1988-09-01,Global (Oil),Brent-Oil,25.3
+1988-10-01,Global (Oil),Brent-Oil,23.8
+1988-11-01,Global (Oil),Brent-Oil,25.0
+1988-12-01,Global (Oil),Brent-Oil,29.4
+1989-01-01,Global (Oil),Brent-Oil,32.9
+1989-02-01,Global (Oil),Brent-Oil,32.4
+1989-03-01,Global (Oil),Brent-Oil,35.9
+1989-04-01,Global (Oil),Brent-Oil,39.0
+1989-05-01,Global (Oil),Brent-Oil,35.7
+1989-06-01,Global (Oil),Brent-Oil,33.9
+1989-07-01,Global (Oil),Brent-Oil,33.8
+1989-08-01,Global (Oil),Brent-Oil,32.2
+1989-09-01,Global (Oil),Brent-Oil,34.1
+1989-10-01,Global (Oil),Brent-Oil,36.3
+1989-11-01,Global (Oil),Brent-Oil,35.9
+1989-12-01,Global (Oil),Brent-Oil,38.0
+1990-01-01,Global (Oil),Brent-Oil,40.7
+1990-02-01,Global (Oil),Brent-Oil,38.0
+1990-03-01,Global (Oil),Brent-Oil,35.3
+1990-04-01,Global (Oil),Brent-Oil,31.8
+1990-05-01,Global (Oil),Brent-Oil,31.3
+1990-06-01,Global (Oil),Brent-Oil,28.9
+1990-07-01,Global (Oil),Brent-Oil,32.9
+1990-08-01,Global (Oil),Brent-Oil,52.1
+1990-09-01,Global (Oil),Brent-Oil,66.9
+1990-10-01,Global (Oil),Brent-Oil,69.1
+1990-11-01,Global (Oil),Brent-Oil,63.4
+1990-12-01,Global (Oil),Brent-Oil,54.2
+1991-01-01,Global (Oil),Brent-Oil,45.2
+1991-02-01,Global (Oil),Brent-Oil,37.5
+1991-03-01,Global (Oil),Brent-Oil,36.6
+1991-04-01,Global (Oil),Brent-Oil,36.8
+1991-05-01,Global (Oil),Brent-Oil,36.8
+1991-06-01,Global (Oil),Brent-Oil,34.8
+1991-07-01,Global (Oil),Brent-Oil,37.2
+1991-08-01,Global (Oil),Brent-Oil,37.9
+1991-09-01,Global (Oil),Brent-Oil,39.3
+1991-10-01,Global (Oil),Brent-Oil,42.6
+1991-11-01,Global (Oil),Brent-Oil,40.5
+1991-12-01,Global (Oil),Brent-Oil,35.3
+1992-01-01,Global (Oil),Brent-Oil,34.8
+1992-02-01,Global (Oil),Brent-Oil,34.6
+1992-03-01,Global (Oil),Brent-Oil,33.8
+1992-04-01,Global (Oil),Brent-Oil,36.3
+1992-05-01,Global (Oil),Brent-Oil,38.1
+1992-06-01,Global (Oil),Brent-Oil,40.6
+1992-07-01,Global (Oil),Brent-Oil,38.8
+1992-08-01,Global (Oil),Brent-Oil,37.8
+1992-09-01,Global (Oil),Brent-Oil,38.9
+1992-10-01,Global (Oil),Brent-Oil,38.8
+1992-11-01,Global (Oil),Brent-Oil,36.8
+1992-12-01,Global (Oil),Brent-Oil,34.8
+1993-01-01,Global (Oil),Brent-Oil,33.3
+1993-02-01,Global (Oil),Brent-Oil,35.4
+1993-03-01,Global (Oil),Brent-Oil,36.0
+1993-04-01,Global (Oil),Brent-Oil,35.8
+1993-05-01,Global (Oil),Brent-Oil,35.5
+1993-06-01,Global (Oil),Brent-Oil,33.8
+1993-07-01,Global (Oil),Brent-Oil,32.2
+1993-08-01,Global (Oil),Brent-Oil,32.0
+1993-09-01,Global (Oil),Brent-Oil,30.7
+1993-10-01,Global (Oil),Brent-Oil,31.8
+1993-11-01,Global (Oil),Brent-Oil,29.1
+1993-12-01,Global (Oil),Brent-Oil,26.3
+1994-01-01,Global (Oil),Brent-Oil,27.4
+1994-02-01,Global (Oil),Brent-Oil,26.5
+1994-03-01,Global (Oil),Brent-Oil,26.5
+1994-04-01,Global (Oil),Brent-Oil,29.2
+1994-05-01,Global (Oil),Brent-Oil,31.0
+1994-06-01,Global (Oil),Brent-Oil,32.1
+1994-07-01,Global (Oil),Brent-Oil,33.7
+1994-08-01,Global (Oil),Brent-Oil,32.4
+1994-09-01,Global (Oil),Brent-Oil,30.5
+1994-10-01,Global (Oil),Brent-Oil,31.6
+1994-11-01,Global (Oil),Brent-Oil,33.0
+1994-12-01,Global (Oil),Brent-Oil,30.5
+1995-01-01,Global (Oil),Brent-Oil,31.7
+1995-02-01,Global (Oil),Brent-Oil,32.8
+1995-03-01,Global (Oil),Brent-Oil,32.6
+1995-04-01,Global (Oil),Brent-Oil,35.8
+1995-05-01,Global (Oil),Brent-Oil,35.2
+1995-06-01,Global (Oil),Brent-Oil,33.2
+1995-07-01,Global (Oil),Brent-Oil,30.4
+1995-08-01,Global (Oil),Brent-Oil,30.9
+1995-09-01,Global (Oil),Brent-Oil,32.0
+1995-10-01,Global (Oil),Brent-Oil,30.9
+1995-11-01,Global (Oil),Brent-Oil,32.3
+1995-12-01,Global (Oil),Brent-Oil,34.4
+1996-01-01,Global (Oil),Brent-Oil,34.2
+1996-02-01,Global (Oil),Brent-Oil,34.5
+1996-03-01,Global (Oil),Brent-Oil,38.1
+1996-04-01,Global (Oil),Brent-Oil,40.1
+1996-05-01,Global (Oil),Brent-Oil,36.7
+1996-06-01,Global (Oil),Brent-Oil,35.4
+1996-07-01,Global (Oil),Brent-Oil,37.5
+1996-08-01,Global (Oil),Brent-Oil,39.3
+1996-09-01,Global (Oil),Brent-Oil,43.4
+1996-10-01,Global (Oil),Brent-Oil,46.3
+1996-11-01,Global (Oil),Brent-Oil,43.6
+1996-12-01,Global (Oil),Brent-Oil,45.6
+1997-01-01,Global (Oil),Brent-Oil,45.1
+1997-02-01,Global (Oil),Brent-Oil,40.0
+1997-03-01,Global (Oil),Brent-Oil,36.7
+1997-04-01,Global (Oil),Brent-Oil,33.7
+1997-05-01,Global (Oil),Brent-Oil,36.5
+1997-06-01,Global (Oil),Brent-Oil,33.7
+1997-07-01,Global (Oil),Brent-Oil,35.4
+1997-08-01,Global (Oil),Brent-Oil,35.7
+1997-09-01,Global (Oil),Brent-Oil,35.4
+1997-10-01,Global (Oil),Brent-Oil,38.1
+1997-11-01,Global (Oil),Brent-Oil,36.8
+1997-12-01,Global (Oil),Brent-Oil,32.9
+1998-01-01,Global (Oil),Brent-Oil,29.1
+1998-02-01,Global (Oil),Brent-Oil,27.0
+1998-03-01,Global (Oil),Brent-Oil,25.1
+1998-04-01,Global (Oil),Brent-Oil,25.9
+1998-05-01,Global (Oil),Brent-Oil,27.5
+1998-06-01,Global (Oil),Brent-Oil,23.4
+1998-07-01,Global (Oil),Brent-Oil,23.2
+1998-08-01,Global (Oil),Brent-Oil,22.8
+1998-09-01,Global (Oil),Brent-Oil,25.6
+1998-10-01,Global (Oil),Brent-Oil,24.3
+1998-11-01,Global (Oil),Brent-Oil,21.2
+1998-12-01,Global (Oil),Brent-Oil,18.8
+1999-01-01,Global (Oil),Brent-Oil,21.3
+1999-02-01,Global (Oil),Brent-Oil,19.7
+1999-03-01,Global (Oil),Brent-Oil,24.0
+1999-04-01,Global (Oil),Brent-Oil,29.3
+1999-05-01,Global (Oil),Brent-Oil,29.2
+1999-06-01,Global (Oil),Brent-Oil,30.4
+1999-07-01,Global (Oil),Brent-Oil,36.6
+1999-08-01,Global (Oil),Brent-Oil,38.8
+1999-09-01,Global (Oil),Brent-Oil,43.2
+1999-10-01,Global (Oil),Brent-Oil,42.2
+1999-11-01,Global (Oil),Brent-Oil,47.1
+1999-12-01,Global (Oil),Brent-Oil,48.8
+2000-01-01,Global (Oil),Brent-Oil,48.9
+2000-02-01,Global (Oil),Brent-Oil,53.3
+2000-03-01,Global (Oil),Brent-Oil,52.7
+2000-04-01,Global (Oil),Brent-Oil,43.6
+2000-05-01,Global (Oil),Brent-Oil,53.2
+2000-06-01,Global (Oil),Brent-Oil,57.1
+2000-07-01,Global (Oil),Brent-Oil,55.0
+2000-08-01,Global (Oil),Brent-Oil,57.9
+2000-09-01,Global (Oil),Brent-Oil,63.5
+2000-10-01,Global (Oil),Brent-Oil,59.4
+2000-11-01,Global (Oil),Brent-Oil,62.4
+2000-12-01,Global (Oil),Brent-Oil,49.2
+2001-01-01,Global (Oil),Brent-Oil,49.1
+2001-02-01,Global (Oil),Brent-Oil,52.7
+2001-03-01,Global (Oil),Brent-Oil,47.0
+2001-04-01,Global (Oil),Brent-Oil,49.2
+2001-05-01,Global (Oil),Brent-Oil,54.3
+2001-06-01,Global (Oil),Brent-Oil,53.4
+2001-07-01,Global (Oil),Brent-Oil,47.2
+2001-08-01,Global (Oil),Brent-Oil,49.2
+2001-09-01,Global (Oil),Brent-Oil,49.1
+2001-10-01,Global (Oil),Brent-Oil,39.4
+2001-11-01,Global (Oil),Brent-Oil,36.0
+2001-12-01,Global (Oil),Brent-Oil,35.9
+2002-01-01,Global (Oil),Brent-Oil,37.2
+2002-02-01,Global (Oil),Brent-Oil,38.9
+2002-03-01,Global (Oil),Brent-Oil,45.4
+2002-04-01,Global (Oil),Brent-Oil,49.3
+2002-05-01,Global (Oil),Brent-Oil,48.6
+2002-06-01,Global (Oil),Brent-Oil,46.2
+2002-07-01,Global (Oil),Brent-Oil,49.3
+2002-08-01,Global (Oil),Brent-Oil,51.1
+2002-09-01,Global (Oil),Brent-Oil,54.4
+2002-10-01,Global (Oil),Brent-Oil,52.8
+2002-11-01,Global (Oil),Brent-Oil,46.7
+2002-12-01,Global (Oil),Brent-Oil,54.3
+2003-01-01,Global (Oil),Brent-Oil,59.8
+2003-02-01,Global (Oil),Brent-Oil,62.8
+2003-03-01,Global (Oil),Brent-Oil,58.7
+2003-04-01,Global (Oil),Brent-Oil,47.9
+2003-05-01,Global (Oil),Brent-Oil,49.6
+2003-06-01,Global (Oil),Brent-Oil,53.0
+2003-07-01,Global (Oil),Brent-Oil,54.4
+2003-08-01,Global (Oil),Brent-Oil,57.3
+2003-09-01,Global (Oil),Brent-Oil,52.0
+2003-10-01,Global (Oil),Brent-Oil,56.8
+2003-11-01,Global (Oil),Brent-Oil,55.1
+2003-12-01,Global (Oil),Brent-Oil,57.2
+2004-01-01,Global (Oil),Brent-Oil,60.0
+2004-02-01,Global (Oil),Brent-Oil,59.2
+2004-03-01,Global (Oil),Brent-Oil,64.5
+2004-04-01,Global (Oil),Brent-Oil,64.4
+2004-05-01,Global (Oil),Brent-Oil,72.0
+2004-06-01,Global (Oil),Brent-Oil,67.4
+2004-07-01,Global (Oil),Brent-Oil,73.3
+2004-08-01,Global (Oil),Brent-Oil,81.9
+2004-09-01,Global (Oil),Brent-Oil,82.8
+2004-10-01,Global (Oil),Brent-Oil,95.4
+2004-11-01,Global (Oil),Brent-Oil,82.6
+2004-12-01,Global (Oil),Brent-Oil,75.9
+2005-01-01,Global (Oil),Brent-Oil,85.3
+2005-02-01,Global (Oil),Brent-Oil,87.2
+2005-03-01,Global (Oil),Brent-Oil,101.8
+2005-04-01,Global (Oil),Brent-Oil,99.5
+2005-05-01,Global (Oil),Brent-Oil,93.3
+2005-06-01,Global (Oil),Brent-Oil,104.2
+2005-07-01,Global (Oil),Brent-Oil,110.3
+2005-08-01,Global (Oil),Brent-Oil,122.7
+2005-09-01,Global (Oil),Brent-Oil,120.6
+2005-10-01,Global (Oil),Brent-Oil,112.2
+2005-11-01,Global (Oil),Brent-Oil,105.9
+2005-12-01,Global (Oil),Brent-Oil,109.0
+2006-01-01,Global (Oil),Brent-Oil,120.8
+2006-02-01,Global (Oil),Brent-Oil,115.4
+2006-03-01,Global (Oil),Brent-Oil,119.0
+2006-04-01,Global (Oil),Brent-Oil,134.7
+2006-05-01,Global (Oil),Brent-Oil,133.8
+2006-06-01,Global (Oil),Brent-Oil,131.4
+2006-07-01,Global (Oil),Brent-Oil,141.2
+2006-08-01,Global (Oil),Brent-Oil,140.4
+2006-09-01,Global (Oil),Brent-Oil,118.8
+2006-10-01,Global (Oil),Brent-Oil,110.8
+2006-11-01,Global (Oil),Brent-Oil,112.7
+2006-12-01,Global (Oil),Brent-Oil,119.8
+2007-01-01,Global (Oil),Brent-Oil,102.9
+2007-02-01,Global (Oil),Brent-Oil,110.4
+2007-03-01,Global (Oil),Brent-Oil,119.0
+2007-04-01,Global (Oil),Brent-Oil,129.4
+2007-05-01,Global (Oil),Brent-Oil,128.9
+2007-06-01,Global (Oil),Brent-Oil,136.2
+2007-07-01,Global (Oil),Brent-Oil,147.5
+2007-08-01,Global (Oil),Brent-Oil,135.7
+2007-09-01,Global (Oil),Brent-Oil,147.9
+2007-10-01,Global (Oil),Brent-Oil,157.9
+2007-11-01,Global (Oil),Brent-Oil,177.2
+2007-12-01,Global (Oil),Brent-Oil,174.3
+2008-01-01,Global (Oil),Brent-Oil,176.7
+2008-02-01,Global (Oil),Brent-Oil,182.1
+2008-03-01,Global (Oil),Brent-Oil,198.7
+2008-04-01,Global (Oil),Brent-Oil,209.1
+2008-05-01,Global (Oil),Brent-Oil,235.4
+2008-06-01,Global (Oil),Brent-Oil,253.7
+2008-07-01,Global (Oil),Brent-Oil,254.4
+2008-08-01,Global (Oil),Brent-Oil,217.1
+2008-09-01,Global (Oil),Brent-Oil,186.4
+2008-10-01,Global (Oil),Brent-Oil,137.2
+2008-11-01,Global (Oil),Brent-Oil,100.6
+2008-12-01,Global (Oil),Brent-Oil,76.6
+2009-01-01,Global (Oil),Brent-Oil,83.3
+2009-02-01,Global (Oil),Brent-Oil,83.1
+2009-03-01,Global (Oil),Brent-Oil,89.2
+2009-04-01,Global (Oil),Brent-Oil,96.2
+2009-05-01,Global (Oil),Brent-Oil,109.9
+2009-06-01,Global (Oil),Brent-Oil,131.5
+2009-07-01,Global (Oil),Brent-Oil,123.5
+2009-08-01,Global (Oil),Brent-Oil,139.0
+2009-09-01,Global (Oil),Brent-Oil,129.7
+2009-10-01,Global (Oil),Brent-Oil,139.5
+2009-11-01,Global (Oil),Brent-Oil,147.0
+2009-12-01,Global (Oil),Brent-Oil,142.8
+2010-01-01,Global (Oil),Brent-Oil,146.0
+2010-02-01,Global (Oil),Brent-Oil,141.4
+2010-03-01,Global (Oil),Brent-Oil,151.1
+2010-04-01,Global (Oil),Brent-Oil,162.6
+2010-05-01,Global (Oil),Brent-Oil,145.6
+2010-06-01,Global (Oil),Brent-Oil,143.3
+2010-07-01,Global (Oil),Brent-Oil,144.9
+2010-08-01,Global (Oil),Brent-Oil,147.7
+2010-09-01,Global (Oil),Brent-Oil,149.2
+2010-10-01,Global (Oil),Brent-Oil,158.5
+2010-11-01,Global (Oil),Brent-Oil,163.5
+2010-12-01,Global (Oil),Brent-Oil,175.3
+2011-01-01,Global (Oil),Brent-Oil,185.0
+2011-02-01,Global (Oil),Brent-Oil,198.8
+2011-03-01,Global (Oil),Brent-Oil,219.8
+2011-04-01,Global (Oil),Brent-Oil,236.3
+2011-05-01,Global (Oil),Brent-Oil,220.5
+2011-06-01,Global (Oil),Brent-Oil,218.2
+2011-07-01,Global (Oil),Brent-Oil,224.3
+2011-08-01,Global (Oil),Brent-Oil,211.3
+2011-09-01,Global (Oil),Brent-Oil,216.3
+2011-10-01,Global (Oil),Brent-Oil,210.0
+2011-11-01,Global (Oil),Brent-Oil,212.4
+2011-12-01,Global (Oil),Brent-Oil,206.8
+2012-01-01,Global (Oil),Brent-Oil,212.2
+2012-02-01,Global (Oil),Brent-Oil,228.8
+2012-03-01,Global (Oil),Brent-Oil,240.5
+2012-04-01,Global (Oil),Brent-Oil,229.6
+2012-05-01,Global (Oil),Brent-Oil,211.5
+2012-06-01,Global (Oil),Brent-Oil,182.4
+2012-07-01,Global (Oil),Brent-Oil,196.7
+2012-08-01,Global (Oil),Brent-Oil,217.3
+2012-09-01,Global (Oil),Brent-Oil,216.4
+2012-10-01,Global (Oil),Brent-Oil,214.2
+2012-11-01,Global (Oil),Brent-Oil,209.1
+2012-12-01,Global (Oil),Brent-Oil,209.9
+2013-01-01,Global (Oil),Brent-Oil,216.6
+2013-02-01,Global (Oil),Brent-Oil,222.5
+2013-03-01,Global (Oil),Brent-Oil,208.0
+2013-04-01,Global (Oil),Brent-Oil,196.0
+2013-05-01,Global (Oil),Brent-Oil,196.6
+2013-06-01,Global (Oil),Brent-Oil,197.3
+2013-07-01,Global (Oil),Brent-Oil,206.9
+2013-08-01,Global (Oil),Brent-Oil,213.3
+2013-09-01,Global (Oil),Brent-Oil,214.0
+2013-10-01,Global (Oil),Brent-Oil,209.1
+2013-11-01,Global (Oil),Brent-Oil,206.7
+2013-12-01,Global (Oil),Brent-Oil,212.3
+2014-01-01,Global (Oil),Brent-Oil,207.3
+2014-02-01,Global (Oil),Brent-Oil,208.8
+2014-03-01,Global (Oil),Brent-Oil,206.1
+2014-04-01,Global (Oil),Brent-Oil,206.6
+2014-05-01,Global (Oil),Brent-Oil,210.0
+2014-06-01,Global (Oil),Brent-Oil,214.3
+2014-07-01,Global (Oil),Brent-Oil,204.7
+2014-08-01,Global (Oil),Brent-Oil,194.8
+2014-09-01,Global (Oil),Brent-Oil,186.1
+2014-10-01,Global (Oil),Brent-Oil,167.6
+2014-11-01,Global (Oil),Brent-Oil,152.3
+2014-12-01,Global (Oil),Brent-Oil,119.5
+2015-01-01,Global (Oil),Brent-Oil,91.6
+2015-02-01,Global (Oil),Brent-Oil,111.4
+2015-03-01,Global (Oil),Brent-Oil,107.2
+2015-04-01,Global (Oil),Brent-Oil,114.1
+2015-05-01,Global (Oil),Brent-Oil,122.9
+2015-06-01,Global (Oil),Brent-Oil,117.9
+2015-07-01,Global (Oil),Brent-Oil,108.4
+2015-08-01,Global (Oil),Brent-Oil,89.2
+2015-09-01,Global (Oil),Brent-Oil,91.3
+2015-10-01,Global (Oil),Brent-Oil,92.8
+2015-11-01,Global (Oil),Brent-Oil,84.9
+2015-12-01,Global (Oil),Brent-Oil,72.9
+2016-01-01,Global (Oil),Brent-Oil,58.9
+2016-02-01,Global (Oil),Brent-Oil,61.7
+2016-03-01,Global (Oil),Brent-Oil,73.3
+2016-04-01,Global (Oil),Brent-Oil,79.7
+2016-05-01,Global (Oil),Brent-Oil,89.6
+2016-06-01,Global (Oil),Brent-Oil,92.5
+2016-07-01,Global (Oil),Brent-Oil,86.2
+2016-08-01,Global (Oil),Brent-Oil,87.9
+2016-09-01,Global (Oil),Brent-Oil,89.3
+2016-10-01,Global (Oil),Brent-Oil,94.9
+2016-11-01,Global (Oil),Brent-Oil,85.8
+2016-12-01,Global (Oil),Brent-Oil,102.2
+2017-01-01,Global (Oil),Brent-Oil,104.6
+2017-02-01,Global (Oil),Brent-Oil,105.2
+2017-03-01,Global (Oil),Brent-Oil,98.9
+2017-04-01,Global (Oil),Brent-Oil,100.3
+2017-05-01,Global (Oil),Brent-Oil,96.5
+2017-06-01,Global (Oil),Brent-Oil,88.9
+2017-07-01,Global (Oil),Brent-Oil,92.9
+2017-08-01,Global (Oil),Brent-Oil,99.1
+2017-09-01,Global (Oil),Brent-Oil,107.6
+2017-10-01,Global (Oil),Brent-Oil,110.3
+2017-11-01,Global (Oil),Brent-Oil,120.2
+2017-12-01,Global (Oil),Brent-Oil,123.4
+2018-01-01,Global (Oil),Brent-Oil,132.4
+2018-02-01,Global (Oil),Brent-Oil,125.2
+2018-03-01,Global (Oil),Brent-Oil,126.6
+2018-04-01,Global (Oil),Brent-Oil,138.2
+2018-05-01,Global (Oil),Brent-Oil,147.6
+2018-06-01,Global (Oil),Brent-Oil,142.7
+2018-07-01,Global (Oil),Brent-Oil,142.4
+2018-08-01,Global (Oil),Brent-Oil,139.1
+2018-09-01,Global (Oil),Brent-Oil,151.2
+2018-10-01,Global (Oil),Brent-Oil,155.3
+2018-11-01,Global (Oil),Brent-Oil,124.1
+2018-12-01,Global (Oil),Brent-Oil,110.0
+2019-01-01,Global (Oil),Brent-Oil,113.9
+2019-02-01,Global (Oil),Brent-Oil,122.6
+2019-03-01,Global (Oil),Brent-Oil,126.8
+2019-04-01,Global (Oil),Brent-Oil,136.6
+2019-05-01,Global (Oil),Brent-Oil,136.7
+2019-06-01,Global (Oil),Brent-Oil,123.1
+2019-07-01,Global (Oil),Brent-Oil,122.5
+2019-08-01,Global (Oil),Brent-Oil,113.2
+2019-09-01,Global (Oil),Brent-Oil,120.5
+2019-10-01,Global (Oil),Brent-Oil,114.5
+2019-11-01,Global (Oil),Brent-Oil,121.2
+2019-12-01,Global (Oil),Brent-Oil,129.0
+2020-01-01,Global (Oil),Brent-Oil,122.0
+2020-02-01,Global (Oil),Brent-Oil,106.7
+2020-03-01,Global (Oil),Brent-Oil,61.4
+2020-04-01,Global (Oil),Brent-Oil,35.2
+2020-05-01,Global (Oil),Brent-Oil,56.3
+2020-06-01,Global (Oil),Brent-Oil,77.2
+2020-07-01,Global (Oil),Brent-Oil,82.9
+2020-08-01,Global (Oil),Brent-Oil,85.8
+2020-09-01,Global (Oil),Brent-Oil,78.4
+2020-10-01,Global (Oil),Brent-Oil,77.1
+2020-11-01,Global (Oil),Brent-Oil,81.8
+2020-12-01,Global (Oil),Brent-Oil,95.8
+2021-01-01,Global (Oil),Brent-Oil,105.0
+2021-02-01,Global (Oil),Brent-Oil,119.4
+2021-03-01,Global (Oil),Brent-Oil,125.4
+2021-04-01,Global (Oil),Brent-Oil,124.3
+2021-05-01,Global (Oil),Brent-Oil,131.4
+2021-06-01,Global (Oil),Brent-Oil,140.3
+2021-07-01,Global (Oil),Brent-Oil,144.1
+2021-08-01,Global (Oil),Brent-Oil,135.6
+2021-09-01,Global (Oil),Brent-Oil,142.8
+2021-10-01,Global (Oil),Brent-Oil,160.2
+2021-11-01,Global (Oil),Brent-Oil,155.4
+2021-12-01,Global (Oil),Brent-Oil,142.2
+2022-01-01,Global (Oil),Brent-Oil,165.9
+2022-02-01,Global (Oil),Brent-Oil,186.2
+2022-03-01,Global (Oil),Brent-Oil,224.8
+2022-04-01,Global (Oil),Brent-Oil,200.5
+2022-05-01,Global (Oil),Brent-Oil,217.3
+2022-06-01,Global (Oil),Brent-Oil,235.3
+2022-07-01,Global (Oil),Brent-Oil,214.6
+2022-08-01,Global (Oil),Brent-Oil,192.6
+2022-09-01,Global (Oil),Brent-Oil,172.1
+2022-10-01,Global (Oil),Brent-Oil,178.9
+2022-11-01,Global (Oil),Brent-Oil,175.3
+2022-12-01,Global (Oil),Brent-Oil,155.1
+2023-01-01,Global (Oil),Brent-Oil,158.2
+2023-02-01,Global (Oil),Brent-Oil,158.3
+2023-03-01,Global (Oil),Brent-Oil,150.4
+2023-04-01,Global (Oil),Brent-Oil,162.3
+2023-05-01,Global (Oil),Brent-Oil,144.7
+2023-06-01,Global (Oil),Brent-Oil,143.5
+2023-07-01,Global (Oil),Brent-Oil,153.6
+2023-08-01,Global (Oil),Brent-Oil,165.2
+2023-09-01,Global (Oil),Brent-Oil,179.7
+2023-10-01,Global (Oil),Brent-Oil,173.7
+2023-11-01,Global (Oil),Brent-Oil,159.0
+2023-12-01,Global (Oil),Brent-Oil,148.8
+2024-01-01,Global (Oil),Brent-Oil,153.6
+2024-02-01,Global (Oil),Brent-Oil,160.0
+2024-03-01,Global (Oil),Brent-Oil,163.7
+2024-04-01,Global (Oil),Brent-Oil,172.4
+2024-05-01,Global (Oil),Brent-Oil,156.7
+2024-06-01,Global (Oil),Brent-Oil,157.7
+2024-07-01,Global (Oil),Brent-Oil,163.2
+2024-08-01,Global (Oil),Brent-Oil,154.1
+2024-09-01,Global (Oil),Brent-Oil,141.9
+2024-10-01,Global (Oil),Brent-Oil,145.0
+2024-11-01,Global (Oil),Brent-Oil,142.5
+2024-12-01,Global (Oil),Brent-Oil,141.6
+2025-01-01,Global (Oil),Brent-Oil,152.0
+2025-02-01,Global (Oil),Brent-Oil,144.6
+2025-03-01,Global (Oil),Brent-Oil,139.4
+2025-04-01,Global (Oil),Brent-Oil,130.6
+2025-05-01,Global (Oil),Brent-Oil,123.6
+2025-06-01,Global (Oil),Brent-Oil,137.0
+1953-04-01,USA,10-Year TY,130.4
+1953-05-01,USA,10-Year TY,140.6
+1953-06-01,USA,10-Year TY,143.3
+1953-07-01,USA,10-Year TY,135.0
+1953-08-01,USA,10-Year TY,135.9
+1953-09-01,USA,10-Year TY,132.3
+1953-10-01,USA,10-Year TY,122.6
+1953-11-01,USA,10-Year TY,123.5
+1953-12-01,USA,10-Year TY,119.4
+1954-01-01,USA,10-Year TY,114.3
+1954-02-01,USA,10-Year TY,113.8
+1954-03-01,USA,10-Year TY,109.2
+1954-04-01,USA,10-Year TY,105.5
+1954-05-01,USA,10-Year TY,109.2
+1954-06-01,USA,10-Year TY,109.7
+1954-07-01,USA,10-Year TY,106.0
+1954-08-01,USA,10-Year TY,108.8
+1954-09-01,USA,10-Year TY,109.7
+1954-10-01,USA,10-Year TY,112.0
+1954-11-01,USA,10-Year TY,114.3
+1954-12-01,USA,10-Year TY,115.7
+1955-01-01,USA,10-Year TY,120.3
+1955-02-01,USA,10-Year TY,122.1
+1955-03-01,USA,10-Year TY,123.5
+1955-04-01,USA,10-Year TY,126.7
+1955-05-01,USA,10-Year TY,127.2
+1955-06-01,USA,10-Year TY,128.1
+1955-07-01,USA,10-Year TY,133.6
+1955-08-01,USA,10-Year TY,136.9
+1955-09-01,USA,10-Year TY,136.9
+1955-10-01,USA,10-Year TY,132.7
+1955-11-01,USA,10-Year TY,133.2
+1955-12-01,USA,10-Year TY,136.4
+1956-01-01,USA,10-Year TY,133.6
+1956-02-01,USA,10-Year TY,130.9
+1956-03-01,USA,10-Year TY,136.4
+1956-04-01,USA,10-Year TY,146.5
+1956-05-01,USA,10-Year TY,141.5
+1956-06-01,USA,10-Year TY,138.2
+1956-07-01,USA,10-Year TY,143.3
+1956-08-01,USA,10-Year TY,153.5
+1956-09-01,USA,10-Year TY,155.8
+1956-10-01,USA,10-Year TY,153.9
+1956-11-01,USA,10-Year TY,160.8
+1956-12-01,USA,10-Year TY,165.4
+1957-01-01,USA,10-Year TY,159.4
+1957-02-01,USA,10-Year TY,153.9
+1957-03-01,USA,10-Year TY,157.1
+1957-04-01,USA,10-Year TY,160.4
+1957-05-01,USA,10-Year TY,165.9
+1957-06-01,USA,10-Year TY,175.1
+1957-07-01,USA,10-Year TY,181.1
+1957-08-01,USA,10-Year TY,181.1
+1957-09-01,USA,10-Year TY,180.6
+1957-10-01,USA,10-Year TY,182.9
+1957-11-01,USA,10-Year TY,171.4
+1957-12-01,USA,10-Year TY,147.9
+1958-01-01,USA,10-Year TY,142.4
+1958-02-01,USA,10-Year TY,140.6
+1958-03-01,USA,10-Year TY,137.3
+1958-04-01,USA,10-Year TY,132.7
+1958-05-01,USA,10-Year TY,134.6
+1958-06-01,USA,10-Year TY,136.9
+1958-07-01,USA,10-Year TY,147.5
+1958-08-01,USA,10-Year TY,163.1
+1958-09-01,USA,10-Year TY,173.3
+1958-10-01,USA,10-Year TY,175.1
+1958-11-01,USA,10-Year TY,172.4
+1958-12-01,USA,10-Year TY,177.9
+1959-01-01,USA,10-Year TY,185.3
+1959-02-01,USA,10-Year TY,182.5
+1959-03-01,USA,10-Year TY,183.9
+1959-04-01,USA,10-Year TY,189.9
+1959-05-01,USA,10-Year TY,198.6
+1959-06-01,USA,10-Year TY,200.0
+1959-07-01,USA,10-Year TY,202.8
+1959-08-01,USA,10-Year TY,204.1
+1959-09-01,USA,10-Year TY,215.7
+1959-10-01,USA,10-Year TY,208.8
+1959-11-01,USA,10-Year TY,208.8
+1959-12-01,USA,10-Year TY,216.1
+1960-01-01,USA,10-Year TY,217.5
+1960-02-01,USA,10-Year TY,206.9
+1960-03-01,USA,10-Year TY,195.9
+1960-04-01,USA,10-Year TY,197.2
+1960-05-01,USA,10-Year TY,200.5
+1960-06-01,USA,10-Year TY,191.2
+1960-07-01,USA,10-Year TY,179.7
+1960-08-01,USA,10-Year TY,175.1
+1960-09-01,USA,10-Year TY,175.1
+1960-10-01,USA,10-Year TY,179.3
+1960-11-01,USA,10-Year TY,181.1
+1960-12-01,USA,10-Year TY,177.0
+1961-01-01,USA,10-Year TY,177.0
+1961-02-01,USA,10-Year TY,174.2
+1961-03-01,USA,10-Year TY,172.4
+1961-04-01,USA,10-Year TY,174.2
+1961-05-01,USA,10-Year TY,171.0
+1961-06-01,USA,10-Year TY,178.8
+1961-07-01,USA,10-Year TY,180.6
+1961-08-01,USA,10-Year TY,186.2
+1961-09-01,USA,10-Year TY,183.4
+1961-10-01,USA,10-Year TY,180.6
+1961-11-01,USA,10-Year TY,181.6
+1961-12-01,USA,10-Year TY,187.1
+1962-01-01,USA,10-Year TY,188.0
+1962-02-01,USA,10-Year TY,186.2
+1962-03-01,USA,10-Year TY,181.1
+1962-04-01,USA,10-Year TY,177.0
+1962-05-01,USA,10-Year TY,178.3
+1962-06-01,USA,10-Year TY,180.2
+1962-07-01,USA,10-Year TY,184.8
+1962-08-01,USA,10-Year TY,183.4
+1962-09-01,USA,10-Year TY,183.4
+1962-10-01,USA,10-Year TY,181.1
+1962-11-01,USA,10-Year TY,180.6
+1962-12-01,USA,10-Year TY,177.9
+1963-01-01,USA,10-Year TY,176.5
+1963-02-01,USA,10-Year TY,180.6
+1963-03-01,USA,10-Year TY,181.1
+1963-04-01,USA,10-Year TY,182.9
+1963-05-01,USA,10-Year TY,181.1
+1963-06-01,USA,10-Year TY,183.9
+1963-07-01,USA,10-Year TY,185.3
+1963-08-01,USA,10-Year TY,184.3
+1963-09-01,USA,10-Year TY,188.0
+1963-10-01,USA,10-Year TY,189.4
+1963-11-01,USA,10-Year TY,189.9
+1963-12-01,USA,10-Year TY,190.3
+1964-01-01,USA,10-Year TY,192.2
+1964-02-01,USA,10-Year TY,191.2
+1964-03-01,USA,10-Year TY,194.5
+1964-04-01,USA,10-Year TY,194.9
+1964-05-01,USA,10-Year TY,193.5
+1964-06-01,USA,10-Year TY,192.2
+1964-07-01,USA,10-Year TY,193.1
+1964-08-01,USA,10-Year TY,193.1
+1964-09-01,USA,10-Year TY,193.5
+1964-10-01,USA,10-Year TY,193.1
+1964-11-01,USA,10-Year TY,191.2
+1964-12-01,USA,10-Year TY,192.6
+1965-01-01,USA,10-Year TY,193.1
+1965-02-01,USA,10-Year TY,194.0
+1965-03-01,USA,10-Year TY,194.0
+1965-04-01,USA,10-Year TY,193.5
+1965-05-01,USA,10-Year TY,194.0
+1965-06-01,USA,10-Year TY,194.0
+1965-07-01,USA,10-Year TY,193.5
+1965-08-01,USA,10-Year TY,195.9
+1965-09-01,USA,10-Year TY,197.7
+1965-10-01,USA,10-Year TY,200.5
+1965-11-01,USA,10-Year TY,205.1
+1965-12-01,USA,10-Year TY,212.9
+1966-01-01,USA,10-Year TY,212.4
+1966-02-01,USA,10-Year TY,222.6
+1966-03-01,USA,10-Year TY,224.4
+1966-04-01,USA,10-Year TY,218.9
+1966-05-01,USA,10-Year TY,220.3
+1966-06-01,USA,10-Year TY,221.7
+1966-07-01,USA,10-Year TY,231.3
+1966-08-01,USA,10-Year TY,240.6
+1966-09-01,USA,10-Year TY,238.7
+1966-10-01,USA,10-Year TY,230.9
+1966-11-01,USA,10-Year TY,237.8
+1966-12-01,USA,10-Year TY,223.0
+1967-01-01,USA,10-Year TY,211.1
+1967-02-01,USA,10-Year TY,213.4
+1967-03-01,USA,10-Year TY,209.2
+1967-04-01,USA,10-Year TY,211.5
+1967-05-01,USA,10-Year TY,223.5
+1967-06-01,USA,10-Year TY,231.3
+1967-07-01,USA,10-Year TY,237.8
+1967-08-01,USA,10-Year TY,243.3
+1967-09-01,USA,10-Year TY,244.2
+1967-10-01,USA,10-Year TY,252.5
+1967-11-01,USA,10-Year TY,265.0
+1967-12-01,USA,10-Year TY,262.7
+1968-01-01,USA,10-Year TY,254.8
+1968-02-01,USA,10-Year TY,256.2
+1968-03-01,USA,10-Year TY,264.5
+1968-04-01,USA,10-Year TY,259.9
+1968-05-01,USA,10-Year TY,270.5
+1968-06-01,USA,10-Year TY,263.6
+1968-07-01,USA,10-Year TY,253.5
+1968-08-01,USA,10-Year TY,249.8
+1968-09-01,USA,10-Year TY,251.6
+1968-10-01,USA,10-Year TY,257.1
+1968-11-01,USA,10-Year TY,262.7
+1968-12-01,USA,10-Year TY,277.9
+1969-01-01,USA,10-Year TY,278.3
+1969-02-01,USA,10-Year TY,285.3
+1969-03-01,USA,10-Year TY,290.3
+1969-04-01,USA,10-Year TY,284.3
+1969-05-01,USA,10-Year TY,291.2
+1969-06-01,USA,10-Year TY,302.8
+1969-07-01,USA,10-Year TY,309.7
+1969-08-01,USA,10-Year TY,308.3
+1969-09-01,USA,10-Year TY,330.0
+1969-10-01,USA,10-Year TY,327.2
+1969-11-01,USA,10-Year TY,329.0
+1969-12-01,USA,10-Year TY,352.5
+1970-01-01,USA,10-Year TY,359.0
+1970-02-01,USA,10-Year TY,333.6
+1970-03-01,USA,10-Year TY,325.8
+1970-04-01,USA,10-Year TY,340.6
+1970-05-01,USA,10-Year TY,364.5
+1970-06-01,USA,10-Year TY,361.3
+1970-07-01,USA,10-Year TY,343.8
+1970-08-01,USA,10-Year TY,347.0
+1970-09-01,USA,10-Year TY,340.6
+1970-10-01,USA,10-Year TY,337.8
+1970-11-01,USA,10-Year TY,315.2
+1970-12-01,USA,10-Year TY,294.5
+1971-01-01,USA,10-Year TY,287.6
+1971-02-01,USA,10-Year TY,281.6
+1971-03-01,USA,10-Year TY,262.7
+1971-04-01,USA,10-Year TY,268.7
+1971-05-01,USA,10-Year TY,294.5
+1971-06-01,USA,10-Year TY,300.5
+1971-07-01,USA,10-Year TY,310.1
+1971-08-01,USA,10-Year TY,303.2
+1971-09-01,USA,10-Year TY,282.9
+1971-10-01,USA,10-Year TY,273.3
+1971-11-01,USA,10-Year TY,267.7
+1971-12-01,USA,10-Year TY,273.3
+1972-01-01,USA,10-Year TY,274.2
+1972-02-01,USA,10-Year TY,280.2
+1972-03-01,USA,10-Year TY,279.7
+1972-04-01,USA,10-Year TY,285.3
+1972-05-01,USA,10-Year TY,282.5
+1972-06-01,USA,10-Year TY,281.6
+1972-07-01,USA,10-Year TY,281.6
+1972-08-01,USA,10-Year TY,286.2
+1972-09-01,USA,10-Year TY,301.8
+1972-10-01,USA,10-Year TY,298.6
+1972-11-01,USA,10-Year TY,289.4
+1972-12-01,USA,10-Year TY,293.1
+1973-01-01,USA,10-Year TY,297.7
+1973-02-01,USA,10-Year TY,306.0
+1973-03-01,USA,10-Year TY,309.2
+1973-04-01,USA,10-Year TY,307.4
+1973-05-01,USA,10-Year TY,315.7
+1973-06-01,USA,10-Year TY,318.0
+1973-07-01,USA,10-Year TY,328.6
+1973-08-01,USA,10-Year TY,341.0
+1973-09-01,USA,10-Year TY,326.7
+1973-10-01,USA,10-Year TY,312.9
+1973-11-01,USA,10-Year TY,310.1
+1973-12-01,USA,10-Year TY,310.6
+1974-01-01,USA,10-Year TY,322.1
+1974-02-01,USA,10-Year TY,320.7
+1974-03-01,USA,10-Year TY,332.3
+1974-04-01,USA,10-Year TY,346.1
+1974-05-01,USA,10-Year TY,349.3
+1974-06-01,USA,10-Year TY,347.5
+1974-07-01,USA,10-Year TY,359.9
+1974-08-01,USA,10-Year TY,370.5
+1974-09-01,USA,10-Year TY,370.5
+1974-10-01,USA,10-Year TY,364.1
+1974-11-01,USA,10-Year TY,353.9
+1974-12-01,USA,10-Year TY,342.4
+1975-01-01,USA,10-Year TY,345.6
+1975-02-01,USA,10-Year TY,340.6
+1975-03-01,USA,10-Year TY,356.2
+1975-04-01,USA,10-Year TY,379.3
+1975-05-01,USA,10-Year TY,371.4
+1975-06-01,USA,10-Year TY,362.2
+1975-07-01,USA,10-Year TY,371.4
+1975-08-01,USA,10-Year TY,387.1
+1975-09-01,USA,10-Year TY,388.5
+1975-10-01,USA,10-Year TY,375.1
+1975-11-01,USA,10-Year TY,371.0
+1975-12-01,USA,10-Year TY,368.7
+1976-01-01,USA,10-Year TY,356.7
+1976-02-01,USA,10-Year TY,359.0
+1976-03-01,USA,10-Year TY,356.2
+1976-04-01,USA,10-Year TY,348.4
+1976-05-01,USA,10-Year TY,364.1
+1976-06-01,USA,10-Year TY,362.2
+1976-07-01,USA,10-Year TY,360.8
+1976-08-01,USA,10-Year TY,358.1
+1976-09-01,USA,10-Year TY,349.8
+1976-10-01,USA,10-Year TY,341.5
+1976-11-01,USA,10-Year TY,335.9
+1976-12-01,USA,10-Year TY,316.6
+1977-01-01,USA,10-Year TY,332.3
+1977-02-01,USA,10-Year TY,340.6
+1977-03-01,USA,10-Year TY,343.8
+1977-04-01,USA,10-Year TY,339.6
+1977-05-01,USA,10-Year TY,343.8
+1977-06-01,USA,10-Year TY,335.5
+1977-07-01,USA,10-Year TY,337.8
+1977-08-01,USA,10-Year TY,341.0
+1977-09-01,USA,10-Year TY,338.2
+1977-10-01,USA,10-Year TY,346.5
+1977-11-01,USA,10-Year TY,349.3
+1977-12-01,USA,10-Year TY,354.4
+1978-01-01,USA,10-Year TY,366.8
+1978-02-01,USA,10-Year TY,370.0
+1978-03-01,USA,10-Year TY,370.5
+1978-04-01,USA,10-Year TY,375.6
+1978-05-01,USA,10-Year TY,384.8
+1978-06-01,USA,10-Year TY,389.9
+1978-07-01,USA,10-Year TY,398.2
+1978-08-01,USA,10-Year TY,387.6
+1978-09-01,USA,10-Year TY,388.0
+1978-10-01,USA,10-Year TY,398.2
+1978-11-01,USA,10-Year TY,406.0
+1978-12-01,USA,10-Year TY,415.2
+1979-01-01,USA,10-Year TY,419.4
+1979-02-01,USA,10-Year TY,419.4
+1979-03-01,USA,10-Year TY,420.3
+1979-04-01,USA,10-Year TY,423.0
+1979-05-01,USA,10-Year TY,426.3
+1979-06-01,USA,10-Year TY,410.6
+1979-07-01,USA,10-Year TY,412.4
+1979-08-01,USA,10-Year TY,416.1
+1979-09-01,USA,10-Year TY,430.0
+1979-10-01,USA,10-Year TY,474.7
+1979-11-01,USA,10-Year TY,490.8
+1979-12-01,USA,10-Year TY,478.8
+1980-01-01,USA,10-Year TY,497.7
+1980-02-01,USA,10-Year TY,571.9
+1980-03-01,USA,10-Year TY,587.6
+1980-04-01,USA,10-Year TY,528.6
+1980-05-01,USA,10-Year TY,469.1
+1980-06-01,USA,10-Year TY,450.7
+1980-07-01,USA,10-Year TY,472.4
+1980-08-01,USA,10-Year TY,511.5
+1980-09-01,USA,10-Year TY,530.4
+1980-10-01,USA,10-Year TY,541.5
+1980-11-01,USA,10-Year TY,584.3
+1980-12-01,USA,10-Year TY,591.7
+1981-01-01,USA,10-Year TY,579.3
+1981-02-01,USA,10-Year TY,607.8
+1981-03-01,USA,10-Year TY,604.6
+1981-04-01,USA,10-Year TY,630.4
+1981-05-01,USA,10-Year TY,649.8
+1981-06-01,USA,10-Year TY,620.7
+1981-07-01,USA,10-Year TY,658.1
+1981-08-01,USA,10-Year TY,688.5
+1981-09-01,USA,10-Year TY,706.0
+1981-10-01,USA,10-Year TY,698.2
+1981-11-01,USA,10-Year TY,617.1
+1981-12-01,USA,10-Year TY,632.3
+1982-01-01,USA,10-Year TY,672.4
+1982-02-01,USA,10-Year TY,665.0
+1982-03-01,USA,10-Year TY,638.7
+1982-04-01,USA,10-Year TY,639.2
+1982-05-01,USA,10-Year TY,627.6
+1982-06-01,USA,10-Year TY,659.0
+1982-07-01,USA,10-Year TY,642.9
+1982-08-01,USA,10-Year TY,601.8
+1982-09-01,USA,10-Year TY,568.7
+1982-10-01,USA,10-Year TY,502.8
+1982-11-01,USA,10-Year TY,486.2
+1982-12-01,USA,10-Year TY,485.7
+1983-01-01,USA,10-Year TY,482.0
+1983-02-01,USA,10-Year TY,494.0
+1983-03-01,USA,10-Year TY,484.3
+1983-04-01,USA,10-Year TY,479.3
+1983-05-01,USA,10-Year TY,478.3
+1983-06-01,USA,10-Year TY,500.0
+1983-07-01,USA,10-Year TY,524.4
+1983-08-01,USA,10-Year TY,546.1
+1983-09-01,USA,10-Year TY,536.9
+1983-10-01,USA,10-Year TY,531.8
+1983-11-01,USA,10-Year TY,538.7
+1983-12-01,USA,10-Year TY,545.2
+1984-01-01,USA,10-Year TY,537.8
+1984-02-01,USA,10-Year TY,545.6
+1984-03-01,USA,10-Year TY,567.7
+1984-04-01,USA,10-Year TY,582.0
+1984-05-01,USA,10-Year TY,618.0
+1984-06-01,USA,10-Year TY,624.9
+1984-07-01,USA,10-Year TY,615.7
+1984-08-01,USA,10-Year TY,586.2
+1984-09-01,USA,10-Year TY,577.0
+1984-10-01,USA,10-Year TY,560.4
+1984-11-01,USA,10-Year TY,533.2
+1984-12-01,USA,10-Year TY,530.0
+1985-01-01,USA,10-Year TY,524.4
+1985-02-01,USA,10-Year TY,530.4
+1985-03-01,USA,10-Year TY,546.5
+1985-04-01,USA,10-Year TY,526.7
+1985-05-01,USA,10-Year TY,500.0
+1985-06-01,USA,10-Year TY,468.2
+1985-07-01,USA,10-Year TY,475.1
+1985-08-01,USA,10-Year TY,476.0
+1985-09-01,USA,10-Year TY,477.9
+1985-10-01,USA,10-Year TY,471.9
+1985-11-01,USA,10-Year TY,450.7
+1985-12-01,USA,10-Year TY,426.7
+1986-01-01,USA,10-Year TY,423.5
+1986-02-01,USA,10-Year TY,400.9
+1986-03-01,USA,10-Year TY,358.5
+1986-04-01,USA,10-Year TY,336.4
+1986-05-01,USA,10-Year TY,355.3
+1986-06-01,USA,10-Year TY,359.4
+1986-07-01,USA,10-Year TY,336.4
+1986-08-01,USA,10-Year TY,330.4
+1986-09-01,USA,10-Year TY,343.3
+1986-10-01,USA,10-Year TY,342.4
+1986-11-01,USA,10-Year TY,334.1
+1986-12-01,USA,10-Year TY,327.6
+1987-01-01,USA,10-Year TY,326.3
+1987-02-01,USA,10-Year TY,334.1
+1987-03-01,USA,10-Year TY,334.1
+1987-04-01,USA,10-Year TY,369.6
+1987-05-01,USA,10-Year TY,396.8
+1987-06-01,USA,10-Year TY,387.1
+1987-07-01,USA,10-Year TY,389.4
+1987-08-01,USA,10-Year TY,403.7
+1987-09-01,USA,10-Year TY,434.1
+1987-10-01,USA,10-Year TY,438.7
+1987-11-01,USA,10-Year TY,408.3
+1987-12-01,USA,10-Year TY,414.3
+1988-01-01,USA,10-Year TY,399.5
+1988-02-01,USA,10-Year TY,378.3
+1988-03-01,USA,10-Year TY,385.7
+1988-04-01,USA,10-Year TY,401.8
+1988-05-01,USA,10-Year TY,418.9
+1988-06-01,USA,10-Year TY,411.1
+1988-07-01,USA,10-Year TY,417.5
+1988-08-01,USA,10-Year TY,426.7
+1988-09-01,USA,10-Year TY,413.8
+1988-10-01,USA,10-Year TY,405.5
+1988-11-01,USA,10-Year TY,412.9
+1988-12-01,USA,10-Year TY,419.8
+1989-01-01,USA,10-Year TY,418.9
+1989-02-01,USA,10-Year TY,422.6
+1989-03-01,USA,10-Year TY,431.3
+1989-04-01,USA,10-Year TY,423.0
+1989-05-01,USA,10-Year TY,408.3
+1989-06-01,USA,10-Year TY,381.6
+1989-07-01,USA,10-Year TY,369.6
+1989-08-01,USA,10-Year TY,373.7
+1989-09-01,USA,10-Year TY,377.4
+1989-10-01,USA,10-Year TY,369.1
+1989-11-01,USA,10-Year TY,362.7
+1989-12-01,USA,10-Year TY,361.3
+1990-01-01,USA,10-Year TY,378.3
+1990-02-01,USA,10-Year TY,390.3
+1990-03-01,USA,10-Year TY,395.9
+1990-04-01,USA,10-Year TY,405.1
+1990-05-01,USA,10-Year TY,403.7
+1990-06-01,USA,10-Year TY,390.8
+1990-07-01,USA,10-Year TY,390.3
+1990-08-01,USA,10-Year TY,403.2
+1990-09-01,USA,10-Year TY,409.7
+1990-10-01,USA,10-Year TY,401.8
+1990-11-01,USA,10-Year TY,386.6
+1990-12-01,USA,10-Year TY,372.4
+1991-01-01,USA,10-Year TY,372.8
+1991-02-01,USA,10-Year TY,361.8
+1991-03-01,USA,10-Year TY,373.7
+1991-04-01,USA,10-Year TY,370.5
+1991-05-01,USA,10-Year TY,371.9
+1991-06-01,USA,10-Year TY,381.6
+1991-07-01,USA,10-Year TY,381.1
+1991-08-01,USA,10-Year TY,364.1
+1991-09-01,USA,10-Year TY,352.5
+1991-10-01,USA,10-Year TY,347.0
+1991-11-01,USA,10-Year TY,341.9
+1991-12-01,USA,10-Year TY,326.7
+1992-01-01,USA,10-Year TY,324.0
+1992-02-01,USA,10-Year TY,338.2
+1992-03-01,USA,10-Year TY,347.5
+1992-04-01,USA,10-Year TY,344.7
+1992-05-01,USA,10-Year TY,340.6
+1992-06-01,USA,10-Year TY,334.6
+1992-07-01,USA,10-Year TY,315.2
+1992-08-01,USA,10-Year TY,303.7
+1992-09-01,USA,10-Year TY,295.9
+1992-10-01,USA,10-Year TY,303.7
+1992-11-01,USA,10-Year TY,316.6
+1992-12-01,USA,10-Year TY,312.0
+1993-01-01,USA,10-Year TY,304.1
+1993-02-01,USA,10-Year TY,288.5
+1993-03-01,USA,10-Year TY,275.6
+1993-04-01,USA,10-Year TY,275.1
+1993-05-01,USA,10-Year TY,278.3
+1993-06-01,USA,10-Year TY,274.7
+1993-07-01,USA,10-Year TY,267.7
+1993-08-01,USA,10-Year TY,261.8
+1993-09-01,USA,10-Year TY,247.0
+1993-10-01,USA,10-Year TY,245.6
+1993-11-01,USA,10-Year TY,263.6
+1993-12-01,USA,10-Year TY,265.9
+1994-01-01,USA,10-Year TY,265.0
+1994-02-01,USA,10-Year TY,275.1
+1994-03-01,USA,10-Year TY,298.6
+1994-04-01,USA,10-Year TY,321.2
+1994-05-01,USA,10-Year TY,330.9
+1994-06-01,USA,10-Year TY,327.2
+1994-07-01,USA,10-Year TY,336.4
+1994-08-01,USA,10-Year TY,333.6
+1994-09-01,USA,10-Year TY,343.8
+1994-10-01,USA,10-Year TY,356.7
+1994-11-01,USA,10-Year TY,366.8
+1994-12-01,USA,10-Year TY,359.9
+1995-01-01,USA,10-Year TY,358.5
+1995-02-01,USA,10-Year TY,344.2
+1995-03-01,USA,10-Year TY,331.8
+1995-04-01,USA,10-Year TY,325.3
+1995-05-01,USA,10-Year TY,305.5
+1995-06-01,USA,10-Year TY,284.3
+1995-07-01,USA,10-Year TY,289.4
+1995-08-01,USA,10-Year TY,299.1
+1995-09-01,USA,10-Year TY,285.7
+1995-10-01,USA,10-Year TY,278.3
+1995-11-01,USA,10-Year TY,273.3
+1995-12-01,USA,10-Year TY,263.1
+1996-01-01,USA,10-Year TY,260.4
+1996-02-01,USA,10-Year TY,267.7
+1996-03-01,USA,10-Year TY,288.9
+1996-04-01,USA,10-Year TY,300.0
+1996-05-01,USA,10-Year TY,310.6
+1996-06-01,USA,10-Year TY,318.4
+1996-07-01,USA,10-Year TY,316.6
+1996-08-01,USA,10-Year TY,306.0
+1996-09-01,USA,10-Year TY,314.7
+1996-10-01,USA,10-Year TY,300.9
+1996-11-01,USA,10-Year TY,285.7
+1996-12-01,USA,10-Year TY,290.3
+1997-01-01,USA,10-Year TY,303.2
+1997-02-01,USA,10-Year TY,295.9
+1997-03-01,USA,10-Year TY,308.3
+1997-04-01,USA,10-Year TY,317.5
+1997-05-01,USA,10-Year TY,309.2
+1997-06-01,USA,10-Year TY,299.1
+1997-07-01,USA,10-Year TY,286.6
+1997-08-01,USA,10-Year TY,290.3
+1997-09-01,USA,10-Year TY,286.2
+1997-10-01,USA,10-Year TY,277.9
+1997-11-01,USA,10-Year TY,271.0
+1997-12-01,USA,10-Year TY,267.7
+1998-01-01,USA,10-Year TY,255.3
+1998-02-01,USA,10-Year TY,256.7
+1998-03-01,USA,10-Year TY,260.4
+1998-04-01,USA,10-Year TY,259.9
+1998-05-01,USA,10-Year TY,260.4
+1998-06-01,USA,10-Year TY,253.5
+1998-07-01,USA,10-Year TY,251.6
+1998-08-01,USA,10-Year TY,246.1
+1998-09-01,USA,10-Year TY,221.7
+1998-10-01,USA,10-Year TY,208.8
+1998-11-01,USA,10-Year TY,222.6
+1998-12-01,USA,10-Year TY,214.3
+1999-01-01,USA,10-Year TY,217.5
+1999-02-01,USA,10-Year TY,230.4
+1999-03-01,USA,10-Year TY,241.0
+1999-04-01,USA,10-Year TY,238.7
+1999-05-01,USA,10-Year TY,255.3
+1999-06-01,USA,10-Year TY,271.9
+1999-07-01,USA,10-Year TY,266.8
+1999-08-01,USA,10-Year TY,273.7
+1999-09-01,USA,10-Year TY,272.8
+1999-10-01,USA,10-Year TY,281.6
+1999-11-01,USA,10-Year TY,277.9
+1999-12-01,USA,10-Year TY,289.4
+2000-01-01,USA,10-Year TY,306.9
+2000-02-01,USA,10-Year TY,300.5
+2000-03-01,USA,10-Year TY,288.5
+2000-04-01,USA,10-Year TY,276.0
+2000-05-01,USA,10-Year TY,296.8
+2000-06-01,USA,10-Year TY,281.1
+2000-07-01,USA,10-Year TY,278.8
+2000-08-01,USA,10-Year TY,268.7
+2000-09-01,USA,10-Year TY,267.3
+2000-10-01,USA,10-Year TY,264.5
+2000-11-01,USA,10-Year TY,263.6
+2000-12-01,USA,10-Year TY,241.5
+2001-01-01,USA,10-Year TY,237.8
+2001-02-01,USA,10-Year TY,235.0
+2001-03-01,USA,10-Year TY,225.3
+2001-04-01,USA,10-Year TY,236.9
+2001-05-01,USA,10-Year TY,248.4
+2001-06-01,USA,10-Year TY,243.3
+2001-07-01,USA,10-Year TY,241.5
+2001-08-01,USA,10-Year TY,229.0
+2001-09-01,USA,10-Year TY,218.0
+2001-10-01,USA,10-Year TY,210.6
+2001-11-01,USA,10-Year TY,214.3
+2001-12-01,USA,10-Year TY,234.6
+2002-01-01,USA,10-Year TY,232.3
+2002-02-01,USA,10-Year TY,226.3
+2002-03-01,USA,10-Year TY,243.3
+2002-04-01,USA,10-Year TY,240.1
+2002-05-01,USA,10-Year TY,237.8
+2002-06-01,USA,10-Year TY,227.2
+2002-07-01,USA,10-Year TY,214.3
+2002-08-01,USA,10-Year TY,196.3
+2002-09-01,USA,10-Year TY,178.3
+2002-10-01,USA,10-Year TY,181.6
+2002-11-01,USA,10-Year TY,186.6
+2002-12-01,USA,10-Year TY,185.7
+2003-01-01,USA,10-Year TY,186.6
+2003-02-01,USA,10-Year TY,179.7
+2003-03-01,USA,10-Year TY,175.6
+2003-04-01,USA,10-Year TY,182.5
+2003-05-01,USA,10-Year TY,164.5
+2003-06-01,USA,10-Year TY,153.5
+2003-07-01,USA,10-Year TY,183.4
+2003-08-01,USA,10-Year TY,205.1
+2003-09-01,USA,10-Year TY,196.8
+2003-10-01,USA,10-Year TY,197.7
+2003-11-01,USA,10-Year TY,198.2
+2003-12-01,USA,10-Year TY,196.8
+2004-01-01,USA,10-Year TY,191.2
+2004-02-01,USA,10-Year TY,188.0
+2004-03-01,USA,10-Year TY,176.5
+2004-04-01,USA,10-Year TY,200.5
+2004-05-01,USA,10-Year TY,217.5
+2004-06-01,USA,10-Year TY,218.0
+2004-07-01,USA,10-Year TY,207.4
+2004-08-01,USA,10-Year TY,197.2
+2004-09-01,USA,10-Year TY,190.3
+2004-10-01,USA,10-Year TY,188.9
+2004-11-01,USA,10-Year TY,193.1
+2004-12-01,USA,10-Year TY,194.9
+2005-01-01,USA,10-Year TY,194.5
+2005-02-01,USA,10-Year TY,192.2
+2005-03-01,USA,10-Year TY,207.4
+2005-04-01,USA,10-Year TY,200.0
+2005-05-01,USA,10-Year TY,190.8
+2005-06-01,USA,10-Year TY,184.3
+2005-07-01,USA,10-Year TY,192.6
+2005-08-01,USA,10-Year TY,196.3
+2005-09-01,USA,10-Year TY,193.5
+2005-10-01,USA,10-Year TY,205.5
+2005-11-01,USA,10-Year TY,209.2
+2005-12-01,USA,10-Year TY,206.0
+2006-01-01,USA,10-Year TY,203.7
+2006-02-01,USA,10-Year TY,210.6
+2006-03-01,USA,10-Year TY,217.5
+2006-04-01,USA,10-Year TY,230.0
+2006-05-01,USA,10-Year TY,235.5
+2006-06-01,USA,10-Year TY,235.5
+2006-07-01,USA,10-Year TY,234.6
+2006-08-01,USA,10-Year TY,224.9
+2006-09-01,USA,10-Year TY,217.5
+2006-10-01,USA,10-Year TY,218.0
+2006-11-01,USA,10-Year TY,212.0
+2006-12-01,USA,10-Year TY,210.1
+2007-01-01,USA,10-Year TY,219.4
+2007-02-01,USA,10-Year TY,217.5
+2007-03-01,USA,10-Year TY,210.1
+2007-04-01,USA,10-Year TY,216.1
+2007-05-01,USA,10-Year TY,218.9
+2007-06-01,USA,10-Year TY,235.0
+2007-07-01,USA,10-Year TY,230.4
+2007-08-01,USA,10-Year TY,215.2
+2007-09-01,USA,10-Year TY,208.3
+2007-10-01,USA,10-Year TY,208.8
+2007-11-01,USA,10-Year TY,191.2
+2007-12-01,USA,10-Year TY,188.9
+2008-01-01,USA,10-Year TY,172.4
+2008-02-01,USA,10-Year TY,172.4
+2008-03-01,USA,10-Year TY,161.8
+2008-04-01,USA,10-Year TY,169.6
+2008-05-01,USA,10-Year TY,178.8
+2008-06-01,USA,10-Year TY,188.9
+2008-07-01,USA,10-Year TY,184.8
+2008-08-01,USA,10-Year TY,179.3
+2008-09-01,USA,10-Year TY,170.0
+2008-10-01,USA,10-Year TY,175.6
+2008-11-01,USA,10-Year TY,162.7
+2008-12-01,USA,10-Year TY,111.5
+2009-01-01,USA,10-Year TY,116.1
+2009-02-01,USA,10-Year TY,132.3
+2009-03-01,USA,10-Year TY,130.0
+2009-04-01,USA,10-Year TY,135.0
+2009-05-01,USA,10-Year TY,151.6
+2009-06-01,USA,10-Year TY,171.4
+2009-07-01,USA,10-Year TY,164.1
+2009-08-01,USA,10-Year TY,165.4
+2009-09-01,USA,10-Year TY,156.7
+2009-10-01,USA,10-Year TY,156.2
+2009-11-01,USA,10-Year TY,156.7
+2009-12-01,USA,10-Year TY,165.4
+2010-01-01,USA,10-Year TY,171.9
+2010-02-01,USA,10-Year TY,170.0
+2010-03-01,USA,10-Year TY,171.9
+2010-04-01,USA,10-Year TY,177.4
+2010-05-01,USA,10-Year TY,157.6
+2010-06-01,USA,10-Year TY,147.5
+2010-07-01,USA,10-Year TY,138.7
+2010-08-01,USA,10-Year TY,124.4
+2010-09-01,USA,10-Year TY,122.1
+2010-10-01,USA,10-Year TY,117.1
+2010-11-01,USA,10-Year TY,127.2
+2010-12-01,USA,10-Year TY,151.6
+2011-01-01,USA,10-Year TY,156.2
+2011-02-01,USA,10-Year TY,165.0
+2011-03-01,USA,10-Year TY,157.1
+2011-04-01,USA,10-Year TY,159.4
+2011-05-01,USA,10-Year TY,146.1
+2011-06-01,USA,10-Year TY,138.2
+2011-07-01,USA,10-Year TY,138.2
+2011-08-01,USA,10-Year TY,106.0
+2011-09-01,USA,10-Year TY,91.2
+2011-10-01,USA,10-Year TY,99.1
+2011-11-01,USA,10-Year TY,92.6
+2011-12-01,USA,10-Year TY,91.2
+2012-01-01,USA,10-Year TY,90.8
+2012-02-01,USA,10-Year TY,90.8
+2012-03-01,USA,10-Year TY,100.0
+2012-04-01,USA,10-Year TY,94.5
+2012-05-01,USA,10-Year TY,82.9
+2012-06-01,USA,10-Year TY,74.7
+2012-07-01,USA,10-Year TY,70.5
+2012-08-01,USA,10-Year TY,77.4
+2012-09-01,USA,10-Year TY,79.3
+2012-10-01,USA,10-Year TY,80.6
+2012-11-01,USA,10-Year TY,76.0
+2012-12-01,USA,10-Year TY,79.3
+2013-01-01,USA,10-Year TY,88.0
+2013-02-01,USA,10-Year TY,91.2
+2013-03-01,USA,10-Year TY,90.3
+2013-04-01,USA,10-Year TY,81.1
+2013-05-01,USA,10-Year TY,88.9
+2013-06-01,USA,10-Year TY,106.0
+2013-07-01,USA,10-Year TY,118.9
+2013-08-01,USA,10-Year TY,126.3
+2013-09-01,USA,10-Year TY,129.5
+2013-10-01,USA,10-Year TY,120.7
+2013-11-01,USA,10-Year TY,125.3
+2013-12-01,USA,10-Year TY,133.6
+2014-01-01,USA,10-Year TY,131.8
+2014-02-01,USA,10-Year TY,124.9
+2014-03-01,USA,10-Year TY,125.3
+2014-04-01,USA,10-Year TY,124.9
+2014-05-01,USA,10-Year TY,118.0
+2014-06-01,USA,10-Year TY,119.8
+2014-07-01,USA,10-Year TY,117.1
+2014-08-01,USA,10-Year TY,111.5
+2014-09-01,USA,10-Year TY,116.6
+2014-10-01,USA,10-Year TY,106.0
+2014-11-01,USA,10-Year TY,107.4
+2014-12-01,USA,10-Year TY,101.8
+2015-01-01,USA,10-Year TY,86.6
+2015-02-01,USA,10-Year TY,91.2
+2015-03-01,USA,10-Year TY,94.0
+2015-04-01,USA,10-Year TY,89.4
+2015-05-01,USA,10-Year TY,101.4
+2015-06-01,USA,10-Year TY,108.8
+2015-07-01,USA,10-Year TY,106.9
+2015-08-01,USA,10-Year TY,100.0
+2015-09-01,USA,10-Year TY,100.0
+2015-10-01,USA,10-Year TY,95.4
+2015-11-01,USA,10-Year TY,104.1
+2015-12-01,USA,10-Year TY,103.2
+2016-01-01,USA,10-Year TY,96.3
+2016-02-01,USA,10-Year TY,82.0
+2016-03-01,USA,10-Year TY,87.1
+2016-04-01,USA,10-Year TY,83.4
+2016-05-01,USA,10-Year TY,83.4
+2016-06-01,USA,10-Year TY,75.6
+2016-07-01,USA,10-Year TY,69.1
+2016-08-01,USA,10-Year TY,71.9
+2016-09-01,USA,10-Year TY,75.1
+2016-10-01,USA,10-Year TY,81.1
+2016-11-01,USA,10-Year TY,98.6
+2016-12-01,USA,10-Year TY,114.7
+2017-01-01,USA,10-Year TY,112.0
+2017-02-01,USA,10-Year TY,111.5
+2017-03-01,USA,10-Year TY,114.3
+2017-04-01,USA,10-Year TY,106.0
+2017-05-01,USA,10-Year TY,106.0
+2017-06-01,USA,10-Year TY,100.9
+2017-07-01,USA,10-Year TY,106.9
+2017-08-01,USA,10-Year TY,101.8
+2017-09-01,USA,10-Year TY,101.4
+2017-10-01,USA,10-Year TY,108.8
+2017-11-01,USA,10-Year TY,108.3
+2017-12-01,USA,10-Year TY,110.6
+2018-01-01,USA,10-Year TY,118.9
+2018-02-01,USA,10-Year TY,131.8
+2018-03-01,USA,10-Year TY,130.9
+2018-04-01,USA,10-Year TY,132.3
+2018-05-01,USA,10-Year TY,137.3
+2018-06-01,USA,10-Year TY,134.1
+2018-07-01,USA,10-Year TY,133.2
+2018-08-01,USA,10-Year TY,133.2
+2018-09-01,USA,10-Year TY,138.2
+2018-10-01,USA,10-Year TY,145.2
+2018-11-01,USA,10-Year TY,143.8
+2018-12-01,USA,10-Year TY,130.4
+2019-01-01,USA,10-Year TY,124.9
+2019-02-01,USA,10-Year TY,123.5
+2019-03-01,USA,10-Year TY,118.4
+2019-04-01,USA,10-Year TY,116.6
+2019-05-01,USA,10-Year TY,110.6
+2019-06-01,USA,10-Year TY,95.4
+2019-07-01,USA,10-Year TY,94.9
+2019-08-01,USA,10-Year TY,75.1
+2019-09-01,USA,10-Year TY,78.3
+2019-10-01,USA,10-Year TY,78.8
+2019-11-01,USA,10-Year TY,83.4
+2019-12-01,USA,10-Year TY,85.7
+2020-01-01,USA,10-Year TY,81.1
+2020-02-01,USA,10-Year TY,69.1
+2020-03-01,USA,10-Year TY,40.1
+2020-04-01,USA,10-Year TY,30.4
+2020-05-01,USA,10-Year TY,30.9
+2020-06-01,USA,10-Year TY,33.6
+2020-07-01,USA,10-Year TY,28.6
+2020-08-01,USA,10-Year TY,30.0
+2020-09-01,USA,10-Year TY,31.3
+2020-10-01,USA,10-Year TY,36.4
+2020-11-01,USA,10-Year TY,40.1
+2020-12-01,USA,10-Year TY,42.9
+2021-01-01,USA,10-Year TY,49.8
+2021-02-01,USA,10-Year TY,58.1
+2021-03-01,USA,10-Year TY,74.2
+2021-04-01,USA,10-Year TY,75.6
+2021-05-01,USA,10-Year TY,74.7
+2021-06-01,USA,10-Year TY,70.0
+2021-07-01,USA,10-Year TY,60.8
+2021-08-01,USA,10-Year TY,59.0
+2021-09-01,USA,10-Year TY,63.1
+2021-10-01,USA,10-Year TY,72.8
+2021-11-01,USA,10-Year TY,71.9
+2021-12-01,USA,10-Year TY,67.7
+2022-01-01,USA,10-Year TY,81.1
+2022-02-01,USA,10-Year TY,88.9
+2022-03-01,USA,10-Year TY,98.2
+2022-04-01,USA,10-Year TY,126.7
+2022-05-01,USA,10-Year TY,133.6
+2022-06-01,USA,10-Year TY,144.7
+2022-07-01,USA,10-Year TY,133.6
+2022-08-01,USA,10-Year TY,133.6
+2022-09-01,USA,10-Year TY,162.2
+2022-10-01,USA,10-Year TY,183.4
+2022-11-01,USA,10-Year TY,179.3
+2022-12-01,USA,10-Year TY,166.8
+2023-01-01,USA,10-Year TY,162.7
+2023-02-01,USA,10-Year TY,172.8
+2023-03-01,USA,10-Year TY,168.7
+2023-04-01,USA,10-Year TY,159.4
+2023-05-01,USA,10-Year TY,164.5
+2023-06-01,USA,10-Year TY,172.8
+2023-07-01,USA,10-Year TY,179.7
+2023-08-01,USA,10-Year TY,192.2
+2023-09-01,USA,10-Year TY,201.8
+2023-10-01,USA,10-Year TY,221.2
+2023-11-01,USA,10-Year TY,207.4
+2023-12-01,USA,10-Year TY,185.3
+2024-01-01,USA,10-Year TY,187.1
+2024-02-01,USA,10-Year TY,194.0
+2024-03-01,USA,10-Year TY,194.0
+2024-04-01,USA,10-Year TY,209.2
+2024-05-01,USA,10-Year TY,206.5
+2024-06-01,USA,10-Year TY,198.6
+2024-07-01,USA,10-Year TY,195.9
+2024-08-01,USA,10-Year TY,178.3
+2024-09-01,USA,10-Year TY,171.4
+2024-10-01,USA,10-Year TY,188.9
+2024-11-01,USA,10-Year TY,200.9
+2024-12-01,USA,10-Year TY,202.3
+2025-01-01,USA,10-Year TY,213.4
+2025-02-01,USA,10-Year TY,205.1
+2025-03-01,USA,10-Year TY,197.2
+2025-04-01,USA,10-Year TY,197.2
+2025-05-01,USA,10-Year TY,203.7
+2025-06-01,USA,10-Year TY,201.8
+1999-01-01,Global (USD/EUR),USD/EUR Spot,103.9
+1999-02-01,Global (USD/EUR),USD/EUR Spot,100.5
+1999-03-01,Global (USD/EUR),USD/EUR Spot,97.6
+1999-04-01,Global (USD/EUR),USD/EUR Spot,96.0
+1999-05-01,Global (USD/EUR),USD/EUR Spot,95.3
+1999-06-01,Global (USD/EUR),USD/EUR Spot,93.1
+1999-07-01,Global (USD/EUR),USD/EUR Spot,93.0
+1999-08-01,Global (USD/EUR),USD/EUR Spot,95.1
+1999-09-01,Global (USD/EUR),USD/EUR Spot,94.1
+1999-10-01,Global (USD/EUR),USD/EUR Spot,96.0
+1999-11-01,Global (USD/EUR),USD/EUR Spot,92.6
+1999-12-01,Global (USD/EUR),USD/EUR Spot,90.7
+2000-01-01,Global (USD/EUR),USD/EUR Spot,90.8
+2000-02-01,Global (USD/EUR),USD/EUR Spot,88.2
+2000-03-01,Global (USD/EUR),USD/EUR Spot,86.5
+2000-04-01,Global (USD/EUR),USD/EUR Spot,84.7
+2000-05-01,Global (USD/EUR),USD/EUR Spot,81.2
+2000-06-01,Global (USD/EUR),USD/EUR Spot,85.2
+2000-07-01,Global (USD/EUR),USD/EUR Spot,84.2
+2000-08-01,Global (USD/EUR),USD/EUR Spot,81.1
+2000-09-01,Global (USD/EUR),USD/EUR Spot,78.0
+2000-10-01,Global (USD/EUR),USD/EUR Spot,76.4
+2000-11-01,Global (USD/EUR),USD/EUR Spot,76.7
+2000-12-01,Global (USD/EUR),USD/EUR Spot,80.6
+2001-01-01,Global (USD/EUR),USD/EUR Spot,84.1
+2001-02-01,Global (USD/EUR),USD/EUR Spot,82.5
+2001-03-01,Global (USD/EUR),USD/EUR Spot,81.5
+2001-04-01,Global (USD/EUR),USD/EUR Spot,80.0
+2001-05-01,Global (USD/EUR),USD/EUR Spot,78.5
+2001-06-01,Global (USD/EUR),USD/EUR Spot,76.5
+2001-07-01,Global (USD/EUR),USD/EUR Spot,77.3
+2001-08-01,Global (USD/EUR),USD/EUR Spot,80.8
+2001-09-01,Global (USD/EUR),USD/EUR Spot,81.7
+2001-10-01,Global (USD/EUR),USD/EUR Spot,81.2
+2001-11-01,Global (USD/EUR),USD/EUR Spot,79.7
+2001-12-01,Global (USD/EUR),USD/EUR Spot,79.9
+2002-01-01,Global (USD/EUR),USD/EUR Spot,79.2
+2002-02-01,Global (USD/EUR),USD/EUR Spot,78.1
+2002-03-01,Global (USD/EUR),USD/EUR Spot,78.6
+2002-04-01,Global (USD/EUR),USD/EUR Spot,79.5
+2002-05-01,Global (USD/EUR),USD/EUR Spot,82.2
+2002-06-01,Global (USD/EUR),USD/EUR Spot,85.7
+2002-07-01,Global (USD/EUR),USD/EUR Spot,89.1
+2002-08-01,Global (USD/EUR),USD/EUR Spot,87.7
+2002-09-01,Global (USD/EUR),USD/EUR Spot,87.9
+2002-10-01,Global (USD/EUR),USD/EUR Spot,88.0
+2002-11-01,Global (USD/EUR),USD/EUR Spot,89.8
+2002-12-01,Global (USD/EUR),USD/EUR Spot,91.4
+2003-01-01,Global (USD/EUR),USD/EUR Spot,95.3
+2003-02-01,Global (USD/EUR),USD/EUR Spot,96.7
+2003-03-01,Global (USD/EUR),USD/EUR Spot,96.8
+2003-04-01,Global (USD/EUR),USD/EUR Spot,97.4
+2003-05-01,Global (USD/EUR),USD/EUR Spot,103.6
+2003-06-01,Global (USD/EUR),USD/EUR Spot,104.7
+2003-07-01,Global (USD/EUR),USD/EUR Spot,101.9
+2003-08-01,Global (USD/EUR),USD/EUR Spot,100.0
+2003-09-01,Global (USD/EUR),USD/EUR Spot,101.0
+2003-10-01,Global (USD/EUR),USD/EUR Spot,105.0
+2003-11-01,Global (USD/EUR),USD/EUR Spot,105.0
+2003-12-01,Global (USD/EUR),USD/EUR Spot,110.3
+2004-01-01,Global (USD/EUR),USD/EUR Spot,113.3
+2004-02-01,Global (USD/EUR),USD/EUR Spot,113.3
+2004-03-01,Global (USD/EUR),USD/EUR Spot,109.9
+2004-04-01,Global (USD/EUR),USD/EUR Spot,107.5
+2004-05-01,Global (USD/EUR),USD/EUR Spot,107.6
+2004-06-01,Global (USD/EUR),USD/EUR Spot,108.9
+2004-07-01,Global (USD/EUR),USD/EUR Spot,110.0
+2004-08-01,Global (USD/EUR),USD/EUR Spot,109.3
+2004-09-01,Global (USD/EUR),USD/EUR Spot,109.6
+2004-10-01,Global (USD/EUR),USD/EUR Spot,112.2
+2004-11-01,Global (USD/EUR),USD/EUR Spot,116.5
+2004-12-01,Global (USD/EUR),USD/EUR Spot,120.2
+2005-01-01,Global (USD/EUR),USD/EUR Spot,117.7
+2005-02-01,Global (USD/EUR),USD/EUR Spot,116.7
+2005-03-01,Global (USD/EUR),USD/EUR Spot,118.2
+2005-04-01,Global (USD/EUR),USD/EUR Spot,116.1
+2005-05-01,Global (USD/EUR),USD/EUR Spot,113.9
+2005-06-01,Global (USD/EUR),USD/EUR Spot,109.0
+2005-07-01,Global (USD/EUR),USD/EUR Spot,108.0
+2005-08-01,Global (USD/EUR),USD/EUR Spot,110.3
+2005-09-01,Global (USD/EUR),USD/EUR Spot,109.7
+2005-10-01,Global (USD/EUR),USD/EUR Spot,107.8
+2005-11-01,Global (USD/EUR),USD/EUR Spot,105.7
+2005-12-01,Global (USD/EUR),USD/EUR Spot,106.4
+2006-01-01,Global (USD/EUR),USD/EUR Spot,108.7
+2006-02-01,Global (USD/EUR),USD/EUR Spot,107.1
+2006-03-01,Global (USD/EUR),USD/EUR Spot,107.9
+2006-04-01,Global (USD/EUR),USD/EUR Spot,110.1
+2006-05-01,Global (USD/EUR),USD/EUR Spot,114.5
+2006-06-01,Global (USD/EUR),USD/EUR Spot,113.5
+2006-07-01,Global (USD/EUR),USD/EUR Spot,113.7
+2006-08-01,Global (USD/EUR),USD/EUR Spot,114.9
+2006-09-01,Global (USD/EUR),USD/EUR Spot,114.1
+2006-10-01,Global (USD/EUR),USD/EUR Spot,113.1
+2006-11-01,Global (USD/EUR),USD/EUR Spot,115.6
+2006-12-01,Global (USD/EUR),USD/EUR Spot,118.4
+2007-01-01,Global (USD/EUR),USD/EUR Spot,116.5
+2007-02-01,Global (USD/EUR),USD/EUR Spot,117.3
+2007-03-01,Global (USD/EUR),USD/EUR Spot,118.8
+2007-04-01,Global (USD/EUR),USD/EUR Spot,121.2
+2007-05-01,Global (USD/EUR),USD/EUR Spot,121.2
+2007-06-01,Global (USD/EUR),USD/EUR Spot,120.4
+2007-07-01,Global (USD/EUR),USD/EUR Spot,123.1
+2007-08-01,Global (USD/EUR),USD/EUR Spot,122.2
+2007-09-01,Global (USD/EUR),USD/EUR Spot,124.7
+2007-10-01,Global (USD/EUR),USD/EUR Spot,127.6
+2007-11-01,Global (USD/EUR),USD/EUR Spot,131.7
+2007-12-01,Global (USD/EUR),USD/EUR Spot,130.6
+2008-01-01,Global (USD/EUR),USD/EUR Spot,132.1
+2008-02-01,Global (USD/EUR),USD/EUR Spot,132.3
+2008-03-01,Global (USD/EUR),USD/EUR Spot,139.2
+2008-04-01,Global (USD/EUR),USD/EUR Spot,141.3
+2008-05-01,Global (USD/EUR),USD/EUR Spot,139.5
+2008-06-01,Global (USD/EUR),USD/EUR Spot,139.6
+2008-07-01,Global (USD/EUR),USD/EUR Spot,141.3
+2008-08-01,Global (USD/EUR),USD/EUR Spot,134.1
+2008-09-01,Global (USD/EUR),USD/EUR Spot,128.6
+2008-10-01,Global (USD/EUR),USD/EUR Spot,119.0
+2008-11-01,Global (USD/EUR),USD/EUR Spot,114.3
+2008-12-01,Global (USD/EUR),USD/EUR Spot,121.2
+2009-01-01,Global (USD/EUR),USD/EUR Spot,118.8
+2009-02-01,Global (USD/EUR),USD/EUR Spot,114.8
+2009-03-01,Global (USD/EUR),USD/EUR Spot,117.0
+2009-04-01,Global (USD/EUR),USD/EUR Spot,118.4
+2009-05-01,Global (USD/EUR),USD/EUR Spot,122.4
+2009-06-01,Global (USD/EUR),USD/EUR Spot,125.7
+2009-07-01,Global (USD/EUR),USD/EUR Spot,126.4
+2009-08-01,Global (USD/EUR),USD/EUR Spot,127.9
+2009-09-01,Global (USD/EUR),USD/EUR Spot,130.7
+2009-10-01,Global (USD/EUR),USD/EUR Spot,132.9
+2009-11-01,Global (USD/EUR),USD/EUR Spot,133.7
+2009-12-01,Global (USD/EUR),USD/EUR Spot,130.7
+2010-01-01,Global (USD/EUR),USD/EUR Spot,127.9
+2010-02-01,Global (USD/EUR),USD/EUR Spot,122.7
+2010-03-01,Global (USD/EUR),USD/EUR Spot,121.7
+2010-04-01,Global (USD/EUR),USD/EUR Spot,120.3
+2010-05-01,Global (USD/EUR),USD/EUR Spot,112.7
+2010-06-01,Global (USD/EUR),USD/EUR Spot,109.6
+2010-07-01,Global (USD/EUR),USD/EUR Spot,114.9
+2010-08-01,Global (USD/EUR),USD/EUR Spot,115.7
+2010-09-01,Global (USD/EUR),USD/EUR Spot,117.5
+2010-10-01,Global (USD/EUR),USD/EUR Spot,124.7
+2010-11-01,Global (USD/EUR),USD/EUR Spot,122.4
+2010-12-01,Global (USD/EUR),USD/EUR Spot,118.6
+2011-01-01,Global (USD/EUR),USD/EUR Spot,119.9
+2011-02-01,Global (USD/EUR),USD/EUR Spot,122.5
+2011-03-01,Global (USD/EUR),USD/EUR Spot,125.7
+2011-04-01,Global (USD/EUR),USD/EUR Spot,129.7
+2011-05-01,Global (USD/EUR),USD/EUR Spot,128.5
+2011-06-01,Global (USD/EUR),USD/EUR Spot,129.2
+2011-07-01,Global (USD/EUR),USD/EUR Spot,128.0
+2011-08-01,Global (USD/EUR),USD/EUR Spot,128.5
+2011-09-01,Global (USD/EUR),USD/EUR Spot,123.3
+2011-10-01,Global (USD/EUR),USD/EUR Spot,123.1
+2011-11-01,Global (USD/EUR),USD/EUR Spot,121.6
+2011-12-01,Global (USD/EUR),USD/EUR Spot,118.0
+2012-01-01,Global (USD/EUR),USD/EUR Spot,115.8
+2012-02-01,Global (USD/EUR),USD/EUR Spot,118.7
+2012-03-01,Global (USD/EUR),USD/EUR Spot,118.4
+2012-04-01,Global (USD/EUR),USD/EUR Spot,118.0
+2012-05-01,Global (USD/EUR),USD/EUR Spot,114.8
+2012-06-01,Global (USD/EUR),USD/EUR Spot,112.5
+2012-07-01,Global (USD/EUR),USD/EUR Spot,110.1
+2012-08-01,Global (USD/EUR),USD/EUR Spot,111.2
+2012-09-01,Global (USD/EUR),USD/EUR Spot,115.5
+2012-10-01,Global (USD/EUR),USD/EUR Spot,116.3
+2012-11-01,Global (USD/EUR),USD/EUR Spot,115.1
+2012-12-01,Global (USD/EUR),USD/EUR Spot,117.6
+2013-01-01,Global (USD/EUR),USD/EUR Spot,119.3
+2013-02-01,Global (USD/EUR),USD/EUR Spot,119.7
+2013-03-01,Global (USD/EUR),USD/EUR Spot,116.2
+2013-04-01,Global (USD/EUR),USD/EUR Spot,116.8
+2013-05-01,Global (USD/EUR),USD/EUR Spot,116.4
+2013-06-01,Global (USD/EUR),USD/EUR Spot,118.3
+2013-07-01,Global (USD/EUR),USD/EUR Spot,117.4
+2013-08-01,Global (USD/EUR),USD/EUR Spot,119.4
+2013-09-01,Global (USD/EUR),USD/EUR Spot,119.8
+2013-10-01,Global (USD/EUR),USD/EUR Spot,122.4
+2013-11-01,Global (USD/EUR),USD/EUR Spot,121.0
+2013-12-01,Global (USD/EUR),USD/EUR Spot,122.9
+2014-01-01,Global (USD/EUR),USD/EUR Spot,122.1
+2014-02-01,Global (USD/EUR),USD/EUR Spot,122.5
+2014-03-01,Global (USD/EUR),USD/EUR Spot,124.0
+2014-04-01,Global (USD/EUR),USD/EUR Spot,123.8
+2014-05-01,Global (USD/EUR),USD/EUR Spot,123.2
+2014-06-01,Global (USD/EUR),USD/EUR Spot,121.9
+2014-07-01,Global (USD/EUR),USD/EUR Spot,121.4
+2014-08-01,Global (USD/EUR),USD/EUR Spot,119.4
+2014-09-01,Global (USD/EUR),USD/EUR Spot,115.6
+2014-10-01,Global (USD/EUR),USD/EUR Spot,113.7
+2014-11-01,Global (USD/EUR),USD/EUR Spot,111.9
+2014-12-01,Global (USD/EUR),USD/EUR Spot,110.6
+2015-01-01,Global (USD/EUR),USD/EUR Spot,104.2
+2015-02-01,Global (USD/EUR),USD/EUR Spot,101.8
+2015-03-01,Global (USD/EUR),USD/EUR Spot,97.0
+2015-04-01,Global (USD/EUR),USD/EUR Spot,97.0
+2015-05-01,Global (USD/EUR),USD/EUR Spot,100.1
+2015-06-01,Global (USD/EUR),USD/EUR Spot,100.7
+2015-07-01,Global (USD/EUR),USD/EUR Spot,98.6
+2015-08-01,Global (USD/EUR),USD/EUR Spot,99.9
+2015-09-01,Global (USD/EUR),USD/EUR Spot,100.7
+2015-10-01,Global (USD/EUR),USD/EUR Spot,100.7
+2015-11-01,Global (USD/EUR),USD/EUR Spot,96.2
+2015-12-01,Global (USD/EUR),USD/EUR Spot,97.6
+2016-01-01,Global (USD/EUR),USD/EUR Spot,97.3
+2016-02-01,Global (USD/EUR),USD/EUR Spot,99.5
+2016-03-01,Global (USD/EUR),USD/EUR Spot,99.8
+2016-04-01,Global (USD/EUR),USD/EUR Spot,101.7
+2016-05-01,Global (USD/EUR),USD/EUR Spot,101.4
+2016-06-01,Global (USD/EUR),USD/EUR Spot,100.7
+2016-07-01,Global (USD/EUR),USD/EUR Spot,99.1
+2016-08-01,Global (USD/EUR),USD/EUR Spot,100.5
+2016-09-01,Global (USD/EUR),USD/EUR Spot,100.6
+2016-10-01,Global (USD/EUR),USD/EUR Spot,98.8
+2016-11-01,Global (USD/EUR),USD/EUR Spot,96.8
+2016-12-01,Global (USD/EUR),USD/EUR Spot,94.6
+2017-01-01,Global (USD/EUR),USD/EUR Spot,95.4
+2017-02-01,Global (USD/EUR),USD/EUR Spot,95.5
+2017-03-01,Global (USD/EUR),USD/EUR Spot,95.9
+2017-04-01,Global (USD/EUR),USD/EUR Spot,96.1
+2017-05-01,Global (USD/EUR),USD/EUR Spot,99.1
+2017-06-01,Global (USD/EUR),USD/EUR Spot,100.7
+2017-07-01,Global (USD/EUR),USD/EUR Spot,103.4
+2017-08-01,Global (USD/EUR),USD/EUR Spot,105.9
+2017-09-01,Global (USD/EUR),USD/EUR Spot,106.8
+2017-10-01,Global (USD/EUR),USD/EUR Spot,105.4
+2017-11-01,Global (USD/EUR),USD/EUR Spot,105.3
+2017-12-01,Global (USD/EUR),USD/EUR Spot,106.1
+2018-01-01,Global (USD/EUR),USD/EUR Spot,109.4
+2018-02-01,Global (USD/EUR),USD/EUR Spot,110.7
+2018-03-01,Global (USD/EUR),USD/EUR Spot,110.6
+2018-04-01,Global (USD/EUR),USD/EUR Spot,110.0
+2018-05-01,Global (USD/EUR),USD/EUR Spot,106.0
+2018-06-01,Global (USD/EUR),USD/EUR Spot,104.7
+2018-07-01,Global (USD/EUR),USD/EUR Spot,104.8
+2018-08-01,Global (USD/EUR),USD/EUR Spot,103.5
+2018-09-01,Global (USD/EUR),USD/EUR Spot,104.6
+2018-10-01,Global (USD/EUR),USD/EUR Spot,103.0
+2018-11-01,Global (USD/EUR),USD/EUR Spot,101.9
+2018-12-01,Global (USD/EUR),USD/EUR Spot,102.0
+2019-01-01,Global (USD/EUR),USD/EUR Spot,102.4
+2019-02-01,Global (USD/EUR),USD/EUR Spot,101.8
+2019-03-01,Global (USD/EUR),USD/EUR Spot,101.3
+2019-04-01,Global (USD/EUR),USD/EUR Spot,100.7
+2019-05-01,Global (USD/EUR),USD/EUR Spot,100.3
+2019-06-01,Global (USD/EUR),USD/EUR Spot,101.3
+2019-07-01,Global (USD/EUR),USD/EUR Spot,100.5
+2019-08-01,Global (USD/EUR),USD/EUR Spot,99.8
+2019-09-01,Global (USD/EUR),USD/EUR Spot,98.7
+2019-10-01,Global (USD/EUR),USD/EUR Spot,99.2
+2019-11-01,Global (USD/EUR),USD/EUR Spot,99.1
+2019-12-01,Global (USD/EUR),USD/EUR Spot,99.7
+2020-01-01,Global (USD/EUR),USD/EUR Spot,99.5
+2020-02-01,Global (USD/EUR),USD/EUR Spot,97.8
+2020-03-01,Global (USD/EUR),USD/EUR Spot,99.1
+2020-04-01,Global (USD/EUR),USD/EUR Spot,97.5
+2020-05-01,Global (USD/EUR),USD/EUR Spot,97.8
+2020-06-01,Global (USD/EUR),USD/EUR Spot,101.0
+2020-07-01,Global (USD/EUR),USD/EUR Spot,103.0
+2020-08-01,Global (USD/EUR),USD/EUR Spot,106.1
+2020-09-01,Global (USD/EUR),USD/EUR Spot,105.7
+2020-10-01,Global (USD/EUR),USD/EUR Spot,105.5
+2020-11-01,Global (USD/EUR),USD/EUR Spot,106.0
+2020-12-01,Global (USD/EUR),USD/EUR Spot,109.1
+2021-01-01,Global (USD/EUR),USD/EUR Spot,109.2
+2021-02-01,Global (USD/EUR),USD/EUR Spot,108.5
+2021-03-01,Global (USD/EUR),USD/EUR Spot,106.7
+2021-04-01,Global (USD/EUR),USD/EUR Spot,107.3
+2021-05-01,Global (USD/EUR),USD/EUR Spot,108.9
+2021-06-01,Global (USD/EUR),USD/EUR Spot,108.0
+2021-07-01,Global (USD/EUR),USD/EUR Spot,106.0
+2021-08-01,Global (USD/EUR),USD/EUR Spot,105.5
+2021-09-01,Global (USD/EUR),USD/EUR Spot,105.5
+2021-10-01,Global (USD/EUR),USD/EUR Spot,104.0
+2021-11-01,Global (USD/EUR),USD/EUR Spot,102.4
+2021-12-01,Global (USD/EUR),USD/EUR Spot,101.3
+2022-01-01,Global (USD/EUR),USD/EUR Spot,101.5
+2022-02-01,Global (USD/EUR),USD/EUR Spot,101.8
+2022-03-01,Global (USD/EUR),USD/EUR Spot,98.8
+2022-04-01,Global (USD/EUR),USD/EUR Spot,96.9
+2022-05-01,Global (USD/EUR),USD/EUR Spot,94.8
+2022-06-01,Global (USD/EUR),USD/EUR Spot,94.8
+2022-07-01,Global (USD/EUR),USD/EUR Spot,91.2
+2022-08-01,Global (USD/EUR),USD/EUR Spot,90.8
+2022-09-01,Global (USD/EUR),USD/EUR Spot,88.8
+2022-10-01,Global (USD/EUR),USD/EUR Spot,88.4
+2022-11-01,Global (USD/EUR),USD/EUR Spot,91.4
+2022-12-01,Global (USD/EUR),USD/EUR Spot,95.0
+2023-01-01,Global (USD/EUR),USD/EUR Spot,96.6
+2023-02-01,Global (USD/EUR),USD/EUR Spot,96.0
+2023-03-01,Global (USD/EUR),USD/EUR Spot,96.0
+2023-04-01,Global (USD/EUR),USD/EUR Spot,98.3
+2023-05-01,Global (USD/EUR),USD/EUR Spot,97.4
+2023-06-01,Global (USD/EUR),USD/EUR Spot,97.2
+2023-07-01,Global (USD/EUR),USD/EUR Spot,99.2
+2023-08-01,Global (USD/EUR),USD/EUR Spot,97.8
+2023-09-01,Global (USD/EUR),USD/EUR Spot,95.7
+2023-10-01,Global (USD/EUR),USD/EUR Spot,94.7
+2023-11-01,Global (USD/EUR),USD/EUR Spot,97.0
+2023-12-01,Global (USD/EUR),USD/EUR Spot,97.8
+2024-01-01,Global (USD/EUR),USD/EUR Spot,97.7
+2024-02-01,Global (USD/EUR),USD/EUR Spot,96.8
+2024-03-01,Global (USD/EUR),USD/EUR Spot,97.5
+2024-04-01,Global (USD/EUR),USD/EUR Spot,96.2
+2024-05-01,Global (USD/EUR),USD/EUR Spot,96.9
+2024-06-01,Global (USD/EUR),USD/EUR Spot,96.5
+2024-07-01,Global (USD/EUR),USD/EUR Spot,97.3
+2024-08-01,Global (USD/EUR),USD/EUR Spot,98.8
+2024-09-01,Global (USD/EUR),USD/EUR Spot,99.6
+2024-10-01,Global (USD/EUR),USD/EUR Spot,97.7
+2024-11-01,Global (USD/EUR),USD/EUR Spot,95.2
+2024-12-01,Global (USD/EUR),USD/EUR Spot,93.9
+2025-01-01,Global (USD/EUR),USD/EUR Spot,92.9
+2025-02-01,Global (USD/EUR),USD/EUR Spot,93.4
+2025-03-01,Global (USD/EUR),USD/EUR Spot,97.0
+2025-04-01,Global (USD/EUR),USD/EUR Spot,100.7
+2025-05-01,Global (USD/EUR),USD/EUR Spot,101.1
+2025-06-01,Global (USD/EUR),USD/EUR Spot,103.4
+1990-01-01,Global (FAO),Food Price Index,68.4
+1990-02-01,Global (FAO),Food Price Index,68.7
+1990-03-01,Global (FAO),Food Price Index,67.9
+1990-04-01,Global (FAO),Food Price Index,70.1
+1990-05-01,Global (FAO),Food Price Index,68.6
+1990-06-01,Global (FAO),Food Price Index,68.0
+1990-07-01,Global (FAO),Food Price Index,66.8
+1990-08-01,Global (FAO),Food Price Index,65.6
+1990-09-01,Global (FAO),Food Price Index,65.1
+1990-10-01,Global (FAO),Food Price Index,65.2
+1990-11-01,Global (FAO),Food Price Index,66.1
+1990-12-01,Global (FAO),Food Price Index,66.0
+1991-01-01,Global (FAO),Food Price Index,64.8
+1991-02-01,Global (FAO),Food Price Index,65.6
+1991-03-01,Global (FAO),Food Price Index,66.1
+1991-04-01,Global (FAO),Food Price Index,64.8
+1991-05-01,Global (FAO),Food Price Index,64.5
+1991-06-01,Global (FAO),Food Price Index,65.1
+1991-07-01,Global (FAO),Food Price Index,66.0
+1991-08-01,Global (FAO),Food Price Index,65.6
+1991-09-01,Global (FAO),Food Price Index,66.2
+1991-10-01,Global (FAO),Food Price Index,68.5
+1991-11-01,Global (FAO),Food Price Index,68.6
+1991-12-01,Global (FAO),Food Price Index,68.3
+1992-01-01,Global (FAO),Food Price Index,69.1
+1992-02-01,Global (FAO),Food Price Index,70.0
+1992-03-01,Global (FAO),Food Price Index,70.6
+1992-04-01,Global (FAO),Food Price Index,68.8
+1992-05-01,Global (FAO),Food Price Index,69.1
+1992-06-01,Global (FAO),Food Price Index,70.0
+1992-07-01,Global (FAO),Food Price Index,68.7
+1992-08-01,Global (FAO),Food Price Index,67.0
+1992-09-01,Global (FAO),Food Price Index,67.7
+1992-10-01,Global (FAO),Food Price Index,65.6
+1992-11-01,Global (FAO),Food Price Index,66.6
+1992-12-01,Global (FAO),Food Price Index,65.1
+1993-01-01,Global (FAO),Food Price Index,65.4
+1993-02-01,Global (FAO),Food Price Index,65.2
+1993-03-01,Global (FAO),Food Price Index,67.1
+1993-04-01,Global (FAO),Food Price Index,66.7
+1993-05-01,Global (FAO),Food Price Index,66.2
+1993-06-01,Global (FAO),Food Price Index,65.6
+1993-07-01,Global (FAO),Food Price Index,66.0
+1993-08-01,Global (FAO),Food Price Index,64.6
+1993-09-01,Global (FAO),Food Price Index,65.0
+1993-10-01,Global (FAO),Food Price Index,65.3
+1993-11-01,Global (FAO),Food Price Index,67.3
+1993-12-01,Global (FAO),Food Price Index,68.7
+1994-01-01,Global (FAO),Food Price Index,68.8
+1994-02-01,Global (FAO),Food Price Index,68.5
+1994-03-01,Global (FAO),Food Price Index,68.8
+1994-04-01,Global (FAO),Food Price Index,68.0
+1994-05-01,Global (FAO),Food Price Index,70.0
+1994-06-01,Global (FAO),Food Price Index,69.5
+1994-07-01,Global (FAO),Food Price Index,68.2
+1994-08-01,Global (FAO),Food Price Index,70.7
+1994-09-01,Global (FAO),Food Price Index,73.9
+1994-10-01,Global (FAO),Food Price Index,74.6
+1994-11-01,Global (FAO),Food Price Index,78.1
+1994-12-01,Global (FAO),Food Price Index,77.8
+1995-01-01,Global (FAO),Food Price Index,77.5
+1995-02-01,Global (FAO),Food Price Index,79.3
+1995-03-01,Global (FAO),Food Price Index,80.1
+1995-04-01,Global (FAO),Food Price Index,78.9
+1995-05-01,Global (FAO),Food Price Index,78.7
+1995-06-01,Global (FAO),Food Price Index,79.9
+1995-07-01,Global (FAO),Food Price Index,84.5
+1995-08-01,Global (FAO),Food Price Index,82.9
+1995-09-01,Global (FAO),Food Price Index,83.3
+1995-10-01,Global (FAO),Food Price Index,85.5
+1995-11-01,Global (FAO),Food Price Index,84.9
+1995-12-01,Global (FAO),Food Price Index,83.0
+1996-01-01,Global (FAO),Food Price Index,81.8
+1996-02-01,Global (FAO),Food Price Index,82.4
+1996-03-01,Global (FAO),Food Price Index,83.5
+1996-04-01,Global (FAO),Food Price Index,85.9
+1996-05-01,Global (FAO),Food Price Index,87.6
+1996-06-01,Global (FAO),Food Price Index,85.7
+1996-07-01,Global (FAO),Food Price Index,85.5
+1996-08-01,Global (FAO),Food Price Index,85.0
+1996-09-01,Global (FAO),Food Price Index,81.8
+1996-10-01,Global (FAO),Food Price Index,79.0
+1996-11-01,Global (FAO),Food Price Index,77.2
+1996-12-01,Global (FAO),Food Price Index,75.9
+1997-01-01,Global (FAO),Food Price Index,75.4
+1997-02-01,Global (FAO),Food Price Index,75.6
+1997-03-01,Global (FAO),Food Price Index,77.5
+1997-04-01,Global (FAO),Food Price Index,78.0
+1997-05-01,Global (FAO),Food Price Index,77.4
+1997-06-01,Global (FAO),Food Price Index,74.6
+1997-07-01,Global (FAO),Food Price Index,72.8
+1997-08-01,Global (FAO),Food Price Index,74.3
+1997-09-01,Global (FAO),Food Price Index,74.4
+1997-10-01,Global (FAO),Food Price Index,74.2
+1997-11-01,Global (FAO),Food Price Index,74.8
+1997-12-01,Global (FAO),Food Price Index,72.3
+1998-01-01,Global (FAO),Food Price Index,71.7
+1998-02-01,Global (FAO),Food Price Index,71.9
+1998-03-01,Global (FAO),Food Price Index,71.8
+1998-04-01,Global (FAO),Food Price Index,71.1
+1998-05-01,Global (FAO),Food Price Index,70.7
+1998-06-01,Global (FAO),Food Price Index,68.4
+1998-07-01,Global (FAO),Food Price Index,68.4
+1998-08-01,Global (FAO),Food Price Index,66.5
+1998-09-01,Global (FAO),Food Price Index,65.9
+1998-10-01,Global (FAO),Food Price Index,66.8
+1998-11-01,Global (FAO),Food Price Index,66.7
+1998-12-01,Global (FAO),Food Price Index,66.0
+1999-01-01,Global (FAO),Food Price Index,65.0
+1999-02-01,Global (FAO),Food Price Index,62.2
+1999-03-01,Global (FAO),Food Price Index,60.7
+1999-04-01,Global (FAO),Food Price Index,59.4
+1999-05-01,Global (FAO),Food Price Index,59.0
+1999-06-01,Global (FAO),Food Price Index,58.2
+1999-07-01,Global (FAO),Food Price Index,56.1
+1999-08-01,Global (FAO),Food Price Index,58.0
+1999-09-01,Global (FAO),Food Price Index,58.2
+1999-10-01,Global (FAO),Food Price Index,56.8
+1999-11-01,Global (FAO),Food Price Index,56.8
+1999-12-01,Global (FAO),Food Price Index,55.3
+2000-01-01,Global (FAO),Food Price Index,56.1
+2000-02-01,Global (FAO),Food Price Index,55.7
+2000-03-01,Global (FAO),Food Price Index,56.4
+2000-04-01,Global (FAO),Food Price Index,57.0
+2000-05-01,Global (FAO),Food Price Index,57.3
+2000-06-01,Global (FAO),Food Price Index,57.5
+2000-07-01,Global (FAO),Food Price Index,57.7
+2000-08-01,Global (FAO),Food Price Index,56.8
+2000-09-01,Global (FAO),Food Price Index,56.2
+2000-10-01,Global (FAO),Food Price Index,57.0
+2000-11-01,Global (FAO),Food Price Index,57.5
+2000-12-01,Global (FAO),Food Price Index,58.2
+2001-01-01,Global (FAO),Food Price Index,57.4
+2001-02-01,Global (FAO),Food Price Index,58.0
+2001-03-01,Global (FAO),Food Price Index,58.9
+2001-04-01,Global (FAO),Food Price Index,58.4
+2001-05-01,Global (FAO),Food Price Index,59.2
+2001-06-01,Global (FAO),Food Price Index,58.6
+2001-07-01,Global (FAO),Food Price Index,60.4
+2001-08-01,Global (FAO),Food Price Index,60.5
+2001-09-01,Global (FAO),Food Price Index,59.2
+2001-10-01,Global (FAO),Food Price Index,57.9
+2001-11-01,Global (FAO),Food Price Index,58.5
+2001-12-01,Global (FAO),Food Price Index,58.0
+2002-01-01,Global (FAO),Food Price Index,57.1
+2002-02-01,Global (FAO),Food Price Index,55.2
+2002-03-01,Global (FAO),Food Price Index,55.5
+2002-04-01,Global (FAO),Food Price Index,54.6
+2002-05-01,Global (FAO),Food Price Index,53.9
+2002-06-01,Global (FAO),Food Price Index,54.8
+2002-07-01,Global (FAO),Food Price Index,55.5
+2002-08-01,Global (FAO),Food Price Index,57.0
+2002-09-01,Global (FAO),Food Price Index,58.5
+2002-10-01,Global (FAO),Food Price Index,58.9
+2002-11-01,Global (FAO),Food Price Index,60.1
+2002-12-01,Global (FAO),Food Price Index,59.4
+2003-01-01,Global (FAO),Food Price Index,59.7
+2003-02-01,Global (FAO),Food Price Index,60.4
+2003-03-01,Global (FAO),Food Price Index,59.3
+2003-04-01,Global (FAO),Food Price Index,59.3
+2003-05-01,Global (FAO),Food Price Index,60.2
+2003-06-01,Global (FAO),Food Price Index,59.9
+2003-07-01,Global (FAO),Food Price Index,60.6
+2003-08-01,Global (FAO),Food Price Index,61.4
+2003-09-01,Global (FAO),Food Price Index,62.6
+2003-10-01,Global (FAO),Food Price Index,64.3
+2003-11-01,Global (FAO),Food Price Index,65.8
+2003-12-01,Global (FAO),Food Price Index,66.8
+2004-01-01,Global (FAO),Food Price Index,68.7
+2004-02-01,Global (FAO),Food Price Index,69.5
+2004-03-01,Global (FAO),Food Price Index,71.2
+2004-04-01,Global (FAO),Food Price Index,71.9
+2004-05-01,Global (FAO),Food Price Index,70.9
+2004-06-01,Global (FAO),Food Price Index,70.5
+2004-07-01,Global (FAO),Food Price Index,69.9
+2004-08-01,Global (FAO),Food Price Index,68.8
+2004-09-01,Global (FAO),Food Price Index,69.4
+2004-10-01,Global (FAO),Food Price Index,68.9
+2004-11-01,Global (FAO),Food Price Index,69.7
+2004-12-01,Global (FAO),Food Price Index,70.1
+2005-01-01,Global (FAO),Food Price Index,69.9
+2005-02-01,Global (FAO),Food Price Index,70.3
+2005-03-01,Global (FAO),Food Price Index,71.7
+2005-04-01,Global (FAO),Food Price Index,70.1
+2005-05-01,Global (FAO),Food Price Index,70.6
+2005-06-01,Global (FAO),Food Price Index,71.5
+2005-07-01,Global (FAO),Food Price Index,71.9
+2005-08-01,Global (FAO),Food Price Index,71.8
+2005-09-01,Global (FAO),Food Price Index,72.8
+2005-10-01,Global (FAO),Food Price Index,73.8
+2005-11-01,Global (FAO),Food Price Index,73.2
+2005-12-01,Global (FAO),Food Price Index,74.1
+2006-01-01,Global (FAO),Food Price Index,74.1
+2006-02-01,Global (FAO),Food Price Index,75.2
+2006-03-01,Global (FAO),Food Price Index,74.1
+2006-04-01,Global (FAO),Food Price Index,74.4
+2006-05-01,Global (FAO),Food Price Index,75.7
+2006-06-01,Global (FAO),Food Price Index,75.8
+2006-07-01,Global (FAO),Food Price Index,77.7
+2006-08-01,Global (FAO),Food Price Index,77.6
+2006-09-01,Global (FAO),Food Price Index,77.7
+2006-10-01,Global (FAO),Food Price Index,79.7
+2006-11-01,Global (FAO),Food Price Index,82.5
+2006-12-01,Global (FAO),Food Price Index,83.7
+2007-01-01,Global (FAO),Food Price Index,83.3
+2007-02-01,Global (FAO),Food Price Index,84.9
+2007-03-01,Global (FAO),Food Price Index,86.1
+2007-04-01,Global (FAO),Food Price Index,89.1
+2007-05-01,Global (FAO),Food Price Index,91.8
+2007-06-01,Global (FAO),Food Price Index,97.0
+2007-07-01,Global (FAO),Food Price Index,101.4
+2007-08-01,Global (FAO),Food Price Index,105.2
+2007-09-01,Global (FAO),Food Price Index,111.8
+2007-10-01,Global (FAO),Food Price Index,114.5
+2007-11-01,Global (FAO),Food Price Index,117.6
+2007-12-01,Global (FAO),Food Price Index,121.8
+2008-01-01,Global (FAO),Food Price Index,127.8
+2008-02-01,Global (FAO),Food Price Index,136.3
+2008-03-01,Global (FAO),Food Price Index,140.6
+2008-04-01,Global (FAO),Food Price Index,138.7
+2008-05-01,Global (FAO),Food Price Index,138.3
+2008-06-01,Global (FAO),Food Price Index,140.9
+2008-07-01,Global (FAO),Food Price Index,138.2
+2008-08-01,Global (FAO),Food Price Index,128.7
+2008-09-01,Global (FAO),Food Price Index,119.7
+2008-10-01,Global (FAO),Food Price Index,103.8
+2008-11-01,Global (FAO),Food Price Index,95.2
+2008-12-01,Global (FAO),Food Price Index,91.6
+2009-01-01,Global (FAO),Food Price Index,92.0
+2009-02-01,Global (FAO),Food Price Index,89.7
+2009-03-01,Global (FAO),Food Price Index,89.5
+2009-04-01,Global (FAO),Food Price Index,92.8
+2009-05-01,Global (FAO),Food Price Index,99.3
+2009-06-01,Global (FAO),Food Price Index,99.2
+2009-07-01,Global (FAO),Food Price Index,96.3
+2009-08-01,Global (FAO),Food Price Index,99.3
+2009-09-01,Global (FAO),Food Price Index,98.8
+2009-10-01,Global (FAO),Food Price Index,100.6
+2009-11-01,Global (FAO),Food Price Index,105.0
+2009-12-01,Global (FAO),Food Price Index,107.0
+2010-01-01,Global (FAO),Food Price Index,108.1
+2010-02-01,Global (FAO),Food Price Index,105.4
+2010-03-01,Global (FAO),Food Price Index,102.4
+2010-04-01,Global (FAO),Food Price Index,103.1
+2010-05-01,Global (FAO),Food Price Index,102.3
+2010-06-01,Global (FAO),Food Price Index,101.8
+2010-07-01,Global (FAO),Food Price Index,106.2
+2010-08-01,Global (FAO),Food Price Index,114.4
+2010-09-01,Global (FAO),Food Price Index,121.1
+2010-10-01,Global (FAO),Food Price Index,127.5
+2010-11-01,Global (FAO),Food Price Index,131.8
+2010-12-01,Global (FAO),Food Price Index,137.4
+2011-01-01,Global (FAO),Food Price Index,142.0
+2011-02-01,Global (FAO),Food Price Index,146.2
+2011-03-01,Global (FAO),Food Price Index,142.6
+2011-04-01,Global (FAO),Food Price Index,144.7
+2011-05-01,Global (FAO),Food Price Index,143.4
+2011-06-01,Global (FAO),Food Price Index,143.1
+2011-07-01,Global (FAO),Food Price Index,141.2
+2011-08-01,Global (FAO),Food Price Index,140.9
+2011-09-01,Global (FAO),Food Price Index,138.1
+2011-10-01,Global (FAO),Food Price Index,133.3
+2011-11-01,Global (FAO),Food Price Index,133.7
+2011-12-01,Global (FAO),Food Price Index,129.4
+2012-01-01,Global (FAO),Food Price Index,129.7
+2012-02-01,Global (FAO),Food Price Index,133.0
+2012-03-01,Global (FAO),Food Price Index,133.4
+2012-04-01,Global (FAO),Food Price Index,132.1
+2012-05-01,Global (FAO),Food Price Index,126.3
+2012-06-01,Global (FAO),Food Price Index,122.9
+2012-07-01,Global (FAO),Food Price Index,129.5
+2012-08-01,Global (FAO),Food Price Index,130.8
+2012-09-01,Global (FAO),Food Price Index,132.8
+2012-10-01,Global (FAO),Food Price Index,131.6
+2012-11-01,Global (FAO),Food Price Index,131.1
+2012-12-01,Global (FAO),Food Price Index,130.4
+2013-01-01,Global (FAO),Food Price Index,131.0
+2013-02-01,Global (FAO),Food Price Index,130.9
+2013-03-01,Global (FAO),Food Price Index,130.5
+2013-04-01,Global (FAO),Food Price Index,130.5
+2013-05-01,Global (FAO),Food Price Index,129.7
+2013-06-01,Global (FAO),Food Price Index,128.3
+2013-07-01,Global (FAO),Food Price Index,125.3
+2013-08-01,Global (FAO),Food Price Index,123.4
+2013-09-01,Global (FAO),Food Price Index,123.6
+2013-10-01,Global (FAO),Food Price Index,126.0
+2013-11-01,Global (FAO),Food Price Index,125.9
+2013-12-01,Global (FAO),Food Price Index,125.5
+2014-01-01,Global (FAO),Food Price Index,123.4
+2014-02-01,Global (FAO),Food Price Index,125.9
+2014-03-01,Global (FAO),Food Price Index,129.6
+2014-04-01,Global (FAO),Food Price Index,129.0
+2014-05-01,Global (FAO),Food Price Index,128.7
+2014-06-01,Global (FAO),Food Price Index,126.5
+2014-07-01,Global (FAO),Food Price Index,123.5
+2014-08-01,Global (FAO),Food Price Index,119.7
+2014-09-01,Global (FAO),Food Price Index,115.9
+2014-10-01,Global (FAO),Food Price Index,116.0
+2014-11-01,Global (FAO),Food Price Index,114.8
+2014-12-01,Global (FAO),Food Price Index,111.7
+2015-01-01,Global (FAO),Food Price Index,107.2
+2015-02-01,Global (FAO),Food Price Index,104.8
+2015-03-01,Global (FAO),Food Price Index,101.6
+2015-04-01,Global (FAO),Food Price Index,100.4
+2015-05-01,Global (FAO),Food Price Index,100.8
+2015-06-01,Global (FAO),Food Price Index,100.4
+2015-07-01,Global (FAO),Food Price Index,99.6
+2015-08-01,Global (FAO),Food Price Index,95.0
+2015-09-01,Global (FAO),Food Price Index,94.4
+2015-10-01,Global (FAO),Food Price Index,95.9
+2015-11-01,Global (FAO),Food Price Index,93.1
+2015-12-01,Global (FAO),Food Price Index,92.4
+2016-01-01,Global (FAO),Food Price Index,90.1
+2016-02-01,Global (FAO),Food Price Index,91.4
+2016-03-01,Global (FAO),Food Price Index,92.8
+2016-04-01,Global (FAO),Food Price Index,94.6
+2016-05-01,Global (FAO),Food Price Index,96.2
+2016-06-01,Global (FAO),Food Price Index,99.6
+2016-07-01,Global (FAO),Food Price Index,98.7
+2016-08-01,Global (FAO),Food Price Index,101.2
+2016-09-01,Global (FAO),Food Price Index,102.0
+2016-10-01,Global (FAO),Food Price Index,101.8
+2016-11-01,Global (FAO),Food Price Index,101.9
+2016-12-01,Global (FAO),Food Price Index,101.2
+2017-01-01,Global (FAO),Food Price Index,103.8
+2017-02-01,Global (FAO),Food Price Index,104.1
+2017-03-01,Global (FAO),Food Price Index,102.1
+2017-04-01,Global (FAO),Food Price Index,100.8
+2017-05-01,Global (FAO),Food Price Index,103.3
+2017-06-01,Global (FAO),Food Price Index,103.8
+2017-07-01,Global (FAO),Food Price Index,106.2
+2017-08-01,Global (FAO),Food Price Index,105.3
+2017-09-01,Global (FAO),Food Price Index,105.8
+2017-10-01,Global (FAO),Food Price Index,104.9
+2017-11-01,Global (FAO),Food Price Index,104.9
+2017-12-01,Global (FAO),Food Price Index,102.3
+2018-01-01,Global (FAO),Food Price Index,102.7
+2018-02-01,Global (FAO),Food Price Index,103.8
+2018-03-01,Global (FAO),Food Price Index,104.9
+2018-04-01,Global (FAO),Food Price Index,104.5
+2018-05-01,Global (FAO),Food Price Index,104.6
+2018-06-01,Global (FAO),Food Price Index,102.8
+2018-07-01,Global (FAO),Food Price Index,100.8
+2018-08-01,Global (FAO),Food Price Index,101.7
+2018-09-01,Global (FAO),Food Price Index,99.8
+2018-10-01,Global (FAO),Food Price Index,98.9
+2018-11-01,Global (FAO),Food Price Index,97.6
+2018-12-01,Global (FAO),Food Price Index,97.7
+2019-01-01,Global (FAO),Food Price Index,98.8
+2019-02-01,Global (FAO),Food Price Index,99.6
+2019-03-01,Global (FAO),Food Price Index,98.7
+2019-04-01,Global (FAO),Food Price Index,99.3
+2019-05-01,Global (FAO),Food Price Index,100.0
+2019-06-01,Global (FAO),Food Price Index,101.3
+2019-07-01,Global (FAO),Food Price Index,101.0
+2019-08-01,Global (FAO),Food Price Index,99.6
+2019-09-01,Global (FAO),Food Price Index,98.9
+2019-10-01,Global (FAO),Food Price Index,100.8
+2019-11-01,Global (FAO),Food Price Index,104.2
+2019-12-01,Global (FAO),Food Price Index,107.0
+2020-01-01,Global (FAO),Food Price Index,108.8
+2020-02-01,Global (FAO),Food Price Index,105.7
+2020-03-01,Global (FAO),Food Price Index,101.1
+2020-04-01,Global (FAO),Food Price Index,98.1
+2020-05-01,Global (FAO),Food Price Index,96.8
+2020-06-01,Global (FAO),Food Price Index,98.8
+2020-07-01,Global (FAO),Food Price Index,99.6
+2020-08-01,Global (FAO),Food Price Index,101.6
+2020-09-01,Global (FAO),Food Price Index,103.9
+2020-10-01,Global (FAO),Food Price Index,107.5
+2020-11-01,Global (FAO),Food Price Index,112.0
+2020-12-01,Global (FAO),Food Price Index,115.2
+2021-01-01,Global (FAO),Food Price Index,120.5
+2021-02-01,Global (FAO),Food Price Index,123.7
+2021-03-01,Global (FAO),Food Price Index,126.4
+2021-04-01,Global (FAO),Food Price Index,129.6
+2021-05-01,Global (FAO),Food Price Index,136.3
+2021-06-01,Global (FAO),Food Price Index,133.1
+2021-07-01,Global (FAO),Food Price Index,132.1
+2021-08-01,Global (FAO),Food Price Index,135.9
+2021-09-01,Global (FAO),Food Price Index,137.0
+2021-10-01,Global (FAO),Food Price Index,141.5
+2021-11-01,Global (FAO),Food Price Index,143.7
+2021-12-01,Global (FAO),Food Price Index,141.9
+2022-01-01,Global (FAO),Food Price Index,144.1
+2022-02-01,Global (FAO),Food Price Index,150.4
+2022-03-01,Global (FAO),Food Price Index,170.1
+2022-04-01,Global (FAO),Food Price Index,168.6
+2022-05-01,Global (FAO),Food Price Index,168.5
+2022-06-01,Global (FAO),Food Price Index,165.3
+2022-07-01,Global (FAO),Food Price Index,150.3
+2022-08-01,Global (FAO),Food Price Index,147.2
+2022-09-01,Global (FAO),Food Price Index,145.8
+2022-10-01,Global (FAO),Food Price Index,145.1
+2022-11-01,Global (FAO),Food Price Index,144.4
+2022-12-01,Global (FAO),Food Price Index,141.3
+2023-01-01,Global (FAO),Food Price Index,139.5
+2023-02-01,Global (FAO),Food Price Index,138.7
+2023-03-01,Global (FAO),Food Price Index,135.9
+2023-04-01,Global (FAO),Food Price Index,136.3
+2023-05-01,Global (FAO),Food Price Index,132.2
+2023-06-01,Global (FAO),Food Price Index,130.6
+2023-07-01,Global (FAO),Food Price Index,132.1
+2023-08-01,Global (FAO),Food Price Index,129.3
+2023-09-01,Global (FAO),Food Price Index,129.2
+2023-10-01,Global (FAO),Food Price Index,128.1
+2023-11-01,Global (FAO),Food Price Index,128.0
+2023-12-01,Global (FAO),Food Price Index,126.4
+2024-01-01,Global (FAO),Food Price Index,124.8
+2024-02-01,Global (FAO),Food Price Index,124.6
+2024-03-01,Global (FAO),Food Price Index,126.2
+2024-04-01,Global (FAO),Food Price Index,126.5
+2024-05-01,Global (FAO),Food Price Index,127.9
+2024-06-01,Global (FAO),Food Price Index,128.5
+2024-07-01,Global (FAO),Food Price Index,128.3
+2024-08-01,Global (FAO),Food Price Index,129.2
+2024-09-01,Global (FAO),Food Price Index,132.3
+2024-10-01,Global (FAO),Food Price Index,134.7
+2024-11-01,Global (FAO),Food Price Index,135.6
+2024-12-01,Global (FAO),Food Price Index,135.2
+2025-01-01,Global (FAO),Food Price Index,132.4
+2025-02-01,Global (FAO),Food Price Index,134.4
+2025-03-01,Global (FAO),Food Price Index,135.0
+2025-04-01,Global (FAO),Food Price Index,136.1
+2025-05-01,Global (FAO),Food Price Index,135.1
+2025-06-01,Global (FAO),Food Price Index,135.9
+1996-01-01,EU (ECB),ECB Food Commodity Index,71.03
+1996-02-01,EU (ECB),ECB Food Commodity Index,75.5
+1996-03-01,EU (ECB),ECB Food Commodity Index,74.09
+1996-04-01,EU (ECB),ECB Food Commodity Index,79.53
+1996-05-01,EU (ECB),ECB Food Commodity Index,79.94
+1996-06-01,EU (ECB),ECB Food Commodity Index,75.94
+1996-07-01,EU (ECB),ECB Food Commodity Index,73.41
+1996-08-01,EU (ECB),ECB Food Commodity Index,73.08
+1996-09-01,EU (ECB),ECB Food Commodity Index,71.6
+1996-10-01,EU (ECB),ECB Food Commodity Index,69.5
+1996-11-01,EU (ECB),ECB Food Commodity Index,68.81
+1996-12-01,EU (ECB),ECB Food Commodity Index,69.82
+1997-01-01,EU (ECB),ECB Food Commodity Index,76.65
+1997-02-01,EU (ECB),ECB Food Commodity Index,85.52
+1997-03-01,EU (ECB),ECB Food Commodity Index,91.67
+1997-04-01,EU (ECB),ECB Food Commodity Index,91.77
+1997-05-01,EU (ECB),ECB Food Commodity Index,94.27
+1997-06-01,EU (ECB),ECB Food Commodity Index,89.66
+1997-07-01,EU (ECB),ECB Food Commodity Index,88.93
+1997-08-01,EU (ECB),ECB Food Commodity Index,88.48
+1997-09-01,EU (ECB),ECB Food Commodity Index,87.19
+1997-10-01,EU (ECB),ECB Food Commodity Index,83.17
+1997-11-01,EU (ECB),ECB Food Commodity Index,82.42
+1997-12-01,EU (ECB),ECB Food Commodity Index,86.49
+1998-01-01,EU (ECB),ECB Food Commodity Index,87.51
+1998-02-01,EU (ECB),ECB Food Commodity Index,86.69
+1998-03-01,EU (ECB),ECB Food Commodity Index,84.69
+1998-04-01,EU (ECB),ECB Food Commodity Index,88.02
+1998-05-01,EU (ECB),ECB Food Commodity Index,83.04
+1998-06-01,EU (ECB),ECB Food Commodity Index,80.64
+1998-07-01,EU (ECB),ECB Food Commodity Index,75.93
+1998-08-01,EU (ECB),ECB Food Commodity Index,72.8
+1998-09-01,EU (ECB),ECB Food Commodity Index,67.92
+1998-10-01,EU (ECB),ECB Food Commodity Index,65.88
+1998-11-01,EU (ECB),ECB Food Commodity Index,71.54
+1998-12-01,EU (ECB),ECB Food Commodity Index,67.88
+1999-01-01,EU (ECB),ECB Food Commodity Index,68.89
+1999-02-01,EU (ECB),ECB Food Commodity Index,68.02
+1999-03-01,EU (ECB),ECB Food Commodity Index,68.79
+1999-04-01,EU (ECB),ECB Food Commodity Index,68.77
+1999-05-01,EU (ECB),ECB Food Commodity Index,68.13
+1999-06-01,EU (ECB),ECB Food Commodity Index,67.95
+1999-07-01,EU (ECB),ECB Food Commodity Index,65.47
+1999-08-01,EU (ECB),ECB Food Commodity Index,64.62
+1999-09-01,EU (ECB),ECB Food Commodity Index,65.29
+1999-10-01,EU (ECB),ECB Food Commodity Index,63.91
+1999-11-01,EU (ECB),ECB Food Commodity Index,67.69
+1999-12-01,EU (ECB),ECB Food Commodity Index,71.35
+2000-01-01,EU (ECB),ECB Food Commodity Index,70.82
+2000-02-01,EU (ECB),ECB Food Commodity Index,72.93
+2000-03-01,EU (ECB),ECB Food Commodity Index,73.12
+2000-04-01,EU (ECB),ECB Food Commodity Index,74.25
+2000-05-01,EU (ECB),ECB Food Commodity Index,76.32
+2000-06-01,EU (ECB),ECB Food Commodity Index,69.71
+2000-07-01,EU (ECB),ECB Food Commodity Index,67.32
+2000-08-01,EU (ECB),ECB Food Commodity Index,68.38
+2000-09-01,EU (ECB),ECB Food Commodity Index,72.93
+2000-10-01,EU (ECB),ECB Food Commodity Index,73.64
+2000-11-01,EU (ECB),ECB Food Commodity Index,72.74
+2000-12-01,EU (ECB),ECB Food Commodity Index,70.58
+2001-01-01,EU (ECB),ECB Food Commodity Index,69.32
+2001-02-01,EU (ECB),ECB Food Commodity Index,72.02
+2001-03-01,EU (ECB),ECB Food Commodity Index,71.64
+2001-04-01,EU (ECB),ECB Food Commodity Index,72.09
+2001-05-01,EU (ECB),ECB Food Commodity Index,75.7
+2001-06-01,EU (ECB),ECB Food Commodity Index,76.48
+2001-07-01,EU (ECB),ECB Food Commodity Index,79.79
+2001-08-01,EU (ECB),ECB Food Commodity Index,75.9
+2001-09-01,EU (ECB),ECB Food Commodity Index,71.0
+2001-10-01,EU (ECB),ECB Food Commodity Index,68.22
+2001-11-01,EU (ECB),ECB Food Commodity Index,71.6
+2001-12-01,EU (ECB),ECB Food Commodity Index,71.6
+2002-01-01,EU (ECB),ECB Food Commodity Index,71.37
+2002-02-01,EU (ECB),ECB Food Commodity Index,74.08
+2002-03-01,EU (ECB),ECB Food Commodity Index,76.77
+2002-04-01,EU (ECB),ECB Food Commodity Index,75.11
+2002-05-01,EU (ECB),ECB Food Commodity Index,73.8
+2002-06-01,EU (ECB),ECB Food Commodity Index,71.69
+2002-07-01,EU (ECB),ECB Food Commodity Index,70.0
+2002-08-01,EU (ECB),ECB Food Commodity Index,70.05
+2002-09-01,EU (ECB),ECB Food Commodity Index,73.44
+2002-10-01,EU (ECB),ECB Food Commodity Index,75.23
+2002-11-01,EU (ECB),ECB Food Commodity Index,72.49
+2002-12-01,EU (ECB),ECB Food Commodity Index,74.13
+2003-01-01,EU (ECB),ECB Food Commodity Index,71.06
+2003-02-01,EU (ECB),ECB Food Commodity Index,68.87
+2003-03-01,EU (ECB),ECB Food Commodity Index,66.76
+2003-04-01,EU (ECB),ECB Food Commodity Index,65.14
+2003-05-01,EU (ECB),ECB Food Commodity Index,59.59
+2003-06-01,EU (ECB),ECB Food Commodity Index,57.51
+2003-07-01,EU (ECB),ECB Food Commodity Index,57.99
+2003-08-01,EU (ECB),ECB Food Commodity Index,60.26
+2003-09-01,EU (ECB),ECB Food Commodity Index,62.57
+2003-10-01,EU (ECB),ECB Food Commodity Index,62.77
+2003-11-01,EU (ECB),ECB Food Commodity Index,65.49
+2003-12-01,EU (ECB),ECB Food Commodity Index,62.83
+2004-01-01,EU (ECB),ECB Food Commodity Index,64.02
+2004-02-01,EU (ECB),ECB Food Commodity Index,66.13
+2004-03-01,EU (ECB),ECB Food Commodity Index,70.62
+2004-04-01,EU (ECB),ECB Food Commodity Index,70.49
+2004-05-01,EU (ECB),ECB Food Commodity Index,68.94
+2004-06-01,EU (ECB),ECB Food Commodity Index,67.31
+2004-07-01,EU (ECB),ECB Food Commodity Index,65.03
+2004-08-01,EU (ECB),ECB Food Commodity Index,64.28
+2004-09-01,EU (ECB),ECB Food Commodity Index,63.91
+2004-10-01,EU (ECB),ECB Food Commodity Index,61.05
+2004-11-01,EU (ECB),ECB Food Commodity Index,60.51
+2004-12-01,EU (ECB),ECB Food Commodity Index,59.75
+2005-01-01,EU (ECB),ECB Food Commodity Index,61.79
+2005-02-01,EU (ECB),ECB Food Commodity Index,67.31
+2005-03-01,EU (ECB),ECB Food Commodity Index,69.72
+2005-04-01,EU (ECB),ECB Food Commodity Index,66.93
+2005-05-01,EU (ECB),ECB Food Commodity Index,68.12
+2005-06-01,EU (ECB),ECB Food Commodity Index,69.17
+2005-07-01,EU (ECB),ECB Food Commodity Index,67.26
+2005-08-01,EU (ECB),ECB Food Commodity Index,64.02
+2005-09-01,EU (ECB),ECB Food Commodity Index,65.37
+2005-10-01,EU (ECB),ECB Food Commodity Index,67.71
+2005-11-01,EU (ECB),ECB Food Commodity Index,68.68
+2005-12-01,EU (ECB),ECB Food Commodity Index,70.2
+2006-01-01,EU (ECB),ECB Food Commodity Index,70.98
+2006-02-01,EU (ECB),ECB Food Commodity Index,74.42
+2006-03-01,EU (ECB),ECB Food Commodity Index,72.45
+2006-04-01,EU (ECB),ECB Food Commodity Index,70.18
+2006-05-01,EU (ECB),ECB Food Commodity Index,70.58
+2006-06-01,EU (ECB),ECB Food Commodity Index,66.72
+2006-07-01,EU (ECB),ECB Food Commodity Index,66.68
+2006-08-01,EU (ECB),ECB Food Commodity Index,67.06
+2006-09-01,EU (ECB),ECB Food Commodity Index,68.24
+2006-10-01,EU (ECB),ECB Food Commodity Index,71.45
+2006-11-01,EU (ECB),ECB Food Commodity Index,73.64
+2006-12-01,EU (ECB),ECB Food Commodity Index,72.85
+2007-01-01,EU (ECB),ECB Food Commodity Index,73.69
+2007-02-01,EU (ECB),ECB Food Commodity Index,75.39
+2007-03-01,EU (ECB),ECB Food Commodity Index,74.13
+2007-04-01,EU (ECB),ECB Food Commodity Index,73.5
+2007-05-01,EU (ECB),ECB Food Commodity Index,75.85
+2007-06-01,EU (ECB),ECB Food Commodity Index,80.78
+2007-07-01,EU (ECB),ECB Food Commodity Index,80.3
+2007-08-01,EU (ECB),ECB Food Commodity Index,81.55
+2007-09-01,EU (ECB),ECB Food Commodity Index,84.8
+2007-10-01,EU (ECB),ECB Food Commodity Index,84.56
+2007-11-01,EU (ECB),ECB Food Commodity Index,83.61
+2007-12-01,EU (ECB),ECB Food Commodity Index,87.19
+2008-01-01,EU (ECB),ECB Food Commodity Index,90.57
+2008-02-01,EU (ECB),ECB Food Commodity Index,99.63
+2008-03-01,EU (ECB),ECB Food Commodity Index,99.94
+2008-04-01,EU (ECB),ECB Food Commodity Index,94.85
+2008-05-01,EU (ECB),ECB Food Commodity Index,94.65
+2008-06-01,EU (ECB),ECB Food Commodity Index,98.31
+2008-07-01,EU (ECB),ECB Food Commodity Index,94.74
+2008-08-01,EU (ECB),ECB Food Commodity Index,93.14
+2008-09-01,EU (ECB),ECB Food Commodity Index,91.12
+2008-10-01,EU (ECB),ECB Food Commodity Index,83.18
+2008-11-01,EU (ECB),ECB Food Commodity Index,82.99
+2008-12-01,EU (ECB),ECB Food Commodity Index,77.27
+2009-01-01,EU (ECB),ECB Food Commodity Index,83.19
+2009-02-01,EU (ECB),ECB Food Commodity Index,85.82
+2009-03-01,EU (ECB),ECB Food Commodity Index,83.43
+2009-04-01,EU (ECB),ECB Food Commodity Index,84.93
+2009-05-01,EU (ECB),ECB Food Commodity Index,85.85
+2009-06-01,EU (ECB),ECB Food Commodity Index,83.89
+2009-07-01,EU (ECB),ECB Food Commodity Index,79.82
+2009-08-01,EU (ECB),ECB Food Commodity Index,81.45
+2009-09-01,EU (ECB),ECB Food Commodity Index,78.07
+2009-10-01,EU (ECB),ECB Food Commodity Index,79.37
+2009-11-01,EU (ECB),ECB Food Commodity Index,81.56
+2009-12-01,EU (ECB),ECB Food Commodity Index,84.65
+2010-01-01,EU (ECB),ECB Food Commodity Index,86.74
+2010-02-01,EU (ECB),ECB Food Commodity Index,87.9
+2010-03-01,EU (ECB),ECB Food Commodity Index,89.66
+2010-04-01,EU (ECB),ECB Food Commodity Index,91.84
+2010-05-01,EU (ECB),ECB Food Commodity Index,97.83
+2010-06-01,EU (ECB),ECB Food Commodity Index,102.28
+2010-07-01,EU (ECB),ECB Food Commodity Index,102.65
+2010-08-01,EU (ECB),ECB Food Commodity Index,104.97
+2010-09-01,EU (ECB),ECB Food Commodity Index,106.06
+2010-10-01,EU (ECB),ECB Food Commodity Index,102.89
+2010-11-01,EU (ECB),ECB Food Commodity Index,108.73
+2010-12-01,EU (ECB),ECB Food Commodity Index,118.44
+2011-01-01,EU (ECB),ECB Food Commodity Index,122.59
+2011-02-01,EU (ECB),ECB Food Commodity Index,126.1
+2011-03-01,EU (ECB),ECB Food Commodity Index,120.77
+2011-04-01,EU (ECB),ECB Food Commodity Index,118.8
+2011-05-01,EU (ECB),ECB Food Commodity Index,117.55
+2011-06-01,EU (ECB),ECB Food Commodity Index,113.72
+2011-07-01,EU (ECB),ECB Food Commodity Index,113.54
+2011-08-01,EU (ECB),ECB Food Commodity Index,112.69
+2011-09-01,EU (ECB),ECB Food Commodity Index,114.38
+2011-10-01,EU (ECB),ECB Food Commodity Index,109.09
+2011-11-01,EU (ECB),ECB Food Commodity Index,110.32
+2011-12-01,EU (ECB),ECB Food Commodity Index,110.78
+2012-01-01,EU (ECB),ECB Food Commodity Index,114.61
+2012-02-01,EU (ECB),ECB Food Commodity Index,114.55
+2012-03-01,EU (ECB),ECB Food Commodity Index,115.24
+2012-04-01,EU (ECB),ECB Food Commodity Index,114.68
+2012-05-01,EU (ECB),ECB Food Commodity Index,115.44
+2012-06-01,EU (ECB),ECB Food Commodity Index,114.87
+2012-07-01,EU (ECB),ECB Food Commodity Index,127.53
+2012-08-01,EU (ECB),ECB Food Commodity Index,126.07
+2012-09-01,EU (ECB),ECB Food Commodity Index,122.05
+2012-10-01,EU (ECB),ECB Food Commodity Index,117.36
+2012-11-01,EU (ECB),ECB Food Commodity Index,116.33
+2012-12-01,EU (ECB),ECB Food Commodity Index,112.31
+2013-01-01,EU (ECB),ECB Food Commodity Index,110.53
+2013-02-01,EU (ECB),ECB Food Commodity Index,109.87
+2013-03-01,EU (ECB),ECB Food Commodity Index,111.66
+2013-04-01,EU (ECB),ECB Food Commodity Index,108.72
+2013-05-01,EU (ECB),ECB Food Commodity Index,107.25
+2013-06-01,EU (ECB),ECB Food Commodity Index,104.3
+2013-07-01,EU (ECB),ECB Food Commodity Index,103.27
+2013-08-01,EU (ECB),ECB Food Commodity Index,99.52
+2013-09-01,EU (ECB),ECB Food Commodity Index,100.03
+2013-10-01,EU (ECB),ECB Food Commodity Index,98.64
+2013-11-01,EU (ECB),ECB Food Commodity Index,99.83
+2013-12-01,EU (ECB),ECB Food Commodity Index,98.94
+2014-01-01,EU (ECB),ECB Food Commodity Index,98.96
+2014-02-01,EU (ECB),ECB Food Commodity Index,102.45
+2014-03-01,EU (ECB),ECB Food Commodity Index,109.02
+2014-04-01,EU (ECB),ECB Food Commodity Index,108.13
+2014-05-01,EU (ECB),ECB Food Commodity Index,107.92
+2014-06-01,EU (ECB),ECB Food Commodity Index,105.48
+2014-07-01,EU (ECB),ECB Food Commodity Index,104.55
+2014-08-01,EU (ECB),ECB Food Commodity Index,106.58
+2014-09-01,EU (ECB),ECB Food Commodity Index,107.96
+2014-10-01,EU (ECB),ECB Food Commodity Index,110.59
+2014-11-01,EU (ECB),ECB Food Commodity Index,112.27
+2014-12-01,EU (ECB),ECB Food Commodity Index,112.37
+2015-01-01,EU (ECB),ECB Food Commodity Index,115.34
+2015-02-01,EU (ECB),ECB Food Commodity Index,116.09
+2015-03-01,EU (ECB),ECB Food Commodity Index,118.27
+2015-04-01,EU (ECB),ECB Food Commodity Index,118.42
+2015-05-01,EU (ECB),ECB Food Commodity Index,112.66
+2015-06-01,EU (ECB),ECB Food Commodity Index,112.35
+2015-07-01,EU (ECB),ECB Food Commodity Index,115.42
+2015-08-01,EU (ECB),ECB Food Commodity Index,110.17
+2015-09-01,EU (ECB),ECB Food Commodity Index,107.91
+2015-10-01,EU (ECB),ECB Food Commodity Index,109.14
+2015-11-01,EU (ECB),ECB Food Commodity Index,112.49
+2015-12-01,EU (ECB),ECB Food Commodity Index,109.81
+2016-01-01,EU (ECB),ECB Food Commodity Index,108.37
+2016-02-01,EU (ECB),ECB Food Commodity Index,107.85
+2016-03-01,EU (ECB),ECB Food Commodity Index,110.33
+2016-04-01,EU (ECB),ECB Food Commodity Index,109.58
+2016-05-01,EU (ECB),ECB Food Commodity Index,111.48
+2016-06-01,EU (ECB),ECB Food Commodity Index,115.09
+2016-07-01,EU (ECB),ECB Food Commodity Index,114.33
+2016-08-01,EU (ECB),ECB Food Commodity Index,111.73
+2016-09-01,EU (ECB),ECB Food Commodity Index,110.92
+2016-10-01,EU (ECB),ECB Food Commodity Index,112.01
+2016-11-01,EU (ECB),ECB Food Commodity Index,115.16
+2016-12-01,EU (ECB),ECB Food Commodity Index,116.41
+2017-01-01,EU (ECB),ECB Food Commodity Index,117.63
+2017-02-01,EU (ECB),ECB Food Commodity Index,116.86
+2017-03-01,EU (ECB),ECB Food Commodity Index,115.09
+2017-04-01,EU (ECB),ECB Food Commodity Index,112.89
+2017-05-01,EU (ECB),ECB Food Commodity Index,110.46
+2017-06-01,EU (ECB),ECB Food Commodity Index,108.48
+2017-07-01,EU (ECB),ECB Food Commodity Index,107.68
+2017-08-01,EU (ECB),ECB Food Commodity Index,102.13
+2017-09-01,EU (ECB),ECB Food Commodity Index,100.37
+2017-10-01,EU (ECB),ECB Food Commodity Index,101.78
+2017-11-01,EU (ECB),ECB Food Commodity Index,101.94
+2017-12-01,EU (ECB),ECB Food Commodity Index,98.95
+2018-01-01,EU (ECB),ECB Food Commodity Index,97.67
+2018-02-01,EU (ECB),ECB Food Commodity Index,99.79
+2018-03-01,EU (ECB),ECB Food Commodity Index,101.24
+2018-04-01,EU (ECB),ECB Food Commodity Index,102.71
+2018-05-01,EU (ECB),ECB Food Commodity Index,107.06
+2018-06-01,EU (ECB),ECB Food Commodity Index,103.91
+2018-07-01,EU (ECB),ECB Food Commodity Index,100.81
+2018-08-01,EU (ECB),ECB Food Commodity Index,100.59
+2018-09-01,EU (ECB),ECB Food Commodity Index,97.28
+2018-10-01,EU (ECB),ECB Food Commodity Index,100.9
+2018-11-01,EU (ECB),ECB Food Commodity Index,101.84
+2018-12-01,EU (ECB),ECB Food Commodity Index,102.16
+2019-01-01,EU (ECB),ECB Food Commodity Index,102.72
+2019-02-01,EU (ECB),ECB Food Commodity Index,103.83
+2019-03-01,EU (ECB),ECB Food Commodity Index,103.5
+2019-04-01,EU (ECB),ECB Food Commodity Index,104.55
+2019-05-01,EU (ECB),ECB Food Commodity Index,103.35
+2019-06-01,EU (ECB),ECB Food Commodity Index,105.35
+2019-07-01,EU (ECB),ECB Food Commodity Index,105.51
+2019-08-01,EU (ECB),ECB Food Commodity Index,102.61
+2019-09-01,EU (ECB),ECB Food Commodity Index,104.73
+2019-10-01,EU (ECB),ECB Food Commodity Index,106.56
+2019-11-01,EU (ECB),ECB Food Commodity Index,112.47
+2019-12-01,EU (ECB),ECB Food Commodity Index,114.21
+2020-01-01,EU (ECB),ECB Food Commodity Index,114.21
+2020-02-01,EU (ECB),ECB Food Commodity Index,113.1
+2020-03-01,EU (ECB),ECB Food Commodity Index,108.28
+2020-04-01,EU (ECB),ECB Food Commodity Index,109.06
+2020-05-01,EU (ECB),ECB Food Commodity Index,109.72
+2020-06-01,EU (ECB),ECB Food Commodity Index,106.5
+2020-07-01,EU (ECB),ECB Food Commodity Index,104.65
+2020-08-01,EU (ECB),ECB Food Commodity Index,104.06
+2020-09-01,EU (ECB),ECB Food Commodity Index,108.41
+2020-10-01,EU (ECB),ECB Food Commodity Index,108.87
+2020-11-01,EU (ECB),ECB Food Commodity Index,112.44
+2020-12-01,EU (ECB),ECB Food Commodity Index,112.53
+2021-01-01,EU (ECB),ECB Food Commodity Index,118.47
+2021-02-01,EU (ECB),ECB Food Commodity Index,121.95
+2021-03-01,EU (ECB),ECB Food Commodity Index,125.91
+2021-04-01,EU (ECB),ECB Food Commodity Index,128.22
+2021-05-01,EU (ECB),ECB Food Commodity Index,132.6
+2021-06-01,EU (ECB),ECB Food Commodity Index,130.31
+2021-07-01,EU (ECB),ECB Food Commodity Index,132.44
+2021-08-01,EU (ECB),ECB Food Commodity Index,134.26
+2021-09-01,EU (ECB),ECB Food Commodity Index,134.12
+2021-10-01,EU (ECB),ECB Food Commodity Index,139.81
+2021-11-01,EU (ECB),ECB Food Commodity Index,146.62
+2021-12-01,EU (ECB),ECB Food Commodity Index,148.39
+2022-01-01,EU (ECB),ECB Food Commodity Index,152.72
+2022-02-01,EU (ECB),ECB Food Commodity Index,160.77
+2022-03-01,EU (ECB),ECB Food Commodity Index,179.74
+2022-04-01,EU (ECB),ECB Food Commodity Index,181.71
+2022-05-01,EU (ECB),ECB Food Commodity Index,184.54
+2022-06-01,EU (ECB),ECB Food Commodity Index,178.19
+2022-07-01,EU (ECB),ECB Food Commodity Index,171.16
+2022-08-01,EU (ECB),ECB Food Commodity Index,173.17
+2022-09-01,EU (ECB),ECB Food Commodity Index,175.05
+2022-10-01,EU (ECB),ECB Food Commodity Index,173.4
+2022-11-01,EU (ECB),ECB Food Commodity Index,165.47
+2022-12-01,EU (ECB),ECB Food Commodity Index,156.44
+2023-01-01,EU (ECB),ECB Food Commodity Index,153.19
+2023-02-01,EU (ECB),ECB Food Commodity Index,157.41
+2023-03-01,EU (ECB),ECB Food Commodity Index,154.2
+2023-04-01,EU (ECB),ECB Food Commodity Index,154.24
+2023-05-01,EU (ECB),ECB Food Commodity Index,152.04
+2023-06-01,EU (ECB),ECB Food Commodity Index,150.46
+2023-07-01,EU (ECB),ECB Food Commodity Index,147.67
+2023-08-01,EU (ECB),ECB Food Commodity Index,145.6
+2023-09-01,EU (ECB),ECB Food Commodity Index,150.62
+2023-10-01,EU (ECB),ECB Food Commodity Index,149.25
+2023-11-01,EU (ECB),ECB Food Commodity Index,149.53
+2023-12-01,EU (ECB),ECB Food Commodity Index,150.67
+2024-01-01,EU (ECB),ECB Food Commodity Index,152.5
+2024-02-01,EU (ECB),ECB Food Commodity Index,159.85
+2024-03-01,EU (ECB),ECB Food Commodity Index,166.94
+2024-04-01,EU (ECB),ECB Food Commodity Index,185.54
+2024-05-01,EU (ECB),ECB Food Commodity Index,172.64
+2024-06-01,EU (ECB),ECB Food Commodity Index,173.9
+2024-07-01,EU (ECB),ECB Food Commodity Index,168.18
+2024-08-01,EU (ECB),ECB Food Commodity Index,162.31
+2024-09-01,EU (ECB),ECB Food Commodity Index,165.09
+2024-10-01,EU (ECB),ECB Food Commodity Index,171.15
+2024-11-01,EU (ECB),ECB Food Commodity Index,184.15
+2024-12-01,EU (ECB),ECB Food Commodity Index,199.93
+2025-01-01,EU (ECB),ECB Food Commodity Index,208.28
+2025-02-01,EU (ECB),ECB Food Commodity Index,212.05
+2025-03-01,EU (ECB),ECB Food Commodity Index,192.07
+2025-04-01,EU (ECB),ECB Food Commodity Index,182.25

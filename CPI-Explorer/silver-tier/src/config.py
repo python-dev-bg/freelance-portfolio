@@ -3,6 +3,7 @@ from pathlib import Path
 __all__ = ["Settings"]
 
 class Settings:
+    PORT = 5007
     ENV = "dev"
     DATA_FOLDER = Path(Path.cwd().parent).joinpath("data")
     BASE_YEAR = 2015
@@ -43,3 +44,5 @@ class Settings:
         2: "Benchmarks Analysis",
         # fallback/default for unknown tabs
     }
+    DOWNLOADS_FILES = ["full_raw_data","full_correlations_data","filtered_correlations_data","strongest_weakest_correlations"]
+    

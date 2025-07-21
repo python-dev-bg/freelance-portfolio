@@ -19,9 +19,9 @@ logger = logging.getLogger("app_logger")
 def main(port):      
 
     dashboard = create_dashboard(
-        sidebar_layout=create_sidebar_1(),
+        sidebar_layout=create_sidebar(),
         main_layout=[],
-        title='Silver'
+        title='CPI Explorer Dashboard Silver Tier'
     )  
 
     pn.state.onload(on_load_trigger)      
@@ -34,6 +34,6 @@ def main(port):
     )    
 
 if __name__ == '__main__':
-    port = int(sys.argv[2]) if len(sys.argv) > 1 else 5007
+    port = int(sys.argv[2]) if len(sys.argv) > 1 else Settings.PORT
     main(port)
 

@@ -1,10 +1,11 @@
+from io import BytesIO
 import panel as pn
 from .config import Settings
 
 
 
-__all__ = ["country_selector","cpi_selector","benchmark_selector","corr_type_selector",
-           "date_slider","change_mode","export_btn","corr_strength"]
+__all__ = ["country_selector","cpi_selector","benchmark_selector","corr_type_selector","file_download",
+           "date_slider","change_mode","download_click_bth","corr_strength","download_selector"]
 
 country_selector = pn.widgets.Select(
     name="Country",
@@ -44,12 +45,6 @@ change_mode = pn.widgets.RadioButtonGroup(
     
 )
 
-export_btn = pn.widgets.FileDownload(
-    label="Download Filtered CSV",
-    filename="filtered_cpi.csv",
-    file=True,
-    button_type="success"
-)
 
 corr_type_selector = pn.widgets.RadioButtonGroup(
     name="Corelation Types",
@@ -64,6 +59,24 @@ corr_strength = pn.widgets.RadioButtonGroup(
     options=["Weakest","Strongest"],
     button_type="primary",
     value="Strongest",
-    button_style="outline",
-    
+    button_style="outline",    
+)
+
+download_selector = pn.widgets.Select(
+    name="Files",
+    options=Settings.DOWNLOADS_FILES,    
+)
+
+download_click_bth = pn.widgets.Button(
+    name="Download",    
+    button_type="success"
+)
+
+file_download = pn.widgets.FileDownload(
+    auto=True,
+    label="Download as CSV", 
+    filename="placeholder.csv",
+    callback=lambda: BytesIO(b""),
+    button_type="success",
+    visible=True
 )

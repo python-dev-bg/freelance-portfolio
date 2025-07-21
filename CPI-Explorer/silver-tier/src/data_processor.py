@@ -8,7 +8,7 @@ __all__ = ['calc_correlations','compute_rolling_correlation','calc_min_max_corre
 
 def calc_correlations(date_range: tuple):
     
-    df = pn.state.cache["merged_df"]
+    df = pn.state.cache["full_raw_data"]
     cpi_categories = Settings.CPI_CATEGORIES
     benchmarks = pn.state.cache["categories"]
 

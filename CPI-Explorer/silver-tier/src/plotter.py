@@ -22,7 +22,7 @@ def first_tab_plotter(
     if not benchmarks and not pn.state.cache["cards"]:       
         return
     
-    correlation_df = pn.state.cache["correlation_df"]
+    correlation_df = pn.state.cache["full_correlations_data"]
     # slot 0
     cpi_plot = plot_cpi(country, cpi, benchmarks, date_range, mode)
     add_card(content=cpi_plot, tab=0, slot=0, title=f"CPI Data {country}")
@@ -39,7 +39,7 @@ def second_tab_plotter(
     ):
     if not benchmarks and not pn.state.cache["cards"]:        
         return
-    correlation_df = pn.state.cache["correlation_df"]
+    correlation_df = pn.state.cache["full_correlations_data"]
     ema_corr_plots = plot_correlation_matrix(correlation_df, country, cpi, benchmarks, date_range, mode)
     add_card(content=ema_corr_plots, tab=1, slot=0, need_update=False, need_clear=False, title=f"EMA correlation matrix for {country}")
     rolling_corr_plt = plot_rolling_correlation(country, cpi, mode, date_range, benchmarks, window = 12)
@@ -111,7 +111,7 @@ def plot_cpi(country, cpi, benchmarks, date_range, mode):
     selected_pairs = [(country, cat)  for cat in cpi] + [
         (country, cat) for (country, cat) in Settings.PLOT_COLORS if cat in benchmarks
     ]
-    df = pn.state.cache["merged_df"]
+    df = pn.state.cache["full_raw_data"]
     # Now filter using tuple column logic
     raw_filtered = (
         df.with_columns(
@@ -230,7 +230,7 @@ def plot_correlation_heatmaps(correlation_df, country, cpi, mode):
 
 
 def plot_rolling_correlation(country: str, cpi: str, mode: str, date_range: tuple, benchmarks: list, window: int = 12):
-    df = pn.state.cache["merged_df"]
+    df = pn.state.cache["full_raw_data"]
     
     if not benchmarks:
         return pn.pane.Markdown("### ⚠️ No data for current filter.")

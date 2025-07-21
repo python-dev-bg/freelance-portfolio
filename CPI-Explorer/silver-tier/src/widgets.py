@@ -4,8 +4,8 @@ from .config import Settings
 
 
 
-__all__ = ['country_selector','cpi_selector','benchmark_selector',
-           'date_slider','change_mode','export_btn','switch']
+__all__ = ['country_selector','cpi_selector','benchmark_selector','corr_type_selector',
+           'date_slider','change_mode','export_btn','min_max_switch']
 
 country_selector = pn.widgets.Select(
     name="Country",
@@ -51,5 +51,13 @@ export_btn = pn.widgets.FileDownload(
     file=True,
     button_type="success"
 )
-switch = pn.widgets.Switch(name="Enable Feature", value=False)
 
+min_max_switch = pn.widgets.Switch(name="Strongest / Weakest Correlation", value=True)
+
+corr_type_selector = pn.widgets.Select(
+    name="Corelation Types",
+    options=["Pearson","Spearman"],
+    # value=["Spearman"],
+    # button_style='outline',
+    # button_type="primary",
+)

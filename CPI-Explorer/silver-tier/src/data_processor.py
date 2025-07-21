@@ -1,10 +1,11 @@
 import polars as pl
 import panel as pn
+import numpy as np
 
 from .config import Settings
 from .widgets import *
 
-__all__ = ['calc_correlations']
+__all__ = ['calc_correlations','compute_rolling_correlation','calc_min_max_correlations']
 
 def calc_correlations(date_range: tuple):
     
@@ -102,4 +103,108 @@ def calc_correlations(date_range: tuple):
 
     return pl.DataFrame(results)
 
+def calc_min_max_correlations(correlation_df, country, cpi, mode):
+    df = (
+        correlation_df
+        .filter((pl.col("country") == country) & (pl.col("CPI").is_in(cpi)) & (pl.col("mode") == mode))
+        .unpivot(
+            index=["CPI", "benchmark"],    
+            on = ["Pearson", "Spearman"],     
+            variable_name="correlation_type",
+            value_name="correlation"
+        )        
+    )
+    
+    kpi_df = (
+        df.with_columns([
+            pl.col("correlation").abs().alias("abs_corr"),
+            (pl.col("correlation").abs() - 0).abs().alias("dist_to_zero")
+        ])
+    )  
+
+    strongest = (
+        kpi_df.sort("abs_corr", descending=True)
+            .group_by("correlation_type")
+            .first()
+            .select(["CPI", "correlation_type", "benchmark", "correlation"])
+            .rename({"benchmark": "strongest_benchmark", "correlation": "strongest_value"})
+    )
+
+    weakest = (
+        kpi_df.sort("dist_to_zero")
+            .group_by("correlation_type")
+            .first()
+            .select(["CPI", "correlation_type", "benchmark", "correlation"])
+            .rename({"benchmark": "weakest_benchmark", "correlation": "weakest_value"})
+    )
+
+    summary = (
+        kpi_df
+        .with_columns(
+            (pl.col("abs_corr") > 0.7).cast(pl.Int64).alias("strong_corr_flag")
+        )
+        .group_by("correlation_type")
+        .agg([
+            pl.mean("abs_corr").alias("avg_abs_corr"),
+            pl.sum("strong_corr_flag").alias("strong_corr_count")
+        ])
+    )
+
+    final_kpi = strongest.join(weakest, on="correlation_type").join(summary, on="correlation_type")
+    return final_kpi, df
+
+def compute_rolling_correlation(df: pl.DataFrame, cpi: str, country: str, mode: str, benchmarks: list, window: int = 12):
+    """
+    Computes rolling Pearson correlation between one CPI category and all benchmarks.
+    Returns Polars DataFrame ready for plotting.
+    """
+    
+
+    # Step 1: Filter CPI series
+    cpi_df = (
+        df.filter(
+            (pl.col("category").is_in(cpi)) & 
+            (pl.col("country") == country)
+        )
+          .sort("date")
+          .select(["date", "value"])
+          .rename({"value": "cpi_value"})
+    )
+
+    if mode == "MoM %":
+        cpi_df = cpi_df.with_columns(
+            pl.col("cpi_value").pct_change().alias("cpi_value")
+        )
+    elif mode == "YoY %":
+        cpi_df = cpi_df.with_columns(
+            (pl.col("cpi_value") / pl.col("cpi_value").shift(12) - 1).alias("cpi_value")
+        )
+
+    results = []
+    for benchmark in benchmarks:
+        bdf = df.filter(pl.col("category") == benchmark).sort("date")
+        bdf = bdf.select(["date", "value"]).rename({"value": "bench_val"})
+
+        if mode == "MoM %":
+            bdf = bdf.with_columns(pl.col("bench_val").pct_change().alias("bench_val"))
+        elif mode == "YoY %":
+            bdf = bdf.with_columns((pl.col("bench_val") / pl.col("bench_val").shift(12) - 1).alias("bench_val"))
+
+        joined = (
+            cpi_df.join(bdf, on="date", how="inner")
+                  .drop_nulls()
+        )
+        if joined.height < window:
+            continue
+
+        rolling_corr = joined.select([
+            pl.col("date"),
+            pl.rolling_corr(pl.col("cpi_value"),pl.col("bench_val"), window_size=window).alias("rolling_corr")
+        ]).with_columns([
+            pl.lit(benchmark).alias("benchmark")
+        ])
+
+        results.append(rolling_corr)
+
+    return pl.concat(results) if results else pl.DataFrame()
 

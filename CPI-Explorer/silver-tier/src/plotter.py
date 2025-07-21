@@ -6,8 +6,9 @@ import hvplot.polars
 from .config import Settings
 from .card_manager import *
 from .data_processor import *
+from .widgets import *
 
-__all__ = ["first_tab_plotter"]
+__all__ = ["first_tab_plotter","second_tab_plotter"]
 
 def first_tab_plotter(
         country,
@@ -15,9 +16,12 @@ def first_tab_plotter(
         benchmarks,
         date_range,
         mode,
+        
     ):
-    
-    correlation_df = calc_correlations(date_range) 
+    if not benchmarks and not pn.state.cache["cards"]:       
+        return
+    print('in plotter 1')
+    correlation_df = pn.state.cache["correlation_df"]
     # slot 0
     cpi_plot = plot_cpi(country, cpi, benchmarks, date_range, mode)
     add_card(content=cpi_plot, tab=0, slot=0, title=f"CPI Data {country}")
@@ -25,6 +29,18 @@ def first_tab_plotter(
     heat_plots = plot_correlation_heatmaps(correlation_df, country, cpi, mode)
     add_card(heat_plots, tab=0, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
 
+def second_tab_plotter(
+        country,
+        cpi,
+        benchmarks,
+        date_range,
+        mode,
+    ):
+    if not benchmarks and not pn.state.cache["cards"]:        
+        return
+    print('in plotter 2')
+    rolling_corr_plt = plot_rolling_correlation(country, cpi, mode, date_range, benchmarks, window = 12)
+    add_card(content=rolling_corr_plt, tab=1, slot=0, need_update=True, need_clear=False, title=f"Rolling correlatiobs Data {country}")
 
 def _compute_kpis(df: pl.DataFrame, percent_mode: bool = False) -> pn.FlexBox:
     if df.is_empty():
@@ -173,58 +189,14 @@ def plot_cpi(country, cpi, benchmarks, date_range, mode):
     return pn.Column(kpis, chart)
 
 def plot_correlation_heatmaps(correlation_df, country, cpi, mode):   
-    
-    df = (
-        correlation_df
-        .filter((pl.col("country") == country) & (pl.col("CPI").is_in(cpi)) & (pl.col("mode") == mode))
-        .unpivot(
-            index=["CPI", "benchmark"],    
-            on = ["Pearson", "Spearman"],     
-            variable_name="correlation_type",
-            value_name="correlation"
-        )        
-    )
-    
-    kpi_df = (
-        df.with_columns([
-            pl.col("correlation").abs().alias("abs_corr"),
-            (pl.col("correlation").abs() - 0).abs().alias("dist_to_zero")
-        ])
-    )  
-    print(kpi_df)  
-    strongest = (
-        kpi_df.sort("abs_corr", descending=True)
-            .group_by("correlation_type")
-            .first()
-            .select(["CPI", "correlation_type", "benchmark", "correlation"])
-            .rename({"benchmark": "strongest_benchmark", "correlation": "strongest_value"})
-    )
-
-    weakest = (
-        kpi_df.sort("dist_to_zero")
-            .group_by("correlation_type")
-            .first()
-            .select(["CPI", "correlation_type", "benchmark", "correlation"])
-            .rename({"benchmark": "weakest_benchmark", "correlation": "weakest_value"})
-    )
-
-    summary = (
-        kpi_df
-        .with_columns(
-            (pl.col("abs_corr") > 0.7).cast(pl.Int64).alias("strong_corr_flag")
-        )
-        .group_by("correlation_type")
-        .agg([
-            pl.mean("abs_corr").alias("avg_abs_corr"),
-            pl.sum("strong_corr_flag").alias("strong_corr_count")
-        ])
-    )
-
-    final_kpi = strongest.join(weakest, on="correlation_type").join(summary, on="correlation_type")
+    try:
+        min_max_corr_df, filtered_corr_df = pn.state.cache[country, ','.join(cpi_selector.value), mode, date_slider.value]
+    except KeyError:
+        min_max_corr_df, filtered_corr_df = calc_min_max_correlations(correlation_df, country, cpi, mode)
     plots = []
     for corr_type in ["Pearson", "Spearman"]:
         plot_df = (
-            df
+            filtered_corr_df
             .filter(pl.col("correlation_type") == corr_type)           
         ) 
         heatmap = plot_df.hvplot.heatmap(
@@ -242,15 +214,38 @@ def plot_correlation_heatmaps(correlation_df, country, cpi, mode):
         )
         plots.append(heatmap)
 
-    if "CPI_right" in final_kpi.columns:
-        final_kpi = (
-            final_kpi
+    if "CPI_right" in min_max_corr_df.columns:
+        final_kpi_df = (
+            min_max_corr_df
             .rename({"CPI":"CPI_strongest", "CPI_right":"CPI_weakest"})
         )
     return pn.Column(
-        pn.pane.DataFrame(final_kpi.to_pandas(), height=140),
+        pn.pane.DataFrame(final_kpi_df.to_pandas(), height=140),
         pn.Row(*plots)
     )  
+
+
+
+
+
+def plot_rolling_correlation(country: str, cpi: str, mode: str, date_range: tuple, benchmarks: list, window: int = 12):
+    df = pn.state.cache["merged_df"]
+    # # benchmarks = benchmarks or Settings.BENCHMARK_CATEGORIES[:1]
+    if not benchmarks:
+        return pn.pane.Markdown("### ⚠️ No data for current filter.")
+    df = df.filter((pl.col("date") >= date_range[0]) & (pl.col("date") <= date_range[1]))
+    r_df = compute_rolling_correlation(df, cpi, country, mode, benchmarks, window)
+
+    if r_df.is_empty():
+        return pn.pane.Markdown("### ⚠️ Not enough data for rolling correlation")
+
+    return r_df.hvplot.line(
+        x="date", y="rolling_corr", by="benchmark",
+        title=f"Rolling Pearson Correlation ({cpi}({mode}) of {country} with {benchmarks})",
+        xlabel="Date", ylabel="Correlation",
+        grid=True, responsive=True, height=Settings.HEIGHT
+    )
+
 
 def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_range: tuple, mode: str):
     correlation_order = [
@@ -303,3 +298,5 @@ def plot_correlation_matrix(country: str, cpi: list, benchmarks: list, date_rang
     )
     # add_card(plot, slot=1, need_update=True, need_clear=False, title=f"Correlations for {country} in mode {mode}")
     return plot
+
+

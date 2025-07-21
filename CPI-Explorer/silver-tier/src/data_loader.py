@@ -6,6 +6,7 @@ import pandas as pd
 from pathlib import Path
 from .config import Settings
 
+
 logger = logging.getLogger("app_logger")
 
 __all__ = []
@@ -158,10 +159,7 @@ def _data_merger():
         )
         pn.state.cache["min_date"] = dates["max_min_date"][0]
         pn.state.cache["max_date"] = dates["min_max_date"][0]
-
-        
-
-    
+            
 
 def load_initial_data():
     try:
@@ -177,7 +175,7 @@ def load_initial_data():
     _load_ecb_food_commodity_index(Settings.ECB_FODD_INDEX_FILE)
     _data_merger()
         
-            
+
     
 
 load_initial_data()

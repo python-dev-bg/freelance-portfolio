@@ -30,8 +30,8 @@ Built with **Polars**, **Panel**, and **HoloViews**, this tool showcases modern 
 
 This repository hosts multiple tiers of CPI analysis dashboards:
 
-- [`bronze-tier`](CPI%20Explorer/bronze-tier) – Basic CPI Explorer (✅ complete)
-- `silver-tier` *(coming soon)* – Prediction models with benchmark correlation
+- [`bronze-tier`](CPI-Explorer/bronze-tier) – Basic CPI Explorer (✅ complete)
+- [`silver-tier`](CPI-Explorer/silver-tier) – Project structure evolution. Added benchmarks correlation insights.
 - `gold-tier` *(planned)* – Advanced forecasting and anomaly detection
 
 Each tier has its own README with installation and usage instructions.

@@ -242,10 +242,15 @@ def plot_rolling_correlation(country: str, cpi: str, mode: str, date_range: tupl
 
     if r_df.is_empty():
         return pn.pane.Markdown("### ⚠️ Not enough data for rolling correlation")
-
+    r_df = (
+        r_df
+        .with_columns(
+            pl.col('benchmark').replace(benchmark_colors).alias('col')
+        )
+    )
     return r_df.hvplot.line(
         x="date", y="rolling_corr", by="benchmark",
-        color=benchmark_colors.get(benchmarks[0], "gray"),
+        color="col",
         title=f"Rolling Pearson Correlation ({cpi}({mode}) of {country} with {benchmarks})",
         xlabel="Date", ylabel="Correlation",
         grid=True, responsive=True, height=Settings.HEIGHT

@@ -32,7 +32,8 @@ It is designed for researchers, analysts, and policymakers seeking:
 All files reflect the user's current selections and are served with a timestamped filename.
 
 ---
-
+![Screenshot of CPI Explorer Silver dashboard](../assets/silver-tier/silver_2.png)
+![Screenshot of CPI Explorer Silver dashboard](../assets/silver-tier/silver_3.png)
 ## 🚀 Features
 
 ### ✅ Dataset Coverage
